@@ -123,8 +123,7 @@ speedtest-cli
 syslog-ng
 terminus-font
 tree
-ttf-bitstream-vera
->extra ttf-dejavu
+ttf-dejavu
 >extra ttf-droid
 >extra ttf-inconsolata
 >extra ttf-indic-otf
