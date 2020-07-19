@@ -1,6 +1,13 @@
-##### OPENBOX PROFILE
+# OPENBOX PROFILE
 
-## codecs
+## MEDIA PACKAGES
+### PLAYERS
+deadbeef
+smplayer
+smplayer-skins
+smplayer-themes
+
+### CODECS
 faad2
 ffmpeg
 flac
@@ -16,17 +23,7 @@ protobuf
 twolame
 zlib
 
-## media players
-deadbeef
-smplayer
-smplayer-skins
-smplayer-themes
-smtube
-
-## audio support
-alsa-firmware
-alsa-plugins
-alsa-utils
+### PULSE AUDIO
 pamixer
 paprefs
 pasystray
@@ -35,21 +32,102 @@ playerctl
 pulseaudio
 pulseaudio-alsa
 
-## internet browser
+## INTERNET BROWSER
 firefox
 
-## xapps
+## TEXT EDITOR
 xed
-xreader
-xviewer
 
-## power management
+## POWER MANAGER
 xfce4-power-manager
 
-## fonts, theming, icons, cursors
+## DISK TOOLS
+gnome-disk-utility
+gparted
+mintstick
+
+## BACKUP - RECOVERY
+timeshift
+clonezilla
+testdisk
+
+## FILE MANAGEMENT
+### FILEMANAGER
+mc
+thunar
+
+### PLUGINS
+ffmpegthumbnailer
+poppler-data
+poppler-glib
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-volman
+tumbler
+
+### GUI FILE SEARCH
+catfish
+
+### CLI FILE SEARCH
+mlocate
+
+### GUI ARCHIVE MANAGER
+engrampa
+
+### CLI ARCHIVE MANAGER
+p7zip
+unarchiver
+unzip
+
+### VFS MOUNT
+gvfs
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+
+### REMOVABLE DEVICES
+udiskie
+udisks2
+
+## COMMANDLINE UTILITIES
+### SYSINFO
+dmidecode
+upower
+hddtemp
+htop
+inxi
+ps_mem
+tree
+
+### IMAGE
+imagemagick
+
+### EDITOR
+micro
+
+## NETWORK
+### CLI UTILS
+arp-scan
+bind-tools
+net-tools
+openssh
+traceroute
+whois
+
+### FIREWALL
+firewalld
+python-pyqt5  # dep of firewall-applet
+
+### NETWORK MANAGER
+network-manager-applet
+networkmanager
+networkmanager-dmenu
+networkmanager-openvpn
+openresolv
+
+## FONTS - THEMING - ICONS - CURSORS
 manjaro-openbox-config
 manjaro-openbox-desktop-settings
-manjaro-openbox-fonts
 manjaro-openbox-scripts
 manjaro-pacbang-grub-theme
 manjaro-pacbang-gtk-theme
@@ -59,132 +137,105 @@ manjaro-zsh-config
 moka-icon-theme
 terminus-font
 ttf-dejavu
-ttf-font-awesome
-ttf-font-logos
-ttf-icomoon-icons
-ttf-material-icons
-ttf-polybar-icons
+ttf-hack
+ttf-nerd-fonts-symbols
 ttf-roboto
 xcursor-vanilla-dmz
 
-## settings manager
+## SETTINGS MANAGEMENT
 kvantum-qt5
 lxappearance-gtk3
-manjaro-settings-manager
 obconf
 qt5-styleplugins
 qt5ct
 xfce4-settings
 
-## package manager
-pamac-cli
-pamac-gtk
-
-## display manager and greeter
-lxdm-gtk3
-
-## manjaro user infomartion
+## MANJARO APPLICATIONS
 manjaro-application-utility
 manjaro-documentation-en
 manjaro-hello
+manjaro-settings-manager
+mhwd
+mhwd-tui
+pamac-cli
+pamac-gtk
 
-## file management
-catfish
-engrampa
-ffmpegthumbnailer
-gvfs
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
-mc
-mlocate
-p7zip
-poppler-data
-poppler-glib
-thunar
-thunar-archive-plugin
-thunar-media-tags-plugin
-thunar-volman
-tumbler
-udiskie
-udisks2
-unarchiver
-unzip
+## DISPLAY MANAGER
+lxdm-gtk3
 
-## disk utilities
-gnome-disk-utility
-gparted
-mintstick
-timeshift
-
-## cloning and recovery
-clonezilla
-testdisk
-
-## CLI basic utilities
-dmidecode
+## CONFIGURATION DEPENDENCIES
+### CALENDAR
 gsimplecal
-hddtemp
-htop
-inxi
-micro
-pastebinit
-ps_mem
-tree
-upower
-xclip
-xsel
 
-## network utilities
-arp-scan
-bind-tools
-net-tools
-openssh
-traceroute
-whois
-
-## network
-firewalld
-network-manager-applet
-networkmanager
-networkmanager-dmenu
-networkmanager-openvpn
-openresolv
-python-pyqt5  # dep of firewall-applet
-
-## core
-arandr
+### SYSINFO
 conky-lua-nv
-dunst
-exo
-i3lock
-imagemagick
-jgmenu
-jsoncpp
-kickshaw
-libmpdclient
-lxmenu-data
-lxsession-gtk3
-nitrogen
-numlockx
-obkey-gtk3
-obmenu-generator
-openbox
-picom
-polybar
-rofi
-scrot
-skippy-xd
-termite
-termite-terminfo
-tint2
-wmctrl
+
+### KEYBINDING
 xcape
-xcb-util-cursor
-xdotool
+
+### DIALOGS
 zenity
 
-## system icon themes
+### SCREEN SETTINGS
+arandr
+
+### PREFERRED APPLICATIONS
+exo
+
+### NOTIFICATIONS
+dunst
+
+### SCREENLOCKER
+i3lock
+
+### LAUNCHER
+jgmenu
+rofi
+
+### WALLPAPER
+nitrogen
+
+### FOR DESKTOPS
+numlockx
+
+### COMPOSITOR
+picom
+
+### APPLICATION SWITCHER
+skippy-xd
+
+### TERMINAL EMULATOR
+termite
+termite-terminfo
+
+### STATUS BAR
+tint2
+polybar
+
+#### POLYBAR DEPENDENCIES
+alsa-lib
+cairo
+curl
+jsoncpp
+libmpdclient
+libnl
+libpulse
+xcb-util-cursor
+xcb-util-image
+xcb-util-wm
+xcb-util-xrm
+
+## CORE
+### WINDOW MANAGER
+kickshaw                # menu editor
+lxmenu-data
+lxsession-gtk3
+obkey-gtk3              # hotkey editor
+obmenu-generator        # pipe menu generator
+openbox                 # window manager
+wmctrl
+
+### SYSTEM ICON THEMES
 adwaita-icon-theme
 gnome-icon-theme
 gnome-icon-theme-extras
@@ -192,10 +243,15 @@ gnome-icon-theme-symbolic
 gnome-themes-extra
 hicolor-icon-theme
 
-## system fonts
+### SYSTEM FONTS
 freetype2
 
-## system
+### AUDIO
+alsa-firmware
+alsa-plugins
+alsa-utils
+
+### system
 accountsservice
 gnome-keyring
 gtk-engines
@@ -209,11 +265,12 @@ xdg-user-dirs-gtk
 xdg-utils
 zensu
 
-## xorg
+### XORG
 xf86-input-libinput
 xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-fonts-type1
+xorg-drivers
 xorg-server
 xorg-server-common
 xorg-server-xephyr
