@@ -47,6 +47,7 @@ gnome-wallpapers
 gparted
 papirus-maia-icon-theme
 >extra gnome-calendar
+>extra evolution-data-server
 >extra gnome-characters
 >extra gnome-clocks
 >extra gnome-weather
@@ -69,10 +70,11 @@ gvfs-google
 gvfs-smb
 ibus
 inxi
-#>extra etcher
+>extra etcher
 #cli tool#
 pacui
 mc
+manjaro-ranger-settings
 bmenu
 ########
 manjaro-alsa
@@ -145,8 +147,6 @@ ttf-indic-otf
 ttf-liberation
 usb_modeswitch
 >extra vino
->extra wallpapers-2018
->extra manjaro-wallpapers-18.0
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
@@ -171,10 +171,8 @@ xorg-xinit
 >extra gtk3-print-backends
 >extra geary
 >extra gnome-calendar
+>extra evolution-data-server
 >extra lollypop
->extra empathy
->extra telepathy
->extra uget
 >extra transmission-gtk
 >extra manjaro-documentation-en
 #>extra jre8-openjdk
