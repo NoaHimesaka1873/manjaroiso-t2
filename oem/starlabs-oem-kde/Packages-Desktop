@@ -294,6 +294,6 @@ manjaro-hotfixes
 >extra xdg-desktop-portal-kde
 
 ## OEM
-calamares-git
+calamares
 calamares-oem-modules
 calamares-oem-starlabs-kde-settings

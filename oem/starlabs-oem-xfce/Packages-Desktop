@@ -251,6 +251,6 @@ xiccd # enable color profile settings
 #cryptoseed
 
 ## OEM
-calamares-git
+calamares
 calamares-oem-modules
 calamares-oem-starlabs-xfce-settings
