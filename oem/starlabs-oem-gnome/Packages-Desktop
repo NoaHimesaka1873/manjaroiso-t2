@@ -1,18 +1,20 @@
 adwaita-icon-theme
 adwaita-maia
 alsa-firmware
+>extra alacarte
 >extra apparmor
 >extra baobab
 >extra dconf-editor
 dmidecode
 gthumb
 evince
+manjaro-log-helper
+>extra mntray
 >basic epiphany
 >extra firefox
 >extra firefox-gnome-theme-maia
 >extra rygel
 gdm
-manjaro-gdm-tweak
 manjaro-gdm-theme
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
@@ -33,7 +35,6 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
-gnome-shell-extension-nightshellswitcher
 gnome-shell-extension-nightthemeswitcher
 gnome-system-log
 gnome-system-monitor
@@ -136,7 +137,7 @@ tracker-miners
 >extra noto-fonts-compat
 noto-fonts               # default font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
-ttf-bitstream-vera
+qgnomeplatform
 ttf-dejavu
 ttf-droid
 ttf-inconsolata
@@ -144,7 +145,8 @@ ttf-indic-otf
 ttf-liberation
 usb_modeswitch
 >extra vino
-xdg-su
+>extra wallpapers-2018
+>extra manjaro-wallpapers-18.0
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
@@ -185,7 +187,6 @@ xorg-xinit
 >extra timeshift
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
->extra manjaro-aur-support #introduce for testing in community
 
 >basic lighter-gnome
 >basic disable-tracker
