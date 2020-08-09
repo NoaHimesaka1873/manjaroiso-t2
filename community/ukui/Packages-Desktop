@@ -14,7 +14,6 @@ grub-theme-manjaro
 manjaro-wallpapers-18.0
 wallpapers-2018
 gnome-disk-utility
-gnome-keyring
 manjaro-application-utility
 mc # Midnight Commander
 pacui
@@ -78,7 +77,6 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 vino
-xdg-su
 xdg-user-dirs-gtk
 xdg-utils
 xf86-input-elographics
@@ -88,18 +86,13 @@ xf86-input-void
 xorg-twm
 xorg-xinit
 yelp
->extra gtk3-print-backends
 >extra manjaro-documentation-en
 #>extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
 >extra vlc
->extra empathy
 >extra uget
 >extra transmission-gtk
->extra brasero
->extra jre8-openjdk
->extra jre8-openjdk-headless
 timeshift 								#backup utility
 >extra kernel-alive 					#after a kernel update this maintain usable the modules
 >extra libdvdcss
@@ -139,9 +132,6 @@ redshift
 
 ukui
 atril
-dconf-editor
-engrampa
-eom
 ffmpegthumbnailer
 gnome-keyring
 gnome-screenshot
