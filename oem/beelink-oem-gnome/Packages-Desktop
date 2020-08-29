@@ -2,14 +2,14 @@ adwaita-icon-theme
 adwaita-maia
 alsa-firmware
 >extra alacarte
->extra apparmor
+#>extra apparmor
 >extra baobab
 >extra dconf-editor
 dmidecode
 gthumb
 evince
 manjaro-log-helper
->extra mntray
+#>extra mntray
 >basic epiphany
 >extra firefox
 >extra firefox-gnome-theme-maia
@@ -19,6 +19,7 @@ manjaro-gdm-theme
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
 #manjaro-gnome-vanilla
+gimp
 gnome-backgrounds
 gnome-calculator
 gnome-control-center
@@ -70,12 +71,12 @@ gvfs-google
 gvfs-smb
 ibus
 inxi
->extra etcher
+#>extra etcher
 #cli tool#
-pacui
-mc
-manjaro-ranger-settings
-bmenu
+#pacui
+#mc
+#manjaro-ranger-settings
+#bmenu
 ########
 manjaro-alsa
 manjaro-artwork
@@ -83,7 +84,8 @@ manjaro-artwork
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
 illyria-wallpaper
->extra libreoffice-still
+libfprint-primex # for fingerprint reader
+>extra libreoffice-fresh
 manjaro-browser-settings
 manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
@@ -115,16 +117,16 @@ openresolv
 #>extra bauh
 pamac-gtk
 #>extra snapd
->extra snapd-glib
->extra pamac-snap-plugin
->extra pamac-flatpak-plugin
+#>extra snapd-glib
+#>extra pamac-snap-plugin
+#>extra pamac-flatpak-plugin
 pamac-gnome-integration
 polkit-gnome
 powertop
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
->extra simple-scan
+#>extra simple-scan
 >basic squashfs-tools
 sushi
 alsa-utils
@@ -170,7 +172,7 @@ xorg-xinit
 >extra unace
 >extra lrzip
 >extra gtk3-print-backends
->extra geary
+#>extra geary
 >extra gnome-calendar
 >extra evolution-data-server
 >extra lollypop
@@ -180,10 +182,11 @@ xorg-xinit
 #>extra jre8-openjdk-headless
 >extra libdvdcss
 >x86_64 >extra steam-manjaro
->extra manjaro-printer
->extra simple-scan 
+#>extra manjaro-printer
+#>extra simple-scan 
 >extra ffmpegthumbnailer
 >extra timeshift
+>extra thunderbird
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
 
@@ -193,4 +196,4 @@ xorg-xinit
 ## OEM
 calamares
 calamares-oem-modules
-calamares-oem-bldbk-gnome-settings
+calamares-oem-beelink-gnome-settings
