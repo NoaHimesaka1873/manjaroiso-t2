@@ -160,7 +160,11 @@ xf86-video-amdgpu
 xorg-server
 xorg-twm
 xorg-xinit
->extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
+libva-mesa-driver
+lib32-libva-mesa-driver
+mesa-vdpau
+lib32-mesa-vdpau
+#>extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
 >extra yelp
 >extra caffeine-ng
 >extra libappindicator-gtk3
