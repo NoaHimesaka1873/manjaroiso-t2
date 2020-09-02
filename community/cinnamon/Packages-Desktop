@@ -23,6 +23,8 @@ fakeroot
 >extra firefox
 flatpak
 flex
+gvfs-goa
+gvfs-google
 >extra galculator
 >extra gcc
 >extra >multilib gcc-libs-multilib
