@@ -87,7 +87,8 @@ illyria-wallpaper
 libfprint-primex # for fingerprint reader
 >extra libreoffice-fresh
 manjaro-browser-settings
-manjaro-dynamic-wallpaper
+#manjaro-dynamic-wallpaper
+beelink-dynamic-wallpaper
 manjaro-settings-manager-notifier
 manjaro-gnome-assets
 >extra gnome-layout-switcher
