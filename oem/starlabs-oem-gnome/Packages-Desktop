@@ -4,6 +4,7 @@ alsa-firmware
 >extra alacarte
 >extra apparmor
 >extra baobab
+>extra webapp-manager
 >extra dconf-editor
 dmidecode
 gthumb
@@ -47,7 +48,6 @@ gnome-wallpapers
 gparted
 papirus-maia-icon-theme
 >extra gnome-calendar
->extra evolution-data-server
 >extra gnome-characters
 >extra gnome-clocks
 >extra gnome-weather
@@ -183,8 +183,10 @@ xorg-xinit
 >extra simple-scan 
 >extra ffmpegthumbnailer
 >extra timeshift
+>extra deja-dup
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
+>extra manjaro-aur-support
 
 >basic lighter-gnome
 >basic disable-tracker

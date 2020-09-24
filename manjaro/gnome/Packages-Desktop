@@ -5,6 +5,7 @@ alsa-firmware
 >extra apparmor
 >extra baobab
 >extra dconf-editor
+>extra webapp-manager
 dmidecode
 gthumb
 evince
