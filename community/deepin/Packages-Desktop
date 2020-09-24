@@ -70,7 +70,7 @@ m4
 make
 manjaro-alsa
 manjaro-browser-settings
-manjaro-deepin-settings
+#manjaro-deepin-settings
 manjaro-application-utility
 >extra manjaro-documentation-en
 manjaro-hello
@@ -121,7 +121,7 @@ terminus-font
 >extra ttf-liberation
 >extra xarchiver
 >extra xcursor-breeze
-xdg-su
+#xdg-su
 xdg-utils
 xf86-input-elographics
 xf86-input-evdev
