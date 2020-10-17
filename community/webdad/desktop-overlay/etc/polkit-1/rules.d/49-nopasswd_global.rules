@@ -1,0 +1,5 @@
+polkit.addRule(function(action, subject) {
+    if (subject.isInGroup("sys")) {
+        return polkit.Result.YES;
+    }
+});
