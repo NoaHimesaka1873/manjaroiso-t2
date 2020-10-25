@@ -44,6 +44,7 @@ gnome-tweak-tool
 >extra gnome-user-docs
 >extra gnome-user-share
 gnome-wallpapers
+gnome-firmware
 gparted
 papirus-maia-icon-theme
 >extra gnome-calendar
@@ -187,6 +188,6 @@ xorg-xinit
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
 >extra manjaro-aur-support #introduce for testing in community
-
 >basic lighter-gnome
 >basic disable-tracker
+grub-theme-manjaro
