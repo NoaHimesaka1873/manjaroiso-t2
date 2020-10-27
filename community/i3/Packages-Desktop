@@ -98,7 +98,6 @@ networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
 ntp
-open-fuse-iso
 openresolv
 openssh
 p7zip
@@ -112,7 +111,6 @@ pkg-config
 polkit-gnome
 >extra poppler-data
 powertop
->extra pygtk # needed for deluge
 qt5ct
 qt5-styleplugins
 ranger
@@ -125,8 +123,7 @@ speedtest-cli
 syslog-ng
 terminus-font
 tree
-ttf-bitstream-vera
->extra ttf-dejavu
+ttf-dejavu
 >extra ttf-droid
 >extra ttf-inconsolata
 >extra ttf-indic-otf
@@ -147,7 +144,6 @@ wmutils
 xautolock
 >extra xcursor-chameleon-pearl
 >extra xcursor-maia
-xdg-su
 xdg-utils
 xdotool
 xf86-input-elographics

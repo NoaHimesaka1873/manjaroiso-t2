@@ -73,14 +73,12 @@ pkg-config
 >extra subversion
 
 ## Fonts
+ttf-dejavu
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-emoji
 terminus-font
->extra ttf-bitstream-vera
-# ttf-dejavu             # Installed as gnome-themes-standard dependency
-# ttf-hack               # Installed as plasma-integration dependency
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
@@ -188,7 +186,6 @@ okular
 >extra >i686 kdenetwork-kget
 kdenetwork-filesharing
 #>extra kdenlive
-kde-servicemenus-rootactions
 khelpcenter
 kio-extras
 #>extra kleopatra
@@ -308,7 +305,7 @@ xorg-xkill
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-xdg-su
+zensu
 
 ## Misc
 manjaro-hotfixes

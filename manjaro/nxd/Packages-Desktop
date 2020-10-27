@@ -74,14 +74,12 @@ udisks2
 #yaourt
 
 ## Fonts
+ttf-dejavu
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-emoji
 terminus-font
->extra ttf-bitstream-vera
-# ttf-dejavu             # Installed as gnome-themes-standard dependency
-# ttf-hack               # Installed as plasma-integration dependency
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
@@ -92,7 +90,7 @@ terminus-font
 
 ## Package management
 #appimagelauncher
-pamac
+pamac-gtk
 pamac-tray-appindicator
 pamac-cli
 >extra apparmor
@@ -168,6 +166,7 @@ user-manager
 fonts-nx-desktop
 #grub2-theme-nitrux
 #qt5-style-kvantum
+latte-dock-git
 luv-icon-theme
 nx-audio-applet
 nx-clock-applet
@@ -180,7 +179,7 @@ nx-notifications-applet
 nx-plasma-look-and-feel
 nx-simplemenu-applet
 nx-systemtray-applet
-nx-welcome-wizard
+#nx-welcome-wizard
 
 ## NX Desktop Applications
 
@@ -188,7 +187,7 @@ index
 vvave
 plasma-pix
 plasma-nota
-nx-appimages
+#nx-appimages
 startup-notification # needed for waterfox
 
 ## Themes QT/GTK/SDDM
@@ -237,7 +236,7 @@ konversation
 ksystemlog
 kwalletmanager
 gwenview
-partitionmanager3
+partitionmanager
 >extra print-manager
 >extra skanlite
 spectacle
@@ -350,7 +349,7 @@ xorg-xkill
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-xdg-su
+#xdg-su
 >extra timeshift
 >extra kernel-alive
 

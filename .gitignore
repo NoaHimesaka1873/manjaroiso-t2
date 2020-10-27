@@ -1,7 +1,9 @@
 community/openbox-dev
+community/lxqt-wip
 *~
 *.tar.gz
 *.tar.xz
 .kateproject.d
 *.sig
 /blackbox/
+/pacbang-linux/

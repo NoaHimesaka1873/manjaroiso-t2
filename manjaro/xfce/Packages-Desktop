@@ -43,36 +43,13 @@ mtpfs
 udiskie
 udisks2
 
-## AUR Support/Development
-# Missing base-devel packages
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
->extra libtool
->extra m4
->extra make
->extra patch
->extra pkg-config
->extra >multilib lib32-flex
-# Extra packages for AUR support
->extra git
->extra patchutils
->extra subversion
-
 ## Fonts
-cantarell-fonts
+ttf-dejavu
+# cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 # >extra noto-fonts-emoji
 terminus-font
-ttf-bitstream-vera       # xfce4-terminal default Monospace
-# ttf-dejavu             # Installed as gnome-themes-standard dependency
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
@@ -84,12 +61,11 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 ## Package management
 >extra apparmor
 #>extra gnome-software-snap
->extra flatpak
->extra bauh
-pamac
+pamac-gtk
 >extra snapd
 >extra snapd-glib
 >extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
 
 ## Java
 >extra jdk8-openjdk
@@ -255,7 +231,7 @@ xorg-xkill
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-xdg-su
+#xdg-su
 >extra timeshift
 >extra kernel-alive
 

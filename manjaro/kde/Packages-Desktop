@@ -50,37 +50,13 @@ mtpfs
 udiskie
 udisks2
 
-## AUR Support/Development
-# Missing base-devel packages
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
->extra libtool
->extra m4
->extra make
->extra patch
->extra pkg-config
->extra >multilib lib32-flex
-# Extra packages for AUR support
->extra git
->extra patchutils
->extra subversion
-
 ## Fonts
+ttf-dejavu
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-emoji
 terminus-font
->extra ttf-bitstream-vera
-# ttf-dejavu             # Installed as gnome-themes-standard dependency
-# ttf-hack               # Installed as plasma-integration dependency
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
@@ -91,18 +67,17 @@ terminus-font
 
 ## Package management
 >extra appimagelauncher
-pamac
-pamac-tray-appindicator
+pamac-gtk
+pamac-tray-icon-plasma
 pamac-cli
 >extra apparmor
 >extra snapd
 >extra snapd-glib
 >extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
 #discover-snap
 #discover
 #packagekit-qt5
->extra flatpak
->extra bauh
 >extra fwupd 
 #octopi
 #octopi-cachecleaner
@@ -186,7 +161,6 @@ okular
 >extra >i686 kdenetwork-kget
 kdenetwork-filesharing
 #>extra kdenlive
-kde-servicemenus-rootactions
 khelpcenter
 khotkeys
 kio-extras
@@ -248,7 +222,6 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 dmidecode # for inxi -m output
 firefox
 htop
-imagewriter
 inxi
 #>extra krita
 #ms-office-online
@@ -278,7 +251,7 @@ yakuake
 manjaro-documentation-en
 
 ## Settings packages
-manjaro-kde-settings-19.0
+manjaro-kde-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
@@ -306,7 +279,7 @@ xorg-xkill
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-xdg-su
+zensu
 >extra timeshift
 >extra kernel-alive
 
@@ -315,6 +288,5 @@ manjaro-hotfixes
 >basic squashfs-tools
 
 ## Flatpak support
->extra flatpak
 >extra xdg-desktop-portal
 >extra xdg-desktop-portal-kde

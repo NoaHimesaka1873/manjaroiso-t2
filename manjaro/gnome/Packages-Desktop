@@ -1,19 +1,21 @@
 adwaita-icon-theme
 adwaita-maia
 alsa-firmware
+>extra alacarte
 >extra apparmor
 >extra baobab
 >extra dconf-editor
+>extra webapp-manager
 dmidecode
->extra hexchat
 gthumb
 evince
+manjaro-log-helper
+>extra mntray
 >basic epiphany
 >extra firefox
 >extra firefox-gnome-theme-maia
 >extra rygel
 gdm
-manjaro-gdm-tweak
 manjaro-gdm-theme
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
@@ -33,7 +35,6 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
-gnome-shell-extension-nightshellswitcher
 gnome-shell-extension-nightthemeswitcher
 gnome-system-log
 gnome-system-monitor
@@ -43,10 +44,11 @@ gnome-tweak-tool
 >extra gnome-user-docs
 >extra gnome-user-share
 gnome-wallpapers
+gnome-firmware
 gparted
 papirus-maia-icon-theme
 >extra gnome-calendar
->extra bijiben
+>extra evolution-data-server
 >extra gnome-characters
 >extra gnome-clocks
 >extra gnome-weather
@@ -69,22 +71,22 @@ gvfs-google
 gvfs-smb
 ibus
 inxi
->extra imagewriter
 #cli tool#
 pacui
 mc
+manjaro-ranger-settings
 bmenu
 ########
 manjaro-alsa
 manjaro-artwork
-#>extra wallpapers-2018
-#>extra manjaro-wallpapers-18.0
+>extra wallpapers-2018
+>extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
 illyria-wallpaper
 manjaro-browser-settings
 manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
-manjaro-gnome-assets-19.0
+manjaro-gnome-assets
 >extra gnome-layout-switcher
 manjaro-hotfixes
 manjaro-pulse
@@ -111,10 +113,11 @@ openresolv
 #>extra flatpak
 #>extra bauh
 pamac-gtk
->extra snapd
+#>extra snapd
 >extra snapd-glib
 >extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
+pamac-gnome-integration
 polkit-gnome
 powertop
 pulseaudio-bluetooth
@@ -133,9 +136,9 @@ totem
 tracker
 tracker-miners
 >extra noto-fonts-compat
-noto-fonts               # default font
+noto-fonts               		# default font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
-ttf-bitstream-vera
+qgnomeplatform
 ttf-dejavu
 ttf-droid
 ttf-inconsolata
@@ -143,7 +146,6 @@ ttf-indic-otf
 ttf-liberation
 usb_modeswitch
 >extra vino
-xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
@@ -154,7 +156,7 @@ xf86-input-void
 xorg-server
 xorg-twm
 xorg-xinit
->extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
+>extra xf86-input-wacom 		#support for tablet and pen display ( wacom ecc. )
 >extra yelp
 >extra caffeine-ng
 >extra libappindicator-gtk3
@@ -169,24 +171,23 @@ xorg-xinit
 >extra geary
 >extra gnome-calendar
 >extra lollypop
->extra empathy
->extra telepathy-accounts-signon
->extra uget
+#>extra empathy
+#>extra telepathy
+#>extra uget
 >extra transmission-gtk
 >extra manjaro-documentation-en
 #>extra jre8-openjdk
 #>extra jre8-openjdk-headless
 >extra libdvdcss
->x86_64 >extra steam-manjaro
+#>x86_64 >extra steam-manjaro
 >extra manjaro-printer
 >extra simple-scan 
 >extra ffmpegthumbnailer
 >extra timeshift
+>extra deja-dup
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
 >extra manjaro-aur-support #introduce for testing in community
-
 >basic lighter-gnome
 >basic disable-tracker
-
-gnome-initial-setup # Package to create user account, set keyboard and locale.
+grub-theme-manjaro
