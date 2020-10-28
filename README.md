@@ -11,7 +11,7 @@
 ## use multilib packages; x86_64 only
 # multilib="true"
 
-# use extra packages as defined in pkglist to activate a full profile
+## use extra packages as defined in pkglist to activate a full profile
 # extra="false"
 
 ################ install ################
@@ -131,7 +131,7 @@
 ## names must match systemd service names
 ## services in enable_systemd array don't need to be listed here
 # enable_systemd_live=('manjaro-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
-
+disable_systemd_live=('tlp' 'tlp-sleep')
 ~~~
 
 ### Packagelist tags
