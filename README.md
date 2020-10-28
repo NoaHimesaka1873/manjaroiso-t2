@@ -43,16 +43,67 @@ iso-profiles
 # enable_systemd=('bluetooth' 'cronie' 'ModemManager' 'NetworkManager' 'org.cups.cupsd' 'tlp' 'tlp-sleep')
 # disable_systemd=()
 
-# unset defaults to given values,
-# names must match openrc service names
-# enable_openrc=('acpid' 'bluetooth' 'elogind' 'cronie' 'cupsd' 'dbus' 'syslog-ng' 'NetworkManager')
-# disable_openrc=()
-
 # unset defaults to given values
 # addgroups="video,power,disk,storage,optical,network,lp,scanner,wheel"
 
 # the same workgroup name if samba is used
 # smb_workgroup="Manjaro"
+
+# default system shell is bash
+# '/etc/defaults/useradd': " "
+# userShell              : "/bin/zsh"
+# empty value will not be used
+# user_shell=" "
+
+# use calamares office installer
+# supported: true,false
+# office_installer="false"
+
+# add strict snaps: strict_snaps="snapd core core18 gnome-3-28-1804 gtk-common-themes snap-store"
+# strict_snaps=""
+# add classic snaps: classic_snaps="code"
+# classic_snaps=""
+# choose the snap channel. Possible options are: stable, candidate, beta, edge
+# snap_channel="candidate"
+
+########## calamares preferences ##########
+# See /etc/manjaro-tools/branding.desc.d for reference
+
+# welcome style for calamares: true="Welcome to the %1 installer." ; false="Welcome to the Calamares installer for %1." (default)
+# welcomestyle=false
+
+# welcome image scaled (productWelcome) 
+# welcomelogo=true
+
+# configure calamares for mhwd
+# mhwd_used="true"
+
+# configure calamares for oem
+# oem_used="false"
+
+# size and expansion policy for Calamares (possible value: normal,fullscreen,noexpand)
+# windowexp=noexpand
+
+# size of Calamares window, expressed as w,h. 
+# (possible units: pixel (px) or font-units (em))
+# windowsize="800px,520px"
+
+# placement of Calamares window, either "center" or "free".
+# windowplacement="center"
+
+# colors for text and background components:
+
+# background of the sidebar
+# sidebarbackground=#454948
+
+# text color
+# sidebartext=#efefef
+
+# background of the selected step
+# sidebartextselect=#4d915e
+
+# text color of the selected step
+# sidebartexthighlight=#1a1c1b
 
 ################# live-session #################
 
@@ -74,24 +125,17 @@ iso-profiles
 # services in enable_systemd array don't need to be listed here
 # enable_systemd_live=('manjaro-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
 
-# unset defaults to given values,
-# names must match openrc service names
-# services in enable_openrc array don't need to be listed here
-# enable_openrc_live=('manjaro-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
 ~~~
 
 ###### New Packagelist tags
 
 ~~~
->openrc
 >systemd
 
->i686
 >x86_64
 >multilib
 
 >nonfree_default
->nonfree_i686
 >nonfree_x86_64
 >nonfree_multilib
 
