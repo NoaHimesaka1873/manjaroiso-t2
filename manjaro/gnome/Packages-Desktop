@@ -90,7 +90,6 @@ manjaro-gnome-assets
 >extra gnome-layout-switcher
 manjaro-hotfixes
 manjaro-pulse
-manjaro-hello
 manjaro-application-utility
 mesa-demos
 mobile-broadband-provider-info
@@ -191,3 +190,4 @@ xorg-xinit
 >basic lighter-gnome
 >basic disable-tracker
 grub-theme-manjaro
+>extra manjaro-gnome-tour
