@@ -69,26 +69,31 @@ iso-profiles
 # strict_snaps=""
 # add classic snaps: classic_snaps="code"
 # classic_snaps=""
-# choose the snap channel. Possible options are: stable, candidate, beta, edge
+# choose the snap channel. 
+# supported:: stable,candidate,beta,edge
 # snap_channel="candidate"
 
 ########## calamares preferences ##########
 # See /etc/manjaro-tools/branding.desc.d for reference
 
-# welcome style for calamares: true="Welcome to the %1 installer." ; false="Welcome to the Calamares installer for %1." (default)
+# welcome style for calamares
+# true="Welcome to the %1 installer."
+# false="Welcome to the Calamares installer for %1." (default)
 # welcomestyle=false
 
 # welcome image scaled (productWelcome) 
 # welcomelogo=true
 
-# size and expansion policy for Calamares (possible value: normal,fullscreen,noexpand)
+# size and expansion policy for Calamares 
+# supported: normal,fullscreen,noexpand
 # windowexp=noexpand
 
-# size of Calamares window, expressed as w,h. 
-# (possible units: pixel (px) or font-units (em))
+# size of Calamares window, expressed as w,h
+# supported: pixel (px) or font-units (em))
 # windowsize="800px,520px"
 
-# placement of Calamares window, either "center" or "free".
+# placement of Calamares window
+#  supported: center,free
 # windowplacement="center"
 
 # colors for text and background components:
