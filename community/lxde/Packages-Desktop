@@ -24,7 +24,7 @@
 >extra simple-scan
 
 ## Extra Fonts
->extra ttf-bitstream-vera
+>extra ttf-dejavu
 >extra ttf-droid
 >extra ttf-inconsolata
 >extra ttf-indic-otf
@@ -223,7 +223,6 @@ gtk-engines
 polkit
 python-pyxdg
 squashfs-tools
-xdg-su
 xdg-user-dirs
 xdg-utils
 zensu
