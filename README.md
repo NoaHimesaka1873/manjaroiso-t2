@@ -32,6 +32,12 @@ iso-profiles
 # configure calamares for netinstall
 # netinstall="false"
 
+# configure calamares for mhwd
+# mhwd_used="true"
+
+# configure calamares for oem
+# oem_used="false"
+
 # configure calamares to use chrootcfg instead of unpackfs; default: unpackfs
 # chrootcfg="false"
 
@@ -74,12 +80,6 @@ iso-profiles
 
 # welcome image scaled (productWelcome) 
 # welcomelogo=true
-
-# configure calamares for mhwd
-# mhwd_used="true"
-
-# configure calamares for oem
-# oem_used="false"
 
 # size and expansion policy for Calamares (possible value: normal,fullscreen,noexpand)
 # windowexp=noexpand
