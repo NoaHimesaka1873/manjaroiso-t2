@@ -1,18 +1,21 @@
 adwaita-icon-theme
 adwaita-maia
 alsa-firmware
+>extra alacarte
 >extra apparmor
 >extra baobab
+>extra webapp-manager
 >extra dconf-editor
 dmidecode
 gthumb
 evince
+manjaro-log-helper
+>extra mntray
 >basic epiphany
 >extra firefox
 >extra firefox-gnome-theme-maia
 >extra rygel
 gdm
-manjaro-gdm-tweak
 manjaro-gdm-theme
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
@@ -33,7 +36,6 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
-gnome-shell-extension-nightshellswitcher
 gnome-shell-extension-nightthemeswitcher
 gnome-system-log
 gnome-system-monitor
@@ -68,10 +70,11 @@ gvfs-google
 gvfs-smb
 ibus
 inxi
-#>extra etcher
+>extra etcher
 #cli tool#
 pacui
 mc
+manjaro-ranger-settings
 bmenu
 ########
 manjaro-alsa
@@ -136,7 +139,7 @@ tracker-miners
 >extra noto-fonts-compat
 noto-fonts               # default font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
-ttf-bitstream-vera
+qgnomeplatform
 ttf-dejavu
 ttf-droid
 ttf-inconsolata
@@ -144,7 +147,6 @@ ttf-indic-otf
 ttf-liberation
 usb_modeswitch
 >extra vino
-xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
@@ -169,10 +171,8 @@ xorg-xinit
 >extra gtk3-print-backends
 >extra geary
 >extra gnome-calendar
+>extra evolution-data-server
 >extra lollypop
->extra empathy
->extra telepathy
->extra uget
 >extra transmission-gtk
 >extra manjaro-documentation-en
 #>extra jre8-openjdk
@@ -183,14 +183,15 @@ xorg-xinit
 >extra simple-scan 
 >extra ffmpegthumbnailer
 >extra timeshift
+>extra deja-dup
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
->extra manjaro-aur-support #introduce for testing in community
+>extra manjaro-aur-support
 
 >basic lighter-gnome
 >basic disable-tracker
 
 ## OEM
-calamares-git
+calamares
 calamares-oem-modules
 calamares-oem-starlabs-gnome-settings

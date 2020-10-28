@@ -5,6 +5,7 @@ alsa-firmware
 >extra apparmor
 >extra baobab
 >extra dconf-editor
+>extra webapp-manager
 dmidecode
 gthumb
 evince
@@ -43,6 +44,7 @@ gnome-tweak-tool
 >extra gnome-user-docs
 >extra gnome-user-share
 gnome-wallpapers
+gnome-firmware
 gparted
 papirus-maia-icon-theme
 >extra gnome-calendar
@@ -88,7 +90,6 @@ manjaro-gnome-assets
 >extra gnome-layout-switcher
 manjaro-hotfixes
 manjaro-pulse
-manjaro-hello
 manjaro-application-utility
 mesa-demos
 mobile-broadband-provider-info
@@ -186,6 +187,7 @@ xorg-xinit
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
 >extra manjaro-aur-support #introduce for testing in community
-
 >basic lighter-gnome
 >basic disable-tracker
+grub-theme-manjaro
+>extra manjaro-gnome-tour

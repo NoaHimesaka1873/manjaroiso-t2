@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Icon=system
+Name=Calamares-ukui-set
+Comment=Calamares tweak for install Ukui desktop
+Exec=sh -c "sudo rm -f /usr/bin/ukui-flash-disk && sleep 2 && sudo pkill ukui-flash-disk"
+Terminal=false
+Type=Application
+Categories=System
+StartupNotify=false
