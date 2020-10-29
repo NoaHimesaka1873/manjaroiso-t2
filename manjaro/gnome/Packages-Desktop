@@ -30,6 +30,7 @@ gnome-keyring
 fprintd #need for finger id reader
 >extra gnome-online-accounts
 >extra gnome-contacts
+gnome-initial-setup
 gnome-screenshot
 gnome-session
 gnome-settings-daemon
@@ -190,4 +191,4 @@ xorg-xinit
 >basic lighter-gnome
 >basic disable-tracker
 grub-theme-manjaro
->extra manjaro-gnome-tour
+manjaro-gnome-tour
