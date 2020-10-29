@@ -77,6 +77,7 @@
 
 ########## calamares preferences ##########
 # See /etc/manjaro-tools/branding.desc.d for reference
+# These settings will override settings from manjaro-tools.conf
 
 ## welcome style for calamares
 ## true="Welcome to the %1 installer."
