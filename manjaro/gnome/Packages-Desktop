@@ -30,6 +30,7 @@ gnome-keyring
 fprintd #need for finger id reader
 >extra gnome-online-accounts
 >extra gnome-contacts
+gnome-initial-setup
 gnome-screenshot
 gnome-session
 gnome-settings-daemon
