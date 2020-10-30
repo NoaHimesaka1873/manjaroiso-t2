@@ -89,6 +89,7 @@ manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
 manjaro-gnome-assets
 >extra gnome-layout-switcher
+manjaro-gnome-postinstall
 manjaro-hotfixes
 manjaro-pulse
 manjaro-application-utility
@@ -108,6 +109,7 @@ networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
 numlockx
+>extra onlyoffice-desktopeditors
 openresolv
 #gnome-software-snap
 #>extra flatpak
@@ -192,4 +194,3 @@ xorg-xinit
 >basic disable-tracker
 grub-theme-manjaro
 manjaro-gnome-tour
-gnome-initial-setup
