@@ -9,13 +9,15 @@ alsa-firmware
 dmidecode
 gthumb
 evince
-manjaro-log-helper
+>extra manjaro-log-helper
 >extra mntray
 >basic epiphany
 >extra firefox
 >extra firefox-gnome-theme-maia
 >extra rygel
-gdm
+>basic gdm
+>extra gdm-plymouth
+>extra plymouth-theme-manjaro
 manjaro-gdm-theme
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
