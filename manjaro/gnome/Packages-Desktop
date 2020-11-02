@@ -90,7 +90,7 @@ manjaro-browser-settings
 manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
 manjaro-gnome-assets
->extra gnome-layout-switcher
+gnome-layout-switcher
 manjaro-gnome-postinstall
 manjaro-hotfixes
 manjaro-pulse
