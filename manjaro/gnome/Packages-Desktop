@@ -9,13 +9,15 @@ alsa-firmware
 dmidecode
 gthumb
 evince
-manjaro-log-helper
+>extra manjaro-log-helper
 >extra mntray
 >basic epiphany
 >extra firefox
 >extra firefox-gnome-theme-maia
 >extra rygel
-gdm
+>basic gdm
+>extra gdm-plymouth
+>extra plymouth-theme-manjaro
 manjaro-gdm-theme
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
@@ -30,6 +32,7 @@ gnome-keyring
 fprintd #need for finger id reader
 >extra gnome-online-accounts
 >extra gnome-contacts
+gnome-initial-setup
 gnome-screenshot
 gnome-session
 gnome-settings-daemon
@@ -88,6 +91,7 @@ manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
 manjaro-gnome-assets
 >extra gnome-layout-switcher
+manjaro-gnome-postinstall
 manjaro-hotfixes
 manjaro-pulse
 manjaro-application-utility
@@ -107,6 +111,7 @@ networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
 numlockx
+>extra onlyoffice-desktopeditors
 openresolv
 #gnome-software-snap
 #>extra flatpak
@@ -190,4 +195,4 @@ xorg-xinit
 >basic lighter-gnome
 >basic disable-tracker
 grub-theme-manjaro
->extra manjaro-gnome-tour
+manjaro-gnome-tour
