@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=orca
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[pl_PL]=orca
+Name=orca
+Comment[pl_PL]=
+Comment=
+X-MATE-Autostart-Delay=0
