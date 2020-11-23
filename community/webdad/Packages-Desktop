@@ -38,6 +38,7 @@ pulseaudio-zeroconf
 guake
 nautilus
 software-center-web-jak # for url handler's and discover
+>extra chromium
 >extra nautilus-admin
 >extra nautilus-empty-file
 >extra dconf-editor
@@ -51,16 +52,16 @@ software-center-web-jak # for url handler's and discover
 >extra gthumb
 >extra evince
 >extra geary
->extra gedit
+gedit
 >extra file-roller
 
 
 ## Startup and shutdown
 lightdm
 lightdm-gtk-greeter
+light-locker
 accountsservice
->extra bootsplash-systemd
->extra bootsplash-theme-manjaro
+plymouth-theme-manjaro
 
 
 ## Network
@@ -78,8 +79,6 @@ openresolv
 
 
 ## Base
-mutter
-plank
 manjaro-settings-manager-notifier
 manjaro-jade-settings
 gnome-keyring
@@ -93,6 +92,7 @@ xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
+# touchegg
 xf86-input-void
 xorg-server
 xorg-xinit
