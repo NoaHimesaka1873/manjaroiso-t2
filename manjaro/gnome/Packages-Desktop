@@ -14,8 +14,7 @@ evince
 >extra firefox
 >extra firefox-gnome-theme-maia
 >extra rygel
->basic gdm
->extra gdm-plymouth
+gdm
 >extra plymouth-theme-manjaro
 manjaro-gdm-theme
 gedit
