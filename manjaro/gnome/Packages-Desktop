@@ -155,6 +155,7 @@ xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
 xf86-input-void
+xorg-mkfontscale
 xorg-server
 xorg-twm
 xorg-xinit

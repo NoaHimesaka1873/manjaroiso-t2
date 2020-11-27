@@ -227,6 +227,7 @@ xorg-server
 xorg-twm
 xorg-xinit
 xorg-xkill
+xorg-mkfontscale
 
 ## Desktop Utils
 perl-file-mimeinfo
