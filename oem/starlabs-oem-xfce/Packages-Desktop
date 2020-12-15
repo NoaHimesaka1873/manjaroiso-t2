@@ -228,6 +228,7 @@ xorg-server
 xorg-twm
 xorg-xinit
 xorg-xkill
+xorg-mkfontscale
 
 ## Desktop Utils
 perl-file-mimeinfo
@@ -254,4 +255,4 @@ xiccd # enable color profile settings
 calamares
 calamares-oem-modules
 calamares-oem-starlabs-xfce-settings
-starlabs-tweaks
+#starlabs-tweaks

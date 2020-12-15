@@ -154,6 +154,7 @@ xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
 xf86-input-void
+xorg-mkfontscale
 xorg-server
 xorg-twm
 xorg-xinit
@@ -195,4 +196,4 @@ xorg-xinit
 calamares
 calamares-oem-modules
 calamares-oem-starlabs-gnome-settings
-starlabs-tweaks
+#starlabs-tweaks

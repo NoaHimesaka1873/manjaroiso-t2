@@ -276,6 +276,7 @@ xorg-server
 xorg-twm
 xorg-xinit
 xorg-xkill
+xorg-mkfontscale
 
 ## Desktop Utils
 perl-file-mimeinfo
@@ -297,4 +298,4 @@ manjaro-hotfixes
 calamares
 calamares-oem-modules
 calamares-oem-starlabs-kde-settings
-starlabs-tweaks
+#starlabs-tweaks
