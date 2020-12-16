@@ -129,7 +129,6 @@ plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
 systemsettings
-user-manager
 
 ## Themes QT/GTK/SDDM
 gnome-icon-theme
