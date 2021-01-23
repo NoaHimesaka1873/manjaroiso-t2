@@ -108,7 +108,6 @@ libopenraw         # tumbler - for RAW thumbnails
 light-locker
 network-manager-applet
 menulibre
-orage
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
 thunar-media-tags-plugin

@@ -12,6 +12,7 @@ bison
 >extra brasero
 >extra dconf-editor
 deepin-calendar
+deepin-compressor
 >extra deepin-calculator
 deepin-editor
 deepin-file-manager
@@ -19,6 +20,10 @@ deepin-gtk-theme
 >extra deepin-draw
 >extra deepin-image-viewer
 deepin-kwin
+deepin-sound-theme
+deepin-shortcut-viewer
+deepin-turbo
+deepin-store
 >extra deepin-movie
 >extra deepin-music
 >extra deepin-picker
@@ -28,7 +33,7 @@ deepin-kwin
 deepin-wallpapers-temp-fix
 deepin-terminal
 deepin-turbo
->extra deepin-voice-recorder
+>extra deepin-voice-note
 >extra deluge
 dmidecode
 >extra downgrade
@@ -83,7 +88,6 @@ mesa-demos
 mlocate
 mobile-broadband-provider-info
 modemmanager
->extra ms-office-online
 >multilib lib32-mesa-demos
 netctl
 networkmanager
