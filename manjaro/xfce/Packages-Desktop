@@ -44,6 +44,7 @@ udiskie
 udisks2
 
 ## Fonts
+fontconfig
 ttf-dejavu
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
