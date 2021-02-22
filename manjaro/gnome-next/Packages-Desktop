@@ -1,0 +1,88 @@
+# Backend stuff
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+networkmanager
+openresolv
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gvfs-afc
+gvfs
+gvfs-mtp
+gvfs-google
+gvfs-smb
+gvfs-gphoto2
+gvfs-nfs
+ibus
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-void
+xorg-mkfontscale
+xorg-server
+xorg-twm
+xorg-xinit
+>extra xf86-input-wacom 		#support for tablet and pen display ( wacom ecc. )
+>extra yelp
+>extra libappindicator-gtk3
+
+# Gnome base
+gnome-shell-git
+gnome-terminal
+nautilus
+nautilus-admin
+nautilus-empty-file
+>extra ffmpegthumbnailer
+gedit
+polkit-gnome
+seahorse
+>extra gnome-online-accounts
+gnome-themes-standard
+gnome-tweak-tool
+file-roller
+gnome-keyring
+gnome-disk-utility
+gdm
+gnome-control-center
+gnome-settings-daemon
+
+# Minimalistic settings
+>basic lighter-gnome
+>basic disable-tracker
+>extra tracker3
+>extra tracker3-miners
+
+# Theming and extensions
+qgnomeplatform
+qt5ct
+adwaita-maia
+ttf-dejavu
+ttf-droid
+noto-fonts
+papirus-maia-icon-theme
+gnome-backgrounds
+manjaro-artwork
+firefox-gnome-theme-maia
+manjaro-hotfixes
+manjaro-pulse
+manjaro-application-utility
+manjaro-gnome-settings-dev
+gnome-shell-extension-appindicator
+gnome-shell-extension-pop-shell
+gnome-shell-extensions
+manjaro-zsh-config
+manjaro-ranger-settings
+grub-theme-manjaro
+gnome-wallpapers
+
+pamac-gtk
