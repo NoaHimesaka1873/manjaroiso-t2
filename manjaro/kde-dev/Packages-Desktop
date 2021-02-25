@@ -90,7 +90,7 @@ terminus-font
 ## Package management
 #appimagelauncher
 packagekit-qt5
-discover-git
+discover
 flatpak
 xdg-desktop-portal
 xdg-desktop-portal-kde
@@ -120,43 +120,44 @@ octopi
 
 ## Display manager
 sddm
-sddm-kcm-git
+sddm-kcm
 
 ## Plasma5
-bluedevil-git
-kde-gtk-config-git
-kdeplasma-addons-git
-kgamma5-git
-kinfocenter-git
-kmenuedit-git
-kscreen-git
-kscreenlocker-git
-ksshaskpass-git
-ksysguard-git
-kwallet-pam-git
-kwayland-integration-git
-kwin-git
+bluedevil
+kde-gtk-config
+kdeplasma-addons
+kgamma5
+kinfocenter
+kmenuedit
+kscreen
+kscreenlocker
+ksshaskpass
+ksysguard
+kwallet-pam
+kwayland-integration
+kwin
 qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
-kwrited-git
-milou-git
-plasma-desktop-git
-plasma-nm-git
-plasma-pa-git
-plasma-wayland-session-git
-plasma-workspace-git
->extra plasma-workspace-wallpapers-git
-powerdevil-git
-systemsettings-git
+kwrited
+milou
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-systemmonitor
+plasma-wayland-session
+plasma-workspace
+>extra plasma-workspace-wallpapers
+powerdevil
+systemsettings
 
 ## Themes QT/GTK/SDDM
-breeze-git
-breeze-gtk-git
-breeze-icons-git
+breeze
+breeze-gtk
+breeze-icons
 gnome-icon-theme
 gnome-themes-standard
 #gtk-theme-breath
-oxygen-git
-oxygen-icons-git
+oxygen
+oxygen-icons
 #plasma5-themes-breath  # Default
 #sddm-breath-theme  # Default
 grub-theme-manjaro
