@@ -142,6 +142,7 @@ milou
 plasma-desktop
 plasma-nm
 plasma-pa
+plasma-systemmonitor
 plasma-wayland-session
 plasma-workspace
 >extra plasma-workspace-wallpapers
