@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=orca
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[en_US]=orca
+Name=orca
+Comment[en_US]=Orca screen reader
+Comment=Orca screen reader
+X-MATE-Autostart-Delay=0
