@@ -137,8 +137,12 @@ totem
 tracker
 tracker-miners
 >extra noto-fonts-compat
-noto-fonts               		# default font
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+noto-fonts               # default font
+#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+adobe-source-sans-pro-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-cn-fonts
 qgnomeplatform
 ttf-dejavu
 ttf-droid
