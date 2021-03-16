@@ -17,13 +17,8 @@
 
 
 ## Libraries for Sound/Audio/Video
-alsa-firmware
-alsa-utils
 >multilib manjaro-alsa
-manjaro-pulse
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+manjaro-pipewire
 >extra ffmpeg
 >extra grilo-plugins
 >extra gst-libav
