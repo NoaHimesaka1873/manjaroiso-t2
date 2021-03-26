@@ -37,7 +37,7 @@ xorg-xinit
 >extra libappindicator-gtk3
 
 # Gnome base
-gnome-shell-git
+gnome-shell
 gnome-terminal
 nautilus
 nautilus-admin
