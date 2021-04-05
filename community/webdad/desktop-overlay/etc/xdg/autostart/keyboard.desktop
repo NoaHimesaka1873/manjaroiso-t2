@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=setxkbmap
-Comment=setxkbmap
-Exec=/bin/setKeyboard.sh
-StartupNotify=false
-Terminal=false
-Type=Application

@@ -1,6 +1,3 @@
-# All extra packages are also part of netinstaller
-# https://gitlab.manjaro.org/packages/community/jade/calamares/-/blob/master/netinstall-applications.yaml
-
 ## Connect Packages
 >extra android-tools
 >extra android-udev
@@ -70,11 +67,11 @@ openresolv
 
 
 ## Base
-manjaro-settings-manager-notifier
+#manjaro-settings-manager-notifier
 manjaro-webdad-settings
 gnome-keyring
 manjaro-hotfixes
-manjaro-hello
+#manjaro-hello
 >basic squashfs-tools
 >basic disable-tracker
 xdg-user-dirs
@@ -87,7 +84,7 @@ xf86-input-libinput
 xf86-input-void
 xorg-server
 xorg-xinit
-manjaro-browser-settings
+#manjaro-browser-settings
 >extra xf86-input-wacom # Support for tablet and pen display ( wacom ecc. )
 >extra manjaro-settings-manager-notifier
 >extra mousetweaks

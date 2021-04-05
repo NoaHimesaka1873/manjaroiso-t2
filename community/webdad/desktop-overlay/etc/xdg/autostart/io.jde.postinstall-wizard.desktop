@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PostInstall Wizard
+Exec=/usr/share/jde-postinstall-wizard/postinstall-wizard
+Icon=/usr/share/pixmaps/io.jde.postinstall-wizard.svg
+Type=Application
+Categories=Settings;GTK;GNOME;
+Comment=Postinstall wizard, install extra software, clone your software workflow, restore or upgrade your installation
+Terminal=false
