@@ -37,7 +37,7 @@ xorg-xinit
 >extra libappindicator-gtk3
 
 # Gnome base
-gnome-shell-git
+gnome-shell
 gnome-terminal
 nautilus
 nautilus-admin
@@ -84,5 +84,6 @@ manjaro-zsh-config
 manjaro-ranger-settings
 grub-theme-manjaro
 gnome-wallpapers
+xcursor-breeze
 
 pamac-gtk
