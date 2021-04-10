@@ -54,7 +54,11 @@ udisks2
 ttf-dejavu
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
-noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+adobe-source-sans-pro-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-cn-fonts
 >extra noto-fonts-emoji
 terminus-font
 >extra ttf-inconsolata
