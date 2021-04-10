@@ -434,27 +434,22 @@
     </keybind>
     <keybind key="W-f">
       <action name="Execute">
-        <command>exo-open --launch FileManager</command>
+        <command>pcmanfm</command>
       </action>
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>exo-open --launch TerminalEmulator</command>
+        <command>sakura</command>
       </action>
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>exo-open --launch WebBrowser</command>
+        <command>xdg-open http://about:blank</command>
       </action>
     </keybind>
     <keybind key="W-e">
       <action name="Execute">
         <command>xed</command>
-      </action>
-    </keybind>
-    <keybind key="C-A-m">
-      <action name="Execute">
-        <command>xfce4-settings-manager</command>
       </action>
     </keybind>
     <keybind key="W-m">
@@ -474,12 +469,7 @@
     </keybind>
     <keybind key="W-Return">
       <action name="Execute">
-        <command>exo-open --launch TerminalEmulator</command>
-      </action>
-    </keybind>
-    <keybind key="C-space">
-      <action name="Execute">
-        <command>synapse</command>
+        <command>sakura</command>
       </action>
     </keybind>
     <keybind key="C-A-l">
