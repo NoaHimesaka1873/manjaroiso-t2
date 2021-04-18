@@ -118,7 +118,6 @@ ttf-indic-otf
 ttf-liberation
 budgie-wallpapers
 vino
-xdg-su
 xdg-user-dirs-gtk
 xdg-utils
 xf86-input-elographics
@@ -134,8 +133,7 @@ yelp
 >extra unrar
 >extra unace
 >extra lrzip
->extra gtk3-print-backends
-#>extra libreoffice-fresh
+>extra onlyoffice
 >extra thunderbird
 >extra lollypop
 >extra pidgin
