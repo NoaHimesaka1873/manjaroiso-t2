@@ -22,6 +22,7 @@ deepin-compressor
 >extra deepin-diskmanager
 deepin-editor
 deepin-file-manager
+>extra dde-device-formatter
 >extra deepin-font-manager
 deepin-gtk-theme
 deepin-icon-theme-manjaro
