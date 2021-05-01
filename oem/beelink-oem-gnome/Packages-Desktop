@@ -174,7 +174,6 @@ lib32-mesa-vdpau
 >extra libappindicator-gtk3
 
 #extra depends for file-roller
->extra gnome-getting-started-docs
 >extra p7zip
 >extra unrar
 >extra unace
