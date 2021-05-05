@@ -79,6 +79,8 @@ manjaro-application-utility
 manjaro-gnome-settings-dev
 gnome-shell-extension-appindicator
 gnome-shell-extension-pop-shell
+gnome-shell-extension-gnome-ui-tune
+gnome-shell-extension-vertical-overview
 gnome-shell-extensions
 manjaro-zsh-config
 manjaro-ranger-settings
