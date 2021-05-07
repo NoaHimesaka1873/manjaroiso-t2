@@ -163,6 +163,7 @@ net-tools
 network-manager-applet
 networkmanager-openvpn
 networkmanager
+nm-connection-editor
 openresolv
 openssh
 traceroute
@@ -174,7 +175,6 @@ manjaro-openbox-desktop-settings
 manjaro-openbox-scripts
 manjaro-pacbang-grub-theme
 manjaro-pacbang-gtk-theme
-manjaro-pacbang-lxdm-theme
 manjaro-pacbang-wallpapers
 manjaro-zsh-config
 masalla-icon-theme
@@ -193,17 +193,21 @@ qt5-styleplugins
 qt5ct
 
 ## DISPLAY MANAGER
-lxdm-gtk3
+sddm
+norse-sddm-theme
 
 ## CONFIGURATION DEPENDENCIES
 arandr
 conky-lua-nv
 dunst
 fzf
-gpicview-gtk3
+gpicview
 gsimplecal
 i3lock
 jgmenu
+kmscon
+libdrm
+libva
 nitrogen
 numlockx
 picom
@@ -267,7 +271,6 @@ gnome-keyring
 gtk-engines
 gtk-engine-murrine
 gtk3
-kmscon
 perl-file-mimeinfo
 polkit
 python-pyxdg
@@ -279,10 +282,11 @@ zensu
 
 ### XORG
 xf86-input-libinput
+xf86-video-dummy
+xf86-video-fbdev
 xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-fonts-type1
-xorg-drivers
 xorg-server
 xorg-server-common
 xorg-server-xephyr
@@ -293,4 +297,3 @@ xorg-xinput
 xorg-xkill
 xorg-xprop
 xorg-xwininfo
-xterm
