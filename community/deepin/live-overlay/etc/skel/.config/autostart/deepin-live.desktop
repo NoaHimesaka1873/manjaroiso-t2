@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=Deepin live session settings
+Exec=deepin-live
+Name=deepin-live
+Type=Application
+X-Deepin-Vendor=user-custom

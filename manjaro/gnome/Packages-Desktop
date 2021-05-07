@@ -14,7 +14,8 @@ evince
 >extra firefox
 >extra firefox-gnome-theme-maia
 >extra rygel
-gdm
+>basic gdm
+>extra gdm-plymouth
 >extra plymouth-theme-manjaro
 manjaro-gdm-theme
 gedit
@@ -167,7 +168,6 @@ xorg-xinit
 >extra libappindicator-gtk3
 
 #extra depends for file-roller
->extra gnome-getting-started-docs
 >extra p7zip
 >extra unrar
 >extra unace

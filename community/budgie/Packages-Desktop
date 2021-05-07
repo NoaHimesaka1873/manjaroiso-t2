@@ -11,6 +11,7 @@ lightdm-settings
 grub-theme-manjaro
 budgie-desktop
 budgie-extras
+budgie-desktop-view #support for desktop icons
 manjaro-budgie-settings
 papirus-maia-icon-theme
 manjaro-wallpapers-18.0
@@ -33,7 +34,7 @@ gnome-settings-daemon
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
-gnome-screensaver
+budgie-screensaver
 gnome-screenshot
 >extra gnome-backgrounds
 grilo-plugins
@@ -118,7 +119,6 @@ ttf-indic-otf
 ttf-liberation
 budgie-wallpapers
 vino
-xdg-su
 xdg-user-dirs-gtk
 xdg-utils
 xf86-input-elographics
@@ -134,8 +134,7 @@ yelp
 >extra unrar
 >extra unace
 >extra lrzip
->extra gtk3-print-backends
-#>extra libreoffice-fresh
+>extra onlyoffice
 >extra thunderbird
 >extra lollypop
 >extra pidgin
