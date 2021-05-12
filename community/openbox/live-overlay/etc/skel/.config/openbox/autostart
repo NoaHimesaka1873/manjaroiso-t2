@@ -1,17 +1,13 @@
-### Required for xfce settings to work
-sleep 0.5; xfsettingsd &
-
 ### compositor
 sleep 1; manjaro-compositor --start &
 
-sleep 1; nitrogen --restore &
+sleep 1; pcmanfm --desktop &
 
-### launch tint2 and polybar
-sleep 1; manjaro-tint2-session &
+### launch polybar
 sleep 1; polybar -c ~/.config/polybar/config openbox-bar &
 
 ### launch conky
-sleeep 1; manjaro-conky-session &
+sleep 1; conky -c ~/.config/conky/KvFlatRed.conkyrc &
 
 ## skippy
 sleep 1; skippy-xd --config ~/.config/skippy-xd/skippy-xd.rc --start-daemon &
