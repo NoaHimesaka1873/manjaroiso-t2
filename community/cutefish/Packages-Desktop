@@ -1,0 +1,158 @@
+#-------------------------------------------------
+# CUTEFISH MINIMAL/FULL PROFILE
+
+## Extra Network packages
+>extra mobile-broadband-provider-info
+>extra modemmanager-qt
+>extra networkmanager-openconnect
+>extra networkmanager-pptp
+>extra networkmanager-vpnc
+>extra nss-mdns
+>extra usb_modeswitch
+
+## Apps and Libraries for Sound/Audio/Video
+>extra faad2
+>extra ffmpeg
+>extra flac
+>extra imlib2
+>extra libdvdcss
+>extra libdvdread
+>extra libdvdnav
+>extra libmad
+>extra libmicrodns
+>extra libvorbis
+>extra mpg123
+>extra protobuf
+>extra smplayer
+>extra smplayer-skins
+>extra smplayer-themes
+>extra smtube
+>extra twolame
+
+## Printer
+## meta-pkg manjaro-printer
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gutenprint
+>extra hplip
+>extra python-gobject
+>extra splix
+>extra system-config-printer
+>extra simple-scan
+
+## Internet applications
+>extra trojita
+
+#-------------------------------------------------
+# EDITION BASE PACKAGES
+
+## webbrowser
+firefox
+
+## bluetooth device management
+blueman
+pulseaudio-bluetooth
+
+## audio support
+alsa-firmware
+alsa-plugins
+alsa-utils
+pamixer
+paprefs
+pasystray
+pavucontrol-qt
+playerctl
+pulseaudio
+pulseaudio-alsa
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+## edition theming and settings
+manjaro-icons
+ttf-fira-code
+ttf-fira-mono
+ttf-fira-sans
+xcursor-breeze
+
+## display manager and greeter
+sddm
+norse-sddm-theme
+
+## office
+qpdfview
+
+## fonts
+ttf-dejavu
+
+## filemanager
+#android-tools
+#android-udev
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+udiskie
+udisks2
+
+## package manager
+pamac-gtk
+pamac-cli
+
+## basic utilities
+dmidecode
+htop
+inxi
+micro
+numlockx
+powertop
+xclip
+xsel
+
+## network
+blueman
+firewalld
+network-manager-applet
+networkmanager-openvpn
+networkmanager-qt
+openresolv
+openssh
+
+## core
+cutefish
+
+## settings manager
+manjaro-application-utility
+manjaro-documentation-en
+manjaro-hello
+manjaro-settings-manager
+
+## system
+accountsservice
+gnome-keyring
+perl-file-mimeinfo
+polkit
+python-pyxdg
+squashfs-tools
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
+zensu
+zlib
+
+## xorg
+xf86-input-libinput
+xorg-server
+xorg-server-common
+xorg-twm
+xorg-xbacklight
+xorg-xinit
+xorg-xinput
+xorg-xkill
+xorg-xprop
+xsettingsd
+xterm
