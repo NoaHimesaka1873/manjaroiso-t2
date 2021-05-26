@@ -3,7 +3,6 @@
 
 ## Extra Network packages
 >extra mobile-broadband-provider-info
->extra modemmanager-qt
 >extra networkmanager-openconnect
 >extra networkmanager-pptp
 >extra networkmanager-vpnc
@@ -62,7 +61,6 @@ alsa-plugins
 alsa-utils
 pamixer
 paprefs
-pasystray
 pavucontrol-qt
 playerctl
 pulseaudio
@@ -72,9 +70,6 @@ pulseaudio-zeroconf
 
 ## edition theming and settings
 manjaro-icons
-ttf-fira-code
-ttf-fira-mono
-ttf-fira-sans
 xcursor-breeze
 
 ## display manager and greeter
@@ -86,6 +81,19 @@ qpdfview
 
 ## fonts
 ttf-dejavu
+# cantarell-fonts        # Installed as gnome-themes-standard dependency
+noto-fonts               # default font
+#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+adobe-source-sans-pro-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-cn-fonts
+# >extra noto-fonts-emoji
+terminus-font
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
 
 ## filemanager
 #android-tools
@@ -105,25 +113,17 @@ pamac-cli
 
 ## basic utilities
 dmidecode
-htop
 inxi
-micro
-numlockx
 powertop
-xclip
-xsel
 
 ## network
-blueman
 firewalld
-network-manager-applet
-networkmanager-openvpn
-networkmanager-qt
 openresolv
 openssh
 
 ## core
 cutefish
+konsole
 
 ## settings manager
 manjaro-application-utility
