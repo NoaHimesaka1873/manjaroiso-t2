@@ -1,5 +1,9 @@
 #!/bin/sh
 
-# Give us some room to configure things:
-export XDG_DATA_DIRS
-XDG_DATA_DIRS="/usr/share/manjaro:${XDG_DATA_DIRS:-/usr/local/share:/usr/share}"
+# Remove unwanted Desktop files
+rm -v /usr/share/applications/avahi-discover.desktop
+rm -v /usr/share/applications/bssh.desktop
+rm -v /usr/share/applications/bvnc.desktop
+rm -v /usr/share/applications/qv4l2.desktop
+rm -v /usr/share/applications/qvidcap.desktop
+rm -v /usr/share/applications/UserFeedbackConsole.desktop
