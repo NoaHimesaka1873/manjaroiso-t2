@@ -1,8 +1,0 @@
-[Unit]
-Description=Manjaro Tweaks
- 
-[Service]
-ExecStart=/usr/bin/sh /etc/manjaro/manjaro-tweaks.sh
- 
-[Install]
-WantedBy=multi-user.target
