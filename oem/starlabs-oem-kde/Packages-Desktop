@@ -129,7 +129,6 @@ plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
 systemsettings
-user-manager
 
 ## Themes QT/GTK/SDDM
 gnome-icon-theme
@@ -276,6 +275,7 @@ xorg-server
 xorg-twm
 xorg-xinit
 xorg-xkill
+xorg-mkfontscale
 
 ## Desktop Utils
 perl-file-mimeinfo
@@ -297,4 +297,5 @@ manjaro-hotfixes
 calamares
 calamares-oem-modules
 calamares-oem-starlabs-kde-settings
-starlabs-tweaks
+#starlabs-tweaks
+coreboot-configurator

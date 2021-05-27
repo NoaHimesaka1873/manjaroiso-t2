@@ -1,2 +1,4 @@
 [Icon Theme]
-Inherits=deepin
+Name=Default
+Comment=Default Cursor Theme
+Inherits=bloom

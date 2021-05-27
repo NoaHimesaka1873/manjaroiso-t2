@@ -132,7 +132,6 @@ avahi
 networkmanager
 ntp
 openssh
-terminus-font-otb
 totem
 tracker
 tracker-miners
@@ -154,6 +153,7 @@ xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
 xf86-input-void
+xorg-mkfontscale
 xorg-server
 xorg-twm
 xorg-xinit
@@ -163,7 +163,6 @@ xorg-xinit
 >extra libappindicator-gtk3
 
 #extra depends for file-roller
->extra gnome-getting-started-docs
 >extra p7zip
 >extra unrar
 >extra unace
@@ -195,4 +194,5 @@ xorg-xinit
 calamares
 calamares-oem-modules
 calamares-oem-starlabs-gnome-settings
-starlabs-tweaks
+#starlabs-tweaks
+coreboot-configurator

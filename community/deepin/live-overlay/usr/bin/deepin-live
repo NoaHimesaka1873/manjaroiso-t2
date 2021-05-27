@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#firstrun="$HOME/.firstrun"
+
+sudo rm /usr/lib/dde-dock/plugins/liboverlay-warning.so
+pkill dde-dock && dde-dock
+gsettings set com.deepin.dde.power battery-screen-black-delay 0
+gsettings set com.deepin.dde.power battery-sleep-delay 0
+gsettings set com.deepin.dde.power lid-closed-sleep false
+gsettings set com.deepin.dde.power line-power-screen-black-delay 0
+gsettings set com.deepin.dde.power line-power-sleep-delay 0
+gsettings set com.deepin.dde.power power-module-initialized true
+
+#if [[ ! -f $firstrun ]]; then
+#    deepin-wm --replace
+#    touch $firstrun
+#fi

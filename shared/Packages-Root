@@ -32,9 +32,11 @@ gawk
 gcc-libs
 gettext
 glibc
+glibc-locales
 grep
 grub
 gzip
+haveged
 inetutils
 intel-ucode
 iproute2

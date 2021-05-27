@@ -11,41 +11,56 @@ binutils
 bison
 >extra brasero
 >extra dconf-editor
-deepin-calendar
+>extra deepin-album
 >extra deepin-calculator
+deepin-desktop-base-manjaro
+deepin-calendar
+>extra deepin-camera
+deepin-clipboard
+deepin-compressor
+>extra deepin-draw
+>extra deepin-diskmanager
 deepin-editor
 deepin-file-manager
+>extra dde-device-formatter
+>extra deepin-font-manager
 deepin-gtk-theme
->extra deepin-draw
+deepin-icon-theme-manjaro
 >extra deepin-image-viewer
 deepin-kwin
 >extra deepin-movie
+>extra deepin-mail
 >extra deepin-music
 >extra deepin-picker
+>extra deepin-printer
+deepin-polkit-agent
+>extra deepin-reader
 >extra deepin-screen-recorder
 >extra deepin-screenshot
+>extra deepin-screensaver
+deepin-settings-manjaro
+deepin-sound-theme
+deepin-shortcut-viewer
+deepin-store
 >extra deepin-system-monitor
-deepin-wallpapers-temp-fix
+deepin-turbo
 deepin-terminal
 deepin-turbo
->extra deepin-voice-recorder
+>extra deepin-voice-note
+deepin-wallpapers-manjaro
+deepin-wallpapers-temp-fix
 >extra deluge
 dmidecode
 >extra downgrade
->extra evince
->extra evolution
 fakeroot
->extra file-roller
 firefox
 flex
->extra galculator
 >extra gcc
 >extra >multilib gcc-libs-multilib
 >extra >multilib gcc-multilib
 >extra gimp
 >extra git
->extra gparted
-grub-theme-manjaro-dev
+grub-theme-manjaro
 >extra gst-libav
 >extra gst-plugins-bad
 >extra gst-plugins-base
@@ -71,7 +86,6 @@ m4
 make
 manjaro-alsa
 manjaro-browser-settings
-#manjaro-deepin-settings
 manjaro-application-utility
 >extra manjaro-documentation-en
 manjaro-hello
@@ -83,7 +97,6 @@ mesa-demos
 mlocate
 mobile-broadband-provider-info
 modemmanager
->extra ms-office-online
 >multilib lib32-mesa-demos
 netctl
 networkmanager
@@ -93,19 +106,18 @@ networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
 ntp
+onboard
 openresolv
 pamac
 >extra pamac-snap-plugin
 patch
 >extra patchutils
 pkg-config
-polkit-gnome
 >extra poppler-data
 >extra powertop
 >extra pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
->extra qpdfview
 >extra redshift
 screenfetch
 >basic squashfs-tools
@@ -120,7 +132,6 @@ terminus-font
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
->extra xarchiver
 >extra xcursor-breeze
 #xdg-su
 xdg-utils

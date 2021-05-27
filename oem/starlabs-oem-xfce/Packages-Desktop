@@ -108,7 +108,6 @@ libopenraw         # tumbler - for RAW thumbnails
 light-locker
 network-manager-applet
 menulibre
-orage
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
 thunar-media-tags-plugin
@@ -228,6 +227,7 @@ xorg-server
 xorg-twm
 xorg-xinit
 xorg-xkill
+xorg-mkfontscale
 
 ## Desktop Utils
 perl-file-mimeinfo
@@ -254,4 +254,5 @@ xiccd # enable color profile settings
 calamares
 calamares-oem-modules
 calamares-oem-starlabs-xfce-settings
-starlabs-tweaks
+#starlabs-tweaks
+coreboot-configurator
