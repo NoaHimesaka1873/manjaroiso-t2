@@ -200,6 +200,6 @@ xorg-xinit
 grub-theme-manjaro
 manjaro-gnome-tour
 ## OEM
-calamares
-calamares-oem-modules
-calamares-oem-beelink-gnome-settings
+#calamares
+#calamares-oem-modules
+#calamares-oem-beelink-gnome-settings
