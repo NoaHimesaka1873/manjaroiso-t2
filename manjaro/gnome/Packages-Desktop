@@ -199,7 +199,5 @@ xorg-xinit
 >basic disable-tracker
 grub-theme-manjaro
 manjaro-gnome-tour
-## OEM
-#calamares
-#calamares-oem-modules
-#calamares-oem-beelink-gnome-settings
+### GIS
+gnome-initial-setup
