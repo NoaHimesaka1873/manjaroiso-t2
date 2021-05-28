@@ -89,7 +89,22 @@ illyria-wallpaper
 #manjaro-browser-settings
 manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
-manjaro-gnome-assets
+#manjaro-gnome-assets
+manjaro-gnome-settings
+manjaro-gdm-theme
+manjaro-gdm-branding
+gnome-shell
+#
+ttf-hack
+manjaro-base-skel
+illyria-wallpaper
+nerd-fonts-noto-sans-mono
+qgnomeplatform
+manjaro-gnome-extenstion-settings
+chrome-gnome-shell
+papirus-maia-icon-theme
+xcursor-breeze
+#
 gnome-layout-switcher
 manjaro-gnome-postinstall
 manjaro-hotfixes
@@ -201,3 +216,4 @@ grub-theme-manjaro
 manjaro-gnome-tour
 ### GIS
 gnome-initial-setup
+
