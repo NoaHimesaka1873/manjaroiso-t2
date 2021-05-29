@@ -20,6 +20,7 @@ evince
 >extra gdm-plymouth
 >extra plymouth-theme-manjaro
 gnome-shell-extension-gnome-ui-tune
+gnome-shell-extension-vertical-overview
 manjaro-gdm-theme
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
