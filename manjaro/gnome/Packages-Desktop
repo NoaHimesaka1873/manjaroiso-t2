@@ -91,21 +91,6 @@ illyria-wallpaper
 manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
 manjaro-gnome-assets
-#manjaro-gnome-settings
-#manjaro-gdm-theme
-#manjaro-gdm-branding
-#gnome-shell
-#
-#ttf-hack
-#manjaro-base-skel
-#illyria-wallpaper
-#nerd-fonts-noto-sans-mono
-#qgnomeplatform
-#manjaro-gnome-extension-settings
-#chrome-gnome-shell
-#papirus-maia-icon-theme
-#xcursor-breeze
-#
 gnome-layout-switcher
 manjaro-gnome-postinstall
 manjaro-hotfixes
@@ -215,6 +200,3 @@ xorg-xinit
 >basic disable-tracker
 grub-theme-manjaro
 manjaro-gnome-tour
-### GIS
-gnome-initial-setup
-
