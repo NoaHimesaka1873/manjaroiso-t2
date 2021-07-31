@@ -17,7 +17,6 @@
 >extra hplip
 
 ## Dependencies
->extra python-pyqt5  # hplip and firewalld-applet
 >extra python-gobject  # hplip
 
 ## Office
@@ -25,7 +24,7 @@
 
 ## MEDIA PACKAGES
 ### PLAYERS
->extra deadbeef
+>extra gogglesmm
 >extra smplayer
 >extra smplayer-skins
 >extra smplayer-themes
@@ -159,6 +158,7 @@ gparted
 arp-scan
 bind-tools
 firewalld
+python-pyqt5  # firewalld-applet
 net-tools
 network-manager-applet
 networkmanager-openvpn
@@ -173,9 +173,10 @@ whois
 manjaro-openbox-config
 manjaro-openbox-desktop-settings
 manjaro-openbox-scripts
-manjaro-pacbang-grub-theme
-manjaro-pacbang-gtk-theme
-manjaro-pacbang-wallpapers
+norse-theme
+#manjaro-pacbang-grub-theme
+#manjaro-pacbang-gtk-theme
+#manjaro-pacbang-wallpapers
 manjaro-zsh-config
 masalla-icon-theme
 terminus-font
@@ -215,8 +216,6 @@ polybar
 rofi
 sakura
 skippy-xd
-termite
-termite-terminfo
 tint2
 xcape
 xdialog

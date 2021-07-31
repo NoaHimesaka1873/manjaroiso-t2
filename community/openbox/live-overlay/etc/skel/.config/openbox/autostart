@@ -1,19 +1,10 @@
-### compositor
-sleep 1; manjaro-compositor --start &
 
-sleep 1; pcmanfm --desktop &
+sleep 1; pcmanfm -d --desktop &
 
-### launch polybar
-sleep 1; polybar -c ~/.config/polybar/config openbox-bar &
+sleep 1; tint2 -c ~/.config/tint2/Norse.tint2rc &
 
-### launch conky
-sleep 1; conky -c ~/.config/conky/KvFlatRed.conkyrc &
-
-## skippy
 sleep 1; skippy-xd --config ~/.config/skippy-xd/skippy-xd.rc --start-daemon &
 
-## super key for menu
 sleep 1; xcape -e 'Super_L=Alt_L|F1' &
 
-### PolicyKit authentication
 /usr/bin/lxpolkit &
