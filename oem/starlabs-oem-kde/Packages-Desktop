@@ -27,7 +27,6 @@ libcanberra
 >multilib lib32-libcanberra
 libcanberra-pulse
 >multilib lib32-libcanberra-pulse
-libcanberra-gstreamer
 libdvdcss
 manjaro-alsa
 manjaro-pulse
@@ -258,6 +257,7 @@ manjaro-browser-settings
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
+xf86-input-synaptics
 xf86-input-void
 
 ## Xorg Server and Graphics
@@ -298,3 +298,4 @@ calamares
 calamares-oem-modules
 calamares-oem-starlabs-kde-settings
 #starlabs-tweaks
+coreboot-configurator

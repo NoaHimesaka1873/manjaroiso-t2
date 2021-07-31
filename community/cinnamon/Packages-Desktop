@@ -20,7 +20,6 @@ dmidecode
 #>extra etcher
 fakeroot
 >extra ffmpegthumbnailer
->extra firefox
 flatpak
 flex
 gvfs-goa
@@ -150,6 +149,8 @@ xf86-input-evdev
 xf86-input-libinput
 xf86-input-void
 xorg-twm
+>extra vivaldi
+>extra vivaldi-ffmpeg-codecs
 xorg-xinit
 >extra xplayer
 >extra xreader

@@ -27,7 +27,6 @@ libcanberra
 >multilib lib32-libcanberra
 libcanberra-pulse
 >multilib lib32-libcanberra-pulse
-libcanberra-gstreamer
 libdvdcss
 manjaro-alsa
 manjaro-pulse

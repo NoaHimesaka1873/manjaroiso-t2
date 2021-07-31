@@ -1,4 +1,9 @@
+#Test
+grub-btrfs
+timeshift-autosnap
 adwaita-icon-theme
+qt5ct
+gtk3
 adwaita-maia
 alsa-firmware
 >extra alacarte
@@ -17,6 +22,8 @@ evince
 >basic gdm
 >extra gdm-plymouth
 >extra plymouth-theme-manjaro
+gnome-shell-extension-gnome-ui-tune
+gnome-shell-extension-vertical-overview
 manjaro-gdm-theme
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
@@ -84,12 +91,11 @@ manjaro-artwork
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
 illyria-wallpaper
-manjaro-browser-settings
+#manjaro-browser-settings
 manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
 manjaro-gnome-assets
 gnome-layout-switcher
-manjaro-gnome-postinstall
 manjaro-hotfixes
 manjaro-pulse
 manjaro-application-utility
