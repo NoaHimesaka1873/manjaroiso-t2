@@ -35,6 +35,10 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 
+## Btrfs
+grub-btrfs
+timeshift-autosnap-manjaro
+
 ## Connect Packages
 android-tools
 android-udev
