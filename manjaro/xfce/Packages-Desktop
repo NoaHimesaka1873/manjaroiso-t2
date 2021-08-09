@@ -16,7 +16,7 @@ usb_modeswitch
 
 ## Btrfs
 grub-btrfs
-timeshift-autosnap
+timeshift-autosnap-manjaro
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
