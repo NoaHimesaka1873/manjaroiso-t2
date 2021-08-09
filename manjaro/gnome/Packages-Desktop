@@ -17,9 +17,8 @@ dmidecode
 gthumb
 evince
 >extra manjaro-log-helper
->basic epiphany
->extra firefox
->extra firefox-gnome-theme-maia
+firefox
+firefox-gnome-theme-maia
 >extra rygel
 >basic gdm
 >extra gdm-plymouth
