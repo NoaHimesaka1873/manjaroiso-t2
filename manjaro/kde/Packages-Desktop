@@ -171,6 +171,7 @@ kdenetwork-filesharing
 #>extra kdenlive
 khelpcenter
 khotkeys
+kinit # for "Open in Terminal" action
 kio-extras
 #>extra kleopatra
 konsole
