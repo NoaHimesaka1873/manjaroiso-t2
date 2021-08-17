@@ -199,7 +199,6 @@ xorg-xinit
 >extra deja-dup
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
->extra manjaro-aur-support #introduce for testing in community
 >basic lighter-gnome
 >basic disable-tracker
 grub-theme-manjaro
