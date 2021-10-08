@@ -64,7 +64,7 @@ mkinitcpio-openswap
 nano
 nfs-utils
 ntfs-3g
-os-prober
+#os-prober
 pacman
 pciutils
 perl
