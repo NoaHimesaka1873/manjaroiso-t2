@@ -125,14 +125,7 @@
 >extra exo
 
 ###################################################3#
-# file manager (thunar)
-# basic text editing (xed, micro)
-# terminal emulator (termite, xterm)
-# xorg drivers (graphics, input)
-# audio drivers (alsa)
-# basic audio configuration tools (alsa)
-# web browser (firefox)
-
+## BASIC OPENBOX EDITION PACKAGES
 ## BACKUP - RECOVERY TOOLS
 timeshift
 testdisk
@@ -146,7 +139,7 @@ micro
 
 ## FILEMANAGER
 mc
-pcmanfm
+pcmanfm-gtk3
 
 ## WEB BROWSER
 firefox
@@ -198,41 +191,21 @@ norse-sddm-theme
 
 ## CONFIGURATION DEPENDENCIES
 arandr
-conky-lua-nv
 dunst
 fzf
 gpicview
 gsimplecal
 i3lock
 jgmenu
-kmscon
-libdrm
-libva
-nitrogen
 numlockx
 picom
-polybar
 rofi
 sakura
 skippy-xd
-termite
-termite-terminfo
 tint2
 xcape
 xdialog
 zenity
-
-#### POLYBAR DEPENDENCIES
-cairo
-curl
-jsoncpp
-libmpdclient
-libnl
-libpulse
-xcb-util-cursor
-xcb-util-image
-xcb-util-wm
-xcb-util-xrm
 
 ## CORE
 ### WINDOW MANAGER
