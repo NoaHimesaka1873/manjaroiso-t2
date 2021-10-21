@@ -1,3 +1,8 @@
+gnome-shell-extension-x11gestures
+grub-btrfs
+timeshift-autosnap-manjaro
+btrfsmaintenance
+touche
 adwaita-icon-theme
 qt5ct
 gtk3
@@ -12,9 +17,8 @@ dmidecode
 gthumb
 evince
 >extra manjaro-log-helper
->basic epiphany
->extra firefox
->extra firefox-gnome-theme-maia
+firefox
+firefox-gnome-theme-maia
 >extra rygel
 >basic gdm
 >extra gdm-plymouth
@@ -195,7 +199,6 @@ xorg-xinit
 >extra deja-dup
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
->extra manjaro-aur-support #introduce for testing in community
 >basic lighter-gnome
 >basic disable-tracker
 grub-theme-manjaro

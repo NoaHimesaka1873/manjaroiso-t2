@@ -121,7 +121,6 @@ udisks2
 
 ## Terminal
 qterminal
-termite
 
 ## package manager
 pamac-gtk

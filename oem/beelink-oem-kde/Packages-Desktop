@@ -1,7 +1,5 @@
 ## Beelink fingerprint
 libfprint-primex
-plasma-desktop-primex
-sddm-primex
 
 ## Beelink GTR AMD
 xf86-video-amdgpu
@@ -50,6 +48,10 @@ phonon-qt5-gstreamer
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
+ 
+## Btrfs
+grub-btrfs
+timeshift-autosnap-manjaro
 
 ## Connect Packages
 android-tools
@@ -69,7 +71,11 @@ udisks2
 ttf-dejavu
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
-noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+adobe-source-sans-pro-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-cn-fonts
 >extra noto-fonts-emoji
 terminus-font
 >extra ttf-inconsolata
@@ -92,7 +98,7 @@ pamac-cli
 >extra pamac-flatpak-plugin
 #discover-snap
 #discover
-#packagekit-qt5
+packagekit-qt5
 >extra fwupd 
 #octopi
 #octopi-cachecleaner
@@ -144,6 +150,7 @@ plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
 systemsettings
+plasma-browser-integration
 
 ## Themes QT/GTK/SDDM
 gnome-icon-theme
@@ -152,10 +159,11 @@ oxygen # needed to provide KDE system sounds
 oxygen-icons
 sddm-breath2-theme
 grub-theme-manjaro
+breeze-gtk
 illyria-wallpaper
->extra wallpapers-juhraya
->extra wallpapers-2018
->extra manjaro-wallpapers-18.0
+#>extra wallpapers-juhraya
+#>extra wallpapers-2018
+#>extra manjaro-wallpapers-18.0
 
 ## KDE Applications
 ark
@@ -177,10 +185,10 @@ kdenetwork-filesharing
 #>extra kdenlive
 khelpcenter
 khotkeys
+kinit # for "Open in Terminal" action
 kio-extras
 #>extra kleopatra
 konsole
-konversation
 ksystemlog
 kwalletmanager
 gwenview
@@ -232,9 +240,8 @@ sshfs  # remote filesystem browser
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
->extra cantata
+>extra elisa
 dmidecode # for inxi -m output
->extra etcher
 firefox
 htop
 inxi
@@ -246,6 +253,7 @@ manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
+plasma-systemmonitor
 powertop
 >extra qbittorrent
 screenfetch
@@ -253,6 +261,7 @@ systemd-kcm
 >extra thunderbird
 >extra vlc
 yakuake
+#matray
 
 ## Optional dependencis for cantata
 >extra mpd       # playback
@@ -266,13 +275,14 @@ yakuake
 manjaro-documentation-en
 
 ## Settings packages
-manjaro-kde-settings-19.0
+manjaro-kde-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
+xf86-input-synaptics
 xf86-input-void
 
 ## Xorg Server and Graphics

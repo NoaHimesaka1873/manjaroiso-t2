@@ -35,6 +35,10 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 
+## Btrfs
+grub-btrfs
+timeshift-autosnap-manjaro
+
 ## Connect Packages
 android-tools
 android-udev
@@ -80,7 +84,7 @@ pamac-cli
 >extra pamac-flatpak-plugin
 #discover-snap
 #discover
-#packagekit-qt5
+packagekit-qt5
 >extra fwupd 
 #octopi
 #octopi-cachecleaner
@@ -132,6 +136,7 @@ plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
 systemsettings
+plasma-browser-integration
 
 ## Themes QT/GTK/SDDM
 gnome-icon-theme
@@ -140,10 +145,11 @@ oxygen # needed to provide KDE system sounds
 oxygen-icons
 sddm-breath2-theme
 grub-theme-manjaro
+breeze-gtk
 illyria-wallpaper
->extra wallpapers-juhraya
->extra wallpapers-2018
->extra manjaro-wallpapers-18.0
+#>extra wallpapers-juhraya
+#>extra wallpapers-2018
+#>extra manjaro-wallpapers-18.0
 
 ## KDE Applications
 ark
@@ -165,10 +171,10 @@ kdenetwork-filesharing
 #>extra kdenlive
 khelpcenter
 khotkeys
+kinit # for "Open in Terminal" action
 kio-extras
 #>extra kleopatra
 konsole
-konversation
 ksystemlog
 kwalletmanager
 gwenview
@@ -220,13 +226,14 @@ sshfs  # remote filesystem browser
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
->extra cantata
+>extra elisa
 dmidecode # for inxi -m output
 firefox
 htop
 inxi
 #>extra krita
 #ms-office-online
+>extra onlyoffice-desktopeditors
 #>extra freeoffice
 #>extra libreoffice-still
 manjaro-hello
@@ -241,6 +248,7 @@ systemd-kcm
 >extra thunderbird
 >extra vlc
 yakuake
+matray
 
 ## Optional dependencis for cantata
 >extra mpd       # playback

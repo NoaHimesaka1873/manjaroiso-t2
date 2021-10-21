@@ -1,9 +1,14 @@
 # DO NOT EDIT! This file will be overwritten by LXAppearance.
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
+<<<<<<< HEAD
 include "/home/fh/.gtkrc-2.0.mine"
 gtk-theme-name="NixBoxFlatRed"
 gtk-icon-theme-name="gnome"
+=======
+gtk-theme-name="NorseSolid"
+gtk-icon-theme-name="Norse"
+>>>>>>> upstream/master
 gtk-font-name="Sans 10"
 gtk-cursor-theme-name="Vanilla-DMZ"
 gtk-cursor-theme-size=24

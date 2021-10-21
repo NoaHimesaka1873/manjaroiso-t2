@@ -6,11 +6,10 @@ autoconf
 automake
 avahi
 >extra baobab
-#>extra bauh
 binutils
 bison
 >extra blueman
-cinnamon-panel-chooser
+#cinnamon-panel-chooser
 cinnamon-sounds
 cinnamon-translations
 >extra cinnamon-wallpapers
@@ -20,6 +19,7 @@ dmidecode
 #>extra etcher
 fakeroot
 >extra ffmpegthumbnailer
+#>extra firefox
 flatpak
 flex
 gvfs-goa

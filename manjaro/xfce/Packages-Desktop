@@ -14,6 +14,10 @@ openssh
 samba
 usb_modeswitch
 
+## Btrfs
+grub-btrfs
+timeshift-autosnap-manjaro
+
 ## Libraries for Sound/Audio/Video
 alsa-firmware
 alsa-utils
@@ -176,6 +180,7 @@ inxi
 #>extra libreoffice-still
 #>extra microsoft-office-online-jak
 #>extra freeoffice
+>extra onlyoffice-desktopeditors
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager

@@ -1,0 +1,6 @@
+[Allow the gnome-initial-setup user to mount disks, set the locale, keyboard, date/time, control the network and create users without prompting]
+Identity=unix-user:gnome-initial-setup
+Action=org.freedesktop.udisks2.filesystem-mount-system;org.freedesktop.hostname1.*;org.freedesktop.NetworkManager.*;org.freedesktop.locale1.*;org.freedesktop.accounts.*;org.freedesktop.timedate1.*;org.freedesktop.realmd.*;org.freedesktop.RealtimeKit1.*
+ResultAny=yes
+ResultInactive=no
+ResultActive=yes

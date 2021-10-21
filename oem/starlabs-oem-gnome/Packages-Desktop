@@ -1,21 +1,30 @@
+gnome-shell-extension-x11gestures
+grub-btrfs
+timeshift-autosnap-manjaro
+btrfsmaintenance
+touche
 adwaita-icon-theme
+qt5ct
+gtk3
 adwaita-maia
 alsa-firmware
 >extra alacarte
 >extra apparmor
 >extra baobab
->extra webapp-manager
 >extra dconf-editor
+>extra webapp-manager
 dmidecode
 gthumb
 evince
-manjaro-log-helper
->extra mntray
->basic epiphany
->extra firefox
->extra firefox-gnome-theme-maia
+>extra manjaro-log-helper
+firefox
+firefox-gnome-theme-maia
 >extra rygel
-gdm
+>basic gdm
+>extra gdm-plymouth
+>extra plymouth-theme-manjaro
+gnome-shell-extension-gnome-ui-tune
+gnome-shell-extension-vertical-overview
 manjaro-gdm-theme
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
@@ -25,7 +34,6 @@ gnome-calculator
 gnome-control-center
 gnome-desktop
 gnome-disk-utility
-gnome-firmware
 >extra gnome-font-viewer
 gnome-keyring
 fprintd #need for finger id reader
@@ -45,6 +53,7 @@ gnome-tweak-tool
 >extra gnome-user-docs
 >extra gnome-user-share
 gnome-wallpapers
+gnome-firmware
 gparted
 papirus-maia-icon-theme
 >extra gnome-calendar
@@ -70,7 +79,6 @@ gvfs-google
 gvfs-smb
 ibus
 inxi
->extra etcher
 #cli tool#
 pacui
 mc
@@ -83,15 +91,13 @@ manjaro-artwork
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
 illyria-wallpaper
->extra libreoffice-still
-manjaro-browser-settings
+#manjaro-browser-settings
 manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
 manjaro-gnome-assets
->extra gnome-layout-switcher
+gnome-layout-switcher
 manjaro-hotfixes
 manjaro-pulse
-manjaro-hello
 manjaro-application-utility
 mesa-demos
 mobile-broadband-provider-info
@@ -109,6 +115,7 @@ networkmanager-pptp
 networkmanager-vpnc
 nss-mdns
 numlockx
+>extra onlyoffice-desktopeditors
 openresolv
 #gnome-software-snap
 #>extra flatpak
@@ -137,7 +144,11 @@ tracker
 tracker-miners
 >extra noto-fonts-compat
 noto-fonts               # default font
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+adobe-source-sans-pro-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-cn-fonts
 qgnomeplatform
 ttf-dejavu
 ttf-droid
@@ -158,7 +169,7 @@ xorg-mkfontscale
 xorg-server
 xorg-twm
 xorg-xinit
->extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
+>extra xf86-input-wacom 		#support for tablet and pen display ( wacom ecc. )
 >extra yelp
 >extra caffeine-ng
 >extra libappindicator-gtk3
@@ -170,8 +181,6 @@ xorg-xinit
 >extra lrzip
 >extra gtk3-print-backends
 >extra geary
->extra gnome-calendar
->extra evolution-data-server
 >extra lollypop
 >extra transmission-gtk
 >extra manjaro-documentation-en
@@ -186,7 +195,6 @@ xorg-xinit
 >extra deja-dup
 >extra kernel-alive
 >extra gnome-shell-extension-gsconnect
->extra manjaro-aur-support
 
 >basic lighter-gnome
 >basic disable-tracker

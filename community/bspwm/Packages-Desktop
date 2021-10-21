@@ -7,7 +7,7 @@
 >basic xlogin
 >extra accountsservice
 >extra adapta-maia-theme
->extra adwaita-maia-gtk3
+>extra adwaita-maia
 >extra compton
 >extra dconf
 >extra dunstify
@@ -107,7 +107,6 @@ tree
 udevil
 xcape
 xcursor-breeze
-xdg-su
 xdg-user-dirs
 xdg-utils
 xf86-input-elographics
