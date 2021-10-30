@@ -167,7 +167,7 @@ ms-office-online
 >extra manjaro-printer
 >extra ffmpegthumbnailer
 >extra timeshift
->extra kernel-alive
+#>extra kernel-alive
 >extra gnome-shell-extension-gsconnect
 
 #AUR complete support ( base devel + yaourt )
