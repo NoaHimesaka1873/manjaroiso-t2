@@ -293,7 +293,7 @@ perl-file-mimeinfo
 xdg-utils
 zensu
 >extra timeshift
->extra kernel-alive
+#>extra kernel-alive
 
 ## Misc
 manjaro-hotfixes
