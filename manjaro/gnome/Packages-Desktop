@@ -197,7 +197,7 @@ xorg-xinit
 >extra ffmpegthumbnailer
 >extra timeshift
 >extra deja-dup
->extra kernel-alive
+#>extra kernel-alive
 >extra gnome-shell-extension-gsconnect
 >basic lighter-gnome
 >basic disable-tracker
