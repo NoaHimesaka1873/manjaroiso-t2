@@ -126,7 +126,7 @@ caja-open-terminal
 >extra transmission-gtk
 >extra onlyoffice-desktopeditors
 timeshift 								#backup utility
->extra kernel-alive 					#after a kernel update this maintain usable the modules
+#>extra kernel-alive 					#after a kernel update this maintain usable the modules
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer
