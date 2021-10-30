@@ -194,7 +194,7 @@ lib32-mesa-vdpau
 >extra ffmpegthumbnailer
 >extra timeshift
 >extra thunderbird
->extra kernel-alive
+#>extra kernel-alive
 >extra gnome-shell-extension-gsconnect
 
 >basic lighter-gnome
