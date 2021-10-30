@@ -350,7 +350,7 @@ perl-file-mimeinfo
 xdg-utils
 #xdg-su
 >extra timeshift
->extra kernel-alive
+#>extra kernel-alive
 
 ## Misc
 manjaro-hotfixes
