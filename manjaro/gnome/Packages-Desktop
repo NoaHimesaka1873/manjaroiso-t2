@@ -186,7 +186,8 @@ xorg-xinit
 #>extra empathy
 #>extra telepathy
 #>extra uget
->extra transmission-gtk
+#>extra transmission-gtk
+>community fragments
 >extra manjaro-documentation-en
 #>extra jre8-openjdk
 #>extra jre8-openjdk-headless
