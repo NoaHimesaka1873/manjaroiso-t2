@@ -1,0 +1,12 @@
+[Containments][18]
+ItemGeometriesHorizontal=
+activityId=d4c67849-b8ba-44d2-a95e-7a40be3e0e3b
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][18][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Beelink/contents/images/5120x2880.jpg
