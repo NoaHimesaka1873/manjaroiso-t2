@@ -241,7 +241,7 @@ perl-file-mimeinfo
 xdg-utils
 zensu
 >extra timeshift
->extra kernel-alive
+#>extra kernel-alive
 gnome-firmware
 
 ## Misc

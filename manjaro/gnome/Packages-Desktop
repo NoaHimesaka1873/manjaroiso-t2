@@ -186,7 +186,8 @@ xorg-xinit
 #>extra empathy
 #>extra telepathy
 #>extra uget
->extra transmission-gtk
+#>extra transmission-gtk
+>extra fragments
 >extra manjaro-documentation-en
 #>extra jre8-openjdk
 #>extra jre8-openjdk-headless
@@ -197,7 +198,7 @@ xorg-xinit
 >extra ffmpegthumbnailer
 >extra timeshift
 >extra deja-dup
->extra kernel-alive
+#>extra kernel-alive
 >extra gnome-shell-extension-gsconnect
 >basic lighter-gnome
 >basic disable-tracker

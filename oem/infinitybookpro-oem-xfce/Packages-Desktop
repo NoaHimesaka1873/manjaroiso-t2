@@ -257,7 +257,7 @@ manjaro-hotfixes
 tuxedo-keyboard-dkms
 KERNEL-headers
 timeshift
-kernel-alive
+#kernel-alive
 
 ## OEM
 calamares-oem-modules
