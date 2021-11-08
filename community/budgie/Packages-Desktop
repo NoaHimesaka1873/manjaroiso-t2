@@ -145,7 +145,7 @@ yelp
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 timeshift
->extra kernel-alive
+#>extra kernel-alive
 >extra libdvdcss
 >extra steam-manjaro
 >extra manjaro-printer

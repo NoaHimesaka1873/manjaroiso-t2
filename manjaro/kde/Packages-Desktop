@@ -171,6 +171,7 @@ kdenetwork-filesharing
 #>extra kdenlive
 khelpcenter
 khotkeys
+kinit # for "Open in Terminal" action
 kio-extras
 #>extra kleopatra
 konsole
@@ -232,6 +233,7 @@ htop
 inxi
 #>extra krita
 #ms-office-online
+>extra onlyoffice-desktopeditors
 #>extra freeoffice
 #>extra libreoffice-still
 manjaro-hello
@@ -291,7 +293,7 @@ perl-file-mimeinfo
 xdg-utils
 zensu
 >extra timeshift
->extra kernel-alive
+#>extra kernel-alive
 
 ## Misc
 manjaro-hotfixes

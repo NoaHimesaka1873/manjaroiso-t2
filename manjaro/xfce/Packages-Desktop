@@ -180,6 +180,7 @@ inxi
 #>extra libreoffice-still
 #>extra microsoft-office-online-jak
 #>extra freeoffice
+>extra onlyoffice-desktopeditors
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
@@ -241,7 +242,7 @@ perl-file-mimeinfo
 xdg-utils
 #xdg-su
 >extra timeshift
->extra kernel-alive
+#>extra kernel-alive
 
 ## Misc
 gtkhash-thunar

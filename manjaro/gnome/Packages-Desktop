@@ -17,9 +17,8 @@ dmidecode
 gthumb
 evince
 >extra manjaro-log-helper
->basic epiphany
->extra firefox
->extra firefox-gnome-theme-maia
+firefox
+firefox-gnome-theme-maia
 >extra rygel
 >basic gdm
 >extra gdm-plymouth
@@ -187,7 +186,8 @@ xorg-xinit
 #>extra empathy
 #>extra telepathy
 #>extra uget
->extra transmission-gtk
+#>extra transmission-gtk
+>extra fragments
 >extra manjaro-documentation-en
 #>extra jre8-openjdk
 #>extra jre8-openjdk-headless
@@ -198,9 +198,8 @@ xorg-xinit
 >extra ffmpegthumbnailer
 >extra timeshift
 >extra deja-dup
->extra kernel-alive
+#>extra kernel-alive
 >extra gnome-shell-extension-gsconnect
->extra manjaro-aur-support #introduce for testing in community
 >basic lighter-gnome
 >basic disable-tracker
 grub-theme-manjaro

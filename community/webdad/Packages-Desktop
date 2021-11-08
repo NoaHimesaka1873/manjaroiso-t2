@@ -109,7 +109,7 @@ xorg-xinit
 >extra manjaro-printer
 >extra simple-scan 
 >extra ffmpegthumbnailer
->extra kernel-alive
+#>extra kernel-alive
 
 
 ## Package management
