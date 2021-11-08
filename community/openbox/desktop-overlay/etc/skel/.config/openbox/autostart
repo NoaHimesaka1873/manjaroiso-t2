@@ -11,7 +11,11 @@
 ### compositor
 ## if you are using nvdia graphics for best result use nvidia compositor
 ## don't enable if you are another compositor
+<<<<<<< HEAD
+sleep 1; manjaro-compositor --start &
+=======
 #sleep 1; manjaro-compositor --start &
+>>>>>>> upstream/master
 
 ### launch thunar in daemon mode for faster startup
 ### comment if you would rather use pcmanfm
@@ -19,7 +23,11 @@
 
 ### use desktop icons and pcmanfm as wallpaper manager
 ### comment nitrogen below
+<<<<<<< HEAD
+pcmanfm --desktop &
+=======
 pcmanfm -d --desktop &
+>>>>>>> upstream/master
 
 ### no desktop icons use nitrogen as wallpaper manager
 ### uncomment next line and comment pcmanfm above
@@ -28,11 +36,22 @@ pcmanfm -d --desktop &
 ### uncomment to have polybar with network status
 # sleep 1; polybar -c ~/.config/polybar/config openbox-bar &
 
+<<<<<<< HEAD
+### status bar with no network status
+sleep 1; polybar -c ~/.config/polybar/config openbox-bar-no-net &
+
+### comment/uncomment to disable/enable tint2 &
+#sleep 1; tint2 -c ~/.config/tint2/KvFlatRed.tint2rc &
+
+### comment/uncomment to disable/enable conky
+sleep 1; conky -c ~/.config/conky/KvFlatRed.conkyrc &
+=======
 ### comment/uncomment to disable/enable tint2 &
 sleep 1; tint2 -c ~/.config/tint2/Norse.tint2rc &
 
 ### comment/uncomment to disable/enable conky
 #sleep 1; conky -c ~/.config/conky/KvFlatRed.conkyrc &
+>>>>>>> upstream/master
 
 ## comment/uncomment to disable/enable skippy windowswitcher
 skippy-xd --config ~/.config/skippy-xd/skippy-xd.rc --start-daemon &

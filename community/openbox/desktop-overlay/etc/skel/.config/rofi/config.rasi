@@ -147,4 +147,8 @@ configuration {
 /*  xoffset: 0;*/
 /*  yoffset: 0;*/
 }
+<<<<<<< HEAD
+@import "themes/NixBoxFlatRed.rasi"
+=======
 @import "/usr/share/rofi/themes/Arc-Dark.rasi"
+>>>>>>> upstream/master
