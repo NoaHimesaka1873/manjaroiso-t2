@@ -76,9 +76,8 @@ pamac-gtk
 >extra pamac-flatpak-plugin
 
 ## Java
->extra jdk8-openjdk
->extra jre8-openjdk-headless
->extra jre8-openjdk
+#>extra jdk8-openjdk
+#>extra jre8-openjdk-headless
 
 ## Printing
 >extra manjaro-printer
