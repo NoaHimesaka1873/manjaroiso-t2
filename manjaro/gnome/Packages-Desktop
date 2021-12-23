@@ -189,8 +189,6 @@ xorg-xinit
 #>extra transmission-gtk
 >extra fragments
 >extra manjaro-documentation-en
-#>extra jre8-openjdk
-#>extra jre8-openjdk-headless
 >extra libdvdcss
 #>x86_64 >extra steam-manjaro
 >extra manjaro-printer

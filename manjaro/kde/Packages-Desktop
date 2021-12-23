@@ -246,10 +246,6 @@ systemd-kcm
 yakuake
 >extra matray
 
-## Optional dependencies for libreoffice
-#>extra jre8-openjdk
-#>extra jdk8-openjdk
-
 ## Documentation
 manjaro-documentation-en
 
