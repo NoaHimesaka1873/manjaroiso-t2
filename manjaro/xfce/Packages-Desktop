@@ -244,10 +244,4 @@ gtkhash-thunar
 manjaro-hotfixes
 >basic squashfs-tools
 xiccd # enable color profile settings
-
-## Handshake tools
-#faucet-tool
-#hnsd-git
-#hsd-git
-#veracrypt
-#cryptoseed
+tlp
