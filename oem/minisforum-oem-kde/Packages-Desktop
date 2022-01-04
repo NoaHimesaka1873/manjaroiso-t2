@@ -252,6 +252,9 @@ vivaldi
 #yakuake
 #matray
 
+## Paid Applications
+crossover-extras
+
 ## Optional dependencis for cantata
 >extra mpd       # playback
 >extra perl-uri  # dynamic playlist
