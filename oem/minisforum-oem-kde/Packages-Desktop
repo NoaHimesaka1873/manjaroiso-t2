@@ -146,13 +146,8 @@ gnome-icon-theme
 gnome-themes-standard
 oxygen # needed to provide KDE system sounds
 oxygen-icons
-#sddm-breath2-theme
 grub-theme-manjaro
-#breeze-gtk
-#illyria-wallpaper
-#>extra wallpapers-juhraya
-#>extra wallpapers-2018
-#>extra manjaro-wallpapers-18.0
+breeze-gtk
 
 ## KDE Applications
 ark
