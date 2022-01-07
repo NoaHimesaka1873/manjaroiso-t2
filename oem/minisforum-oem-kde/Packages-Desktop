@@ -109,7 +109,6 @@ manjaro-application-utility
 
 ## Optional dependencies for print-manager
 #>extra system-config-printer  # auto-detect the printer driver
-#>extra python-pysmbc          # SMB browser support
 
 ## Display manager
 sddm
@@ -228,7 +227,7 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 ## Applications
 >extra elisa
 dmidecode # for inxi -m output
-#firefox
+firefox
 htop
 inxi
 #>extra krita

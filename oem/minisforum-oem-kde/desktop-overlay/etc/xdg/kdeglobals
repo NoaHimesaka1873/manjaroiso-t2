@@ -1,4 +1,5 @@
 [General]
+BrowserApplication=vivaldi-stable.desktop
 ColorScheme=BreathDark
 Name=Breath Dark
 
