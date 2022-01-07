@@ -147,6 +147,7 @@ gnome-icon-theme
 gnome-themes-standard
 oxygen # needed to provide KDE system sounds
 oxygen-icons
+sddm-breath-theme
 grub-theme-manjaro
 breeze-gtk
 
