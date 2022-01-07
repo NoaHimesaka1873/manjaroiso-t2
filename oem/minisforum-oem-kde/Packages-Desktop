@@ -98,18 +98,18 @@ packagekit-qt5
 manjaro-application-utility
 
 ## Printing
->extra manjaro-printer
->extra gtk3-print-backends
+#>extra manjaro-printer
+#>extra gtk3-print-backends
 
 ## Optional dependencies for hplip
->extra python-pillow
->extra python-pip
->extra python-pyqt5
->extra python-reportlab
+#>extra python-pillow
+#>extra python-pip
+#>extra python-pyqt5
+#>extra python-reportlab
 
 ## Optional dependencies for print-manager
->extra system-config-printer  # auto-detect the printer driver
->extra python-pysmbc          # SMB browser support
+#>extra system-config-printer  # auto-detect the printer driver
+#>extra python-pysmbc          # SMB browser support
 
 ## Display manager
 sddm
@@ -157,7 +157,7 @@ ark
 dolphin
 dolphin-plugins
 >extra filelight
->extra k3b
+#>extra k3b
 kate
 kcalc
 >extra keditbookmarks
@@ -179,8 +179,8 @@ ksystemlog
 kwalletmanager
 gwenview
 partitionmanager
->extra print-manager
->extra skanlite
+#>extra print-manager
+#>extra skanlite
 spectacle
 
 ## Optional dependencies for ark
@@ -201,12 +201,12 @@ kimageformats     # support for dds, xcf, exr, psd, and more image formats
 qt5-imageformats  # support for tiff, webp, and more image formats
 
 ## Optional dependencies for k3b
->extra cdparanoia    # for cd ripping support
->extra cdrdao        # for disk-at-once (DAO) mode support
->extra dvd+rw-tools  # for dvd burning support
->extra emovix        # for bootable multimedia cd/dvd support
->extra transcode     # for advanced mpeg conversion support
->extra vcdimager     # for vcd burning support
+#>extra cdparanoia    # for cd ripping support
+#>extra cdrdao        # for disk-at-once (DAO) mode support
+#>extra dvd+rw-tools  # for dvd burning support
+#>extra emovix        # for bootable multimedia cd/dvd support
+#>extra transcode     # for advanced mpeg conversion support
+#>extra vcdimager     # for vcd burning support
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -228,7 +228,7 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 ## Applications
 >extra elisa
 dmidecode # for inxi -m output
-firefox
+#firefox
 htop
 inxi
 #>extra krita
