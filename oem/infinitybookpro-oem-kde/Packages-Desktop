@@ -167,9 +167,6 @@ wallpapers-2018
 manjaro-wallpapers-18.0
 wallpapers-tuxedo
 
-## Better systray/notifications support
-#sni-qt  # A Qt plugin that enables tray icons in qt4 applications
-
 ## KDE Applications
 ark
 #digikam
