@@ -143,13 +143,9 @@ gnome-icon-theme
 gnome-themes-standard
 oxygen # needed to provide KDE system sounds
 oxygen-icons
-sddm-breath2-theme
+sddm-breath-theme
 grub-theme-manjaro
 breeze-gtk
-illyria-wallpaper
-#>extra wallpapers-juhraya
-#>extra wallpapers-2018
-#>extra manjaro-wallpapers-18.0
 
 ## KDE Applications
 ark
@@ -157,7 +153,7 @@ ark
 dolphin
 dolphin-plugins
 >extra filelight
->extra k3b
+#>extra k3b
 kate
 kcalc
 >extra keditbookmarks
@@ -166,7 +162,7 @@ kdeconnect
 okular
 >extra >x86_64 kget
 >extra >x86_64 libktorrent
->extra >i686 kdenetwork-kget
+#>extra >i686 kdenetwork-kget
 kdenetwork-filesharing
 #>extra kdenlive
 khelpcenter
@@ -243,20 +239,12 @@ manjaro-settings-manager-knotifier
 plasma-systemmonitor
 powertop
 >extra qbittorrent
-screenfetch
+neofetch
 systemd-kcm
 >extra thunderbird
 >extra vlc
 yakuake
-matray
-
-## Optional dependencis for cantata
->extra mpd       # playback
->extra perl-uri  # dynamic playlist
-
-## Optional dependencies for libreoffice
-#>extra jre8-openjdk
-#>extra jdk8-openjdk
+>extra matray
 
 ## Documentation
 manjaro-documentation-en

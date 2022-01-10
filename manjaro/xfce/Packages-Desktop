@@ -75,11 +75,6 @@ pamac-gtk
 >extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
 
-## Java
->extra jdk8-openjdk
->extra jre8-openjdk-headless
->extra jre8-openjdk
-
 ## Printing
 >extra manjaro-printer
 
@@ -167,7 +162,7 @@ dmidecode # optional dependency inxi
 engrampa
 >extra firefox
 # >extra flashplugin
->extra galculator-gtk2
+>extra galculator
 gcolor2
 >extra gimp
 gparted
@@ -249,10 +244,4 @@ gtkhash-thunar
 manjaro-hotfixes
 >basic squashfs-tools
 xiccd # enable color profile settings
-
-## Handshake tools
-#faucet-tool
-#hnsd-git
-#hsd-git
-#veracrypt
-#cryptoseed
+tlp

@@ -1,0 +1,16 @@
+[General]
+BrowserApplication=vivaldi-stable.desktop
+ColorScheme=BreathDark
+Name=Breath Dark
+
+[Icons]
+Theme=breeze
+
+[KDE]
+SingleClick=false
+ChangeCursor=true
+ColorScheme=BreathDark
+LookAndFeelPackage=org.manjaro.minisforum.desktop
+DefaultLightLookAndFeel=org.manjaro.breath-light.desktop
+DefaultDarkLookAndFeel=org.manjaro.breath-dark.desktop
+widgetStyle=breeze

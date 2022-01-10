@@ -166,7 +166,7 @@ dmidecode # optional dependency inxi
 engrampa
 >extra firefox
 # >extra flashplugin
->extra galculator-gtk2
+>extra galculator
 gcolor2
 >extra gimp
 gparted
