@@ -82,13 +82,15 @@ editor_backup_extension=~
 editor_filesize_threshold=64M
 editor_stop_format_chars=-+*\\,.;:&>
 mcview_eof=
-skin=modarcon16-defbg
+skin=modarcon16root-defbg
 
 filepos_max_saved_entries=1024
 
+shadows=true
+
 [Layout]
 output_lines=0
-left_panel_size=40
+left_panel_size=58
 top_panel_size=0
 message_visible=true
 keybar_visible=true
@@ -117,6 +119,10 @@ xterm-termite=
 color_terminals=
 
 linux=
+
+xterm-256color=
+
+screen=
 
 [Panels]
 show_mini_info=true

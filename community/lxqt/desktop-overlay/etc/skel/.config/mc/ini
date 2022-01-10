@@ -86,9 +86,11 @@ skin=modarcon16-defbg
 
 filepos_max_saved_entries=1024
 
+shadows=true
+
 [Layout]
 output_lines=0
-left_panel_size=40
+left_panel_size=58
 top_panel_size=0
 message_visible=true
 keybar_visible=true
@@ -118,6 +120,12 @@ color_terminals=
 
 linux=
 
+xterm-256color=
+
+screen=
+
+alacritty=
+
 [Panels]
 show_mini_info=true
 kilobyte_si=false
@@ -138,6 +146,8 @@ permission_mode=false
 torben_fj_mode=false
 quick_search_mode=2
 select_flags=5
+
+simple_swap=false
 
 [Panelize]
 Find *.orig after patching=find . -name \\*.orig -print

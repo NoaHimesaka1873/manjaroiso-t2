@@ -1,134 +1,5 @@
 # OPENBOX PROFILE
 
-## PRINTING AND SCANNING
->extra cups
->extra cups-pdf
->extra cups-pk-helper
-
-### CUPS
->extra ghostscript
->extra gsfonts
->extra gutenprint
->extra splix
->extra system-config-printer
->extra simple-scan
-
-### HP printer
->extra hplip
-
-## Dependencies
->extra python-gobject  # hplip
-
-## Office
->extra libreoffice-fresh
-
-## MEDIA PACKAGES
-### PLAYERS
->extra gogglesmm
->extra smplayer
->extra smplayer-skins
->extra smplayer-themes
-
-### CODECS
->extra faad2
->extra ffmpeg
->extra flac
->extra imlib2
->extra libdvdcss
->extra libdvdnav
->extra libdvdread
->extra libmad
->extra libmicrodns
->extra libvorbis
->extra mpg123
->extra protobuf
->extra twolame
->extra zlib
-
-### PULSE AUDIO
->extra pamixer
->extra paprefs
->extra pasystray
->extra pavucontrol
->extra playerctl
->extra pulseaudio
->extra pulseaudio-alsa
-
-## SETTINGS MANAGER
->extra xfce4-settings
-
-## DISK TOOLS
->extra gnome-disk-utility
->extra mintstick
-
-## FILEMANAGER
->extra thunar
-
-### PLUGINS
->extra ffmpegthumbnailer
->extra poppler-data
->extra poppler-glib
->extra thunar-archive-plugin
->extra thunar-media-tags-plugin
->extra thunar-volman
->extra tumbler
-
-### GUI FILE SEARCH
->extra catfish
-
-### CLI FILE SEARCH
->extra mlocate
-
-### GUI ARCHIVE MANAGER
->extra engrampa
-
-### CLI ARCHIVE MANAGER
->extra p7zip
->extra unarchiver
->extra unzip
-
-### VFS MOUNT
->extra gvfs
->extra gvfs-mtp
->extra gvfs-nfs
->extra gvfs-smb
-
-### REMOVABLE DEVICES
->extra udiskie
->extra udisks2
-
-## COMMANDLINE UTILITIES
-### SYSINFO
->extra dmidecode
->extra upower
->extra hddtemp
->extra htop
->extra inxi
->extra ps_mem
->extra tree
-
-### IMAGE
->extra imagemagick
-
-## MANJARO APPLICATIONS
->extra manjaro-application-utility
->extra manjaro-documentation-en
->extra manjaro-hello
->extra manjaro-settings-manager
->extra mhwd
->extra pamac-cli
->extra pamac-gtk
-
-## MISC
->extra font-manager
->extra exo
-
-###################################################3#
-## BASIC OPENBOX EDITION PACKAGES
-## BACKUP - RECOVERY TOOLS
-timeshift
-testdisk
-
 ## PDFVIEW
 qpdfview
 
@@ -149,9 +20,7 @@ gparted
 ## NETWORK
 ### CLI UTILS
 arp-scan
-bind-tools
 firewalld
-python-pyqt5  # firewalld-applet
 net-tools
 network-manager-applet
 networkmanager-openvpn
@@ -215,6 +84,11 @@ obmenu-generator        # pipe menu generator
 openbox                 # window manager
 wmctrl
 
+## alsa
+alsa-utils
+alsa-firmware
+sof-firmware
+
 ### SYSTEM ICON THEMES
 adwaita-icon-theme
 gnome-icon-theme
@@ -224,17 +98,11 @@ gnome-themes-extra
 hicolor-icon-theme
 
 ### SYSTEM CURSOR THEME
-xcursor-vanilla-dmz
+xcursor-pinux
 
 ### SYSTEM FONTS
 freetype2
 ttf-dejavu
-
-### AUDIO FIRMWARE
-alsa-firmware
-alsa-lib
-alsa-plugins
-alsa-utils
 
 ### system
 accountsservice
@@ -249,12 +117,8 @@ squashfs-tools
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
-zensu
 
 ### XORG
-xf86-input-libinput
-xf86-video-dummy
-xf86-video-fbdev
 xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-fonts-type1
@@ -268,3 +132,13 @@ xorg-xinput
 xorg-xkill
 xorg-xprop
 xorg-xwininfo
+
+## Xorg drivers
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-vmmouse
+xf86-video-amdgpu
+xf86-video-dummy
+xf86-video-fbdev
+xf86-video-nouveau
+xf86-video-vesa

@@ -1,92 +1,24 @@
 #-------------------------------------------------
-# LXQT MINIMAL/FULL PROFILE
-
-## Extra Network packages
->extra mobile-broadband-provider-info
->extra modemmanager-qt
->extra networkmanager-openconnect
->extra networkmanager-pptp
->extra networkmanager-vpnc
->extra nss-mdns
->extra usb_modeswitch
-
-## Apps and Libraries for Sound/Audio/Video
->extra faad2
->extra ffmpeg
->extra flac
->extra imlib2
->extra libdvdcss
->extra libdvdread
->extra libdvdnav
->extra libmad
->extra libmicrodns
->extra libvorbis
->extra mpg123
->extra protobuf
->extra smplayer
->extra smplayer-skins
->extra smplayer-themes
->extra smtube
->extra twolame
-
-## Printer
-## meta-pkg manjaro-printer
->extra cups
->extra cups-pdf
->extra cups-pk-helper
->extra ghostscript
->extra gsfonts
->extra gutenprint
->extra hplip
->extra python-gobject
->extra splix
->extra system-config-printer
->extra simple-scan
-
-## Internet applications
->extra trojita
-
-#-------------------------------------------------
 # EDITION BASE PACKAGES
 
 ## gui tools
 gparted
-mintstick
 
 ## webbrowser
 firefox
 
-## bluetooth device management
-blueman
-pulseaudio-bluetooth
-
 ## text edit and notes
 featherpad
-feathernotes
-
-## audio support
-alsa-firmware
-alsa-plugins
-alsa-utils
-pamixer
-paprefs
-pasystray
-pavucontrol-qt
-playerctl
-pulseaudio
-pulseaudio-alsa
-pulseaudio-ctl
-pulseaudio-zeroconf
 
 ## edition theming and settings
 arc-themes-maia
-kvantum-manjaro
+kvantum-qt5
 manjaro-grub-theme-sunset
 manjaro-icons
 manjaro-lxqt-config
 manjaro-lxqt-desktop-settings
 manjaro-lxqt-theme-arc-maia
-manjaro-slick-greeter-theme-sunset
+manjaro-lxqt-theme-kvflatred
 papirus-icon-theme
 papirus-maia-icon-theme
 ttf-fira-code
@@ -94,10 +26,7 @@ ttf-fira-mono
 ttf-fira-sans
 wallpapers-juhraya
 xcursor-breeze
-
-## display manager and greeter
-sddm
-norse-sddm-theme
+norse-theme
 
 ## office
 qpdfview
@@ -107,24 +36,13 @@ lximage-qt
 ttf-dejavu
 
 ## filemanager
-android-tools
-android-udev
 gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
 pcmanfm-qt
 udiskie
 udisks2
 
 ## Terminal
 qterminal
-
-## package manager
-pamac-gtk
-pamac-cli
 
 ## basic utilities
 dmidecode
@@ -137,12 +55,10 @@ xclip
 xsel
 
 ## network
-blueman
 firewalld
 network-manager-applet
 networkmanager-openvpn
 networkmanager-qt
-openresolv
 openssh
 
 ## core
@@ -164,11 +80,18 @@ picom
 python-pyqt5
 xscreensaver
 
+## DISPLAY MANAGER
+sddm
+norse-sddm-theme
+
+## ALSA
+alsa-utils
+alsa-firmware
+sof-firmware
+
 ## settings manager
-manjaro-application-utility
 manjaro-documentation-en
 manjaro-hello
-manjaro-settings-manager
 obconf-qt
 
 ## system icons
@@ -179,8 +102,12 @@ gnome-icon-theme-symbolic
 gnome-themes-extra
 hicolor-icon-theme
 
+## cursor
+xcursor-pinux
+
 ## system fonts
 freetype2
+ttf-dejavu
 
 ## system
 accountsservice
@@ -192,11 +119,9 @@ squashfs-tools
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
-zensu
 zlib
 
 ## xorg
-xf86-input-libinput
 xorg-server
 xorg-server-common
 xorg-twm
@@ -207,3 +132,13 @@ xorg-xkill
 xorg-xprop
 xsettingsd
 xterm
+
+## Xorg drivers
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-vmmouse
+xf86-video-amdgpu
+xf86-video-dummy
+xf86-video-fbdev
+xf86-video-nouveau
+xf86-video-vesa
