@@ -101,7 +101,6 @@ pamac-snap-plugin
 #discover
 #packagekit-qt5
 flatpak
-bauh
 fwupd
 #pamac-qt
 manjaro-application-utility

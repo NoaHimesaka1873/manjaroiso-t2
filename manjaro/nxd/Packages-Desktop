@@ -100,7 +100,6 @@ pamac-cli
 #discover
 #packagekit-qt5
 >extra flatpak
->extra bauh
 >extra fwupd 
 #octopi
 #octopi-cachecleaner

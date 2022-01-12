@@ -6,7 +6,6 @@ autoconf
 automake
 avahi
 >extra baobab
->extra bauh
 binutils
 bison
 >extra brasero

@@ -115,7 +115,6 @@ numlockx
 openresolv
 #gnome-software-snap
 #>extra flatpak
-#>extra bauh
 pamac-gtk
 #>extra snapd
 #>extra snapd-glib

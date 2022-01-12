@@ -82,7 +82,6 @@ ttf-droid
 pamac-gtk
 pamac-snap-plugin
 flatpak
-bauh
 
 ## Java
 jdk8-openjdk
