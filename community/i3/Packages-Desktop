@@ -4,7 +4,6 @@ alsa-plugins
 alsa-utils
 >extra apparmor
 arandr
->extra bauh
 >basic i3-default-artwork
 >extra artwork-i3
 autoconf
