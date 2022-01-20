@@ -1,4 +1,3 @@
 session.menuFile:		~/.fluxbox/menu
 session.keyFile:		~/.fluxbox/keys
-session.styleFile:		/usr/share/fluxbox/styles/vertex-maia
 session.configVersion:	13
