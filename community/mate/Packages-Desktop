@@ -39,7 +39,7 @@ gnome-disk-utility
 gnome-keyring
 manjaro-mate-settings
 manjaro-application-utility
-# mc # Midnight Commander
+mc # Midnight Commander
 pacui
 mhwd-tui
 xterm
