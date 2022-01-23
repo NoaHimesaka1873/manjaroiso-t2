@@ -62,7 +62,7 @@ inxi
 imagewriter
 kvantum-theme-matcha
 kvantum-theme-matchama
-mc # Midnight Commander
+# mc # Midnight Commander
 #pacui
 mhwd-tui
 manjaro-alsa
