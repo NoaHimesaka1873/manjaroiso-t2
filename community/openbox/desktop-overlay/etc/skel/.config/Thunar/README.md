@@ -17,7 +17,7 @@
     <icon>nix-root-console</icon>
     <name>Open Thunar as ROOT</name>
     <unique-id>1521317741628820-3</unique-id>
-    <command>gksu thunar </command>
+    <command>pkexec thunar %f </command>
     <description>Opening Thunar as ROOT</description>
     <patterns>*</patterns>
     <directories/>
