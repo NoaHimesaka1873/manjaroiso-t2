@@ -136,7 +136,6 @@ lxterminal
 >extra blueman
 >extra ffmpegthumbnailer  # tumbler - for video thumbnails
 >extra freetype2          # tumbler - for font thumbnails
->extra gksu
 >extra gnome-keyring      # fix wlan segfault
 >extra libgsf             # tumbler - for ODF thumbnails
 >extra libopenraw         # tumbler - for RAW thumbnails
