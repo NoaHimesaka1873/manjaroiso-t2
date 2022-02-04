@@ -52,7 +52,6 @@ xsel
 ## qt5 theme handling
 kvantum-qt5
 qt5ct
-qt5-styleplugins
 
 ## network
 firewalld
