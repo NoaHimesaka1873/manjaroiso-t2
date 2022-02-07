@@ -38,7 +38,7 @@ jobs:
         with:
           access_token: ${{ github.token }}
       - id: image-build
-        uses: manjaro/manjaro-iso-action@main
+        uses: NoaHimesaka1873/manjaro-iso-action@senpai
         with:
           iso-profiles-repo: "https://github.com/NoaHimesaka1873/manjaroiso-t2"
           edition: ${{ matrix.edition }}
