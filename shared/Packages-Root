@@ -94,4 +94,7 @@ wget
 which
 wpa_supplicant
 xfsprogs
-
+linux-t2
+linux-t2-headers
+linux-t2-docs
+apple-bcm-wifi-firmware
