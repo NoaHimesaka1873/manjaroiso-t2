@@ -191,7 +191,7 @@ xorg-xinit
 >extra simple-scan 
 >extra ffmpegthumbnailer
 >extra timeshift
->extra deja-dup
+#>extra deja-dup
 #>extra kernel-alive
 >extra gnome-shell-extension-gsconnect
 >basic lighter-gnome
