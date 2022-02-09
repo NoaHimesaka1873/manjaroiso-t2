@@ -131,7 +131,6 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 >extra simple-scan
->basic squashfs-tools
 sushi
 alsa-utils
 avahi
@@ -175,6 +174,8 @@ xorg-xinit
 >extra unrar
 >extra unace
 >extra lrzip
+>extra squashfs-tools
+
 >extra geary
 >extra gnome-calendar
 >extra lollypop
