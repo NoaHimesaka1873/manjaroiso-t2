@@ -37,7 +37,6 @@ gnome-disk-utility
 >extra gnome-font-viewer
 gnome-keyring
 fprintd #need for finger id reader
->extra gnome-online-accounts
 >extra gnome-contacts
 gnome-screenshot
 gnome-session
