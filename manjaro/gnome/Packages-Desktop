@@ -50,7 +50,7 @@ gnome-system-monitor
 gnome-terminal
 gnome-themes-standard
 gnome-tweak-tool
->extra gnome-user-docs
+gnome-user-docs
 >extra gnome-user-share
 gnome-wallpapers
 gnome-firmware
@@ -162,7 +162,6 @@ xorg-server
 xorg-twm
 xorg-xinit
 >extra xf86-input-wacom 		#support for tablet and pen display ( wacom ecc. )
->extra yelp
 >extra caffeine-ng
 >extra libappindicator-gtk3
 
