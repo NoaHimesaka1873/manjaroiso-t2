@@ -95,9 +95,9 @@ gvfs-mtp
 gvfs-nfs
 gvfs-smb
 mutter
->extra rygel
+>extra rygel                       # optional for gnome-control-center
 sushi
-#tracker3-miners                   # required by nautilus
+tracker3-miners
 >extra vino
 xdg-user-dirs-gtk
 #gnome-books
