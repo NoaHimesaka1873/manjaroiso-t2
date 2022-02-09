@@ -139,8 +139,6 @@ networkmanager
 ntp
 openssh
 totem
-tracker
-tracker-miners
 >extra noto-fonts-compat
 noto-fonts               # default font
 #noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
@@ -197,5 +195,4 @@ xorg-xinit
 #>extra kernel-alive
 >extra gnome-shell-extension-gsconnect
 >basic lighter-gnome
->basic disable-tracker
 grub-theme-manjaro
