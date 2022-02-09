@@ -51,7 +51,7 @@ pamac-gnome-integration
 >extra manjaro-printer
 
 ## GNOME group
->extra gnome-calendar
+gnome-calendar
 >extra gnome-contacts
 >extra baobab
 >extra simple-scan
@@ -72,7 +72,7 @@ gnome-disk-utility
 gnome-system-monitor
 #epiphany                          # Firefox included as default browser
 gnome-screenshot
-totem
+# totem                            # celluloid included instead
 >extra gnome-weather
 gdm
 gnome-backgrounds
@@ -83,7 +83,7 @@ gnome-session
 gnome-settings-daemon
 gnome-shell-extensions
 gnome-user-docs
->extra gnome-user-share
+>extra gnome-user-share            # optional for gnome-control-center
 #gnome-video-effects               # required by cheese
 grilo-plugins
 gvfs
@@ -101,10 +101,12 @@ tracker3-miners
 >extra vino
 xdg-user-dirs-gtk
 #gnome-books
-#eog
+#eog                               # gthumb included instead
 nautilus
 #orca
+#gnome-music                       # lollypop included instead
 #gnome-photos
+#gnome-software                    # pamac-gtk used instead
 gnome-terminal
 #tracker                           # deprecated
 #tracker-miners                    # deprecated
@@ -201,7 +203,8 @@ usb_modeswitch
 xdg-utils
 >extra caffeine-ng
 >extra libappindicator-gtk3
->extra lollypop
+lollypop
+celluloid
 >extra fragments
 >extra ffmpegthumbnailer
 
