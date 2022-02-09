@@ -32,7 +32,7 @@ ttf-liberation
 noto-fonts                         # default font
 >extra noto-fonts-compat
 # >extra noto-fonts-emoji
-#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+#noto-fonts-cjk                    # asian fonts - large package, ~76 mb compressed
 adobe-source-sans-pro-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
@@ -229,7 +229,7 @@ xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
 xf86-input-void
->extra xf86-input-wacom 		#support for tablet and pen display ( wacom ecc. )
+>extra xf86-input-wacom            # support for Wacom tablet and pen display
 
 ## Xorg Server
 numlockx
