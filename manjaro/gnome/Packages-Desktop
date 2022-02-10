@@ -102,15 +102,11 @@ gnome-terminal
 #tracker                           # deprecated
 #tracker-miners                    # deprecated
 
-## GNOME Extra group
+## GNOME Extra applications
 >extra dconf-editor
 >extra geary
-#gnome-chess
-#gnome-mines
-#iagno
 gnome-tweaks
 #gnome-usage
-#quadrapassel
 #gnome-sound-recorder
 >extra gnome-todo
 #accerciser
@@ -126,6 +122,16 @@ gnome-tweaks
 #gnome-code-assistance
 #gnome-devel-docs
 #ghex
+#gnome-multi-writer
+#polari
+#gnome-recipes
+#sysprof
+
+## GNOME Extra games
+>extra gnome-chess
+>extra gnome-mines
+>extra iagno
+>extra quadrapassel
 #hitori
 #gnome-klotski
 #gnome-mahjongg
@@ -136,11 +142,7 @@ gnome-tweaks
 #gnome-taquin
 #gnome-tetravex
 #lightsoff
-#gnome-multi-writer
-#polari
-#gnome-recipes
 #swell-foop
-#sysprof
 #tali
 
 ## GNOME Shell Extensions
