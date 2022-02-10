@@ -218,7 +218,6 @@ celluloid
 ## Xorg Server
 xorg-mkfontscale
 xorg-twm
-xorg-xinit
 
 ## Misc
 >basic squashfs-tools
