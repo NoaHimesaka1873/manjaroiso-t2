@@ -213,6 +213,7 @@ celluloid
 >extra manjaro-documentation-en
 
 ## Settings packages
+manjaro-base-skel
 >extra manjaro-gnome-assets
 >extra lighter-gnome
 #manjaro-browser-settings
