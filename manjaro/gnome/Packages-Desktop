@@ -250,6 +250,6 @@ xorg-xinit
 
 ## Matti's corner
 pacui
-manjaro-ranger-settings
+# manjaro-ranger-settings          # dependency atool only in AUR
 bmenu
 
