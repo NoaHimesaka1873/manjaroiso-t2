@@ -10,7 +10,7 @@ openresolv                         # optional for networkmanager
 
 ## Btrfs
 grub-btrfs
-timeshift-autosnap-manjaro
+>extra timeshift-autosnap-manjaro
 btrfsmaintenance
 
 ## Libraries for Sound/Audio/Video
