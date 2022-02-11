@@ -1,12 +1,16 @@
 ## Network
+networkmanager
 >extra networkmanager-openconnect
 >extra networkmanager-openvpn
 >extra networkmanager-pptp
 >extra network-manager-sstp
->extra networkmanager-strongswan
+>extra network-manager-strongswan
 >extra networkmanager-vpnc
+ntp
 >extra modemmanager                # optional for networkmanager
 openresolv                         # optional for networkmanager
+>extra openssh                     # optional for gnome-control-center
+>extra nss-mdns                    # optional for avahi; avahi required by gvfs
 
 ## Btrfs
 grub-btrfs
@@ -20,6 +24,11 @@ manjaro-pulse
 >extra libdvdcss
 
 ## Fonts
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
 noto-fonts                         # default font
 >extra noto-fonts-compat
 # >extra noto-fonts-emoji
@@ -169,6 +178,7 @@ qgnomeplatform
 
 ## Applications
 >extra apparmor
+inxi
 >extra touche
 >extra alacarte
 >extra webapp-manager
@@ -195,6 +205,7 @@ nautilus-empty-file
 polkit-gnome
 >extra timeshift
 usb_modeswitch
+xdg-utils
 >extra caffeine-ng
 >extra libappindicator-gtk3
 lollypop
@@ -209,6 +220,10 @@ celluloid
 >extra lrzip
 >extra squashfs-tools
 
+## Optional dependencies for inxi
+dmidecode
+mesa-utils
+
 ## Documentation
 >extra manjaro-documentation-en
 
@@ -219,11 +234,18 @@ manjaro-base-skel
 #manjaro-browser-settings
 
 ## Xorg Input Drivers
+>extra xf86-input-elographics
+>extra xf86-input-evdev
+>extra xf86-input-libinput
+>extra xf86-input-void
 >extra xf86-input-wacom            # support for Wacom tablet and pen display
 
 ## Xorg Server
+numlockx
 xorg-mkfontscale
+xorg-server
 xorg-twm
+xorg-xinit
 
 ## Misc
 >basic squashfs-tools
