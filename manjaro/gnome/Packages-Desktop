@@ -214,13 +214,17 @@ celluloid
 >extra fragments
 >extra ffmpegthumbnailer
 >extra cheese
+>extra gtkhash-nautilus
+#manjaro-gnome-vanilla
+#tlp
+>extra power-profiles-daemon       # optional for gnome-control-center
 
 ## Optional dependencies for file-roller
 >extra p7zip
 >extra unrar
 >extra unace
 >extra lrzip
->extra squashfs-tools
+>basic squashfs-tools
 
 ## Optional dependencies for inxi
 dmidecode
@@ -244,12 +248,6 @@ xorg-mkfontscale
 xorg-server
 xorg-twm
 xorg-xinit
-
-## Misc
->basic squashfs-tools
->extra gtkhash-nautilus
-#manjaro-gnome-vanilla
-#tlp
 
 ## Matti's corner
 >extra pacui
