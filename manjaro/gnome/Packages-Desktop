@@ -218,6 +218,7 @@ celluloid
 #manjaro-gnome-vanilla
 #tlp
 >extra power-profiles-daemon       # optional for gnome-control-center
+>extra gnome-appfolders-manager
 
 ## Optional dependencies for file-roller
 >extra p7zip
