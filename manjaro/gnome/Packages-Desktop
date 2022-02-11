@@ -236,11 +236,7 @@ manjaro-base-skel
 #manjaro-browser-settings
 
 ## Xorg Input Drivers
->extra xf86-input-elographics
->extra xf86-input-evdev
->extra xf86-input-libinput
->extra xf86-input-void
->extra xf86-input-wacom            # support for Wacom tablet and pen display
+>extra manjaro-input
 
 ## Xorg Server
 numlockx
