@@ -18,9 +18,9 @@ grub-btrfs
 btrfsmaintenance
 
 ## Libraries for Sound/Audio/Video
-manjaro-alsa
-manjaro-gstreamer
-manjaro-pulse
+>extra manjaro-alsa
+>extra manjaro-gstreamer
+>extra manjaro-pulse
 >extra libdvdcss
 
 ## Fonts
