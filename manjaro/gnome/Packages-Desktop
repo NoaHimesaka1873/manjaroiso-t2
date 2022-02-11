@@ -114,7 +114,7 @@ gnome-terminal
 ## GNOME Extra applications
 >extra dconf-editor
 >extra geary
-gnome-tweaks
+>extra gnome-tweaks
 #gnome-usage
 #gnome-sound-recorder
 >extra gnome-todo
@@ -213,6 +213,7 @@ lollypop
 celluloid
 >extra fragments
 >extra ffmpegthumbnailer
+>extra cheese
 
 ## Optional dependencies for file-roller
 >extra p7zip
