@@ -4,7 +4,7 @@ networkmanager
 >extra networkmanager-openvpn
 >extra networkmanager-pptp
 >extra network-manager-sstp
->extra network-manager-strongswan
+>extra networkmanager-strongswan
 >extra networkmanager-vpnc
 ntp
 >extra modemmanager                # optional for networkmanager
