@@ -81,7 +81,7 @@ perl
 reiserfsprogs
 rsync
 s-nail
-sof-firmware
+sof-firmwares
 spectre-meltdown-checker
 sudo
 sysfsutils
@@ -94,4 +94,7 @@ wget
 which
 wpa_supplicant
 xfsprogs
+dkms
 apple-bcm-wifi-firmware
+apple-bce-dkms-git
+apple-ibridge-dkms-git
