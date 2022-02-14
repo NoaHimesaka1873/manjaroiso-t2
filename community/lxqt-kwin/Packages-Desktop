@@ -1,0 +1,135 @@
+#-------------------------------------------------
+# EDITION BASE PACKAGES
+
+## APPLICATIONS
+feathernotes
+featherpad
+firefox
+gparted
+qpdfview
+
+## REMOVABLE FILE SYSTEM
+gvfs
+udiskie
+udisks2
+
+## TERMINAL EMULATOR
+konsole
+
+## CLI UTILILTIES
+bash-completion
+dmidecode
+htop
+inxi
+micro
+numlockx
+powertop
+xclip
+xsel
+
+## network
+firewalld
+network-manager-applet
+networkmanager-openvpn
+networkmanager-qt
+openssh
+
+## DOCK
+plank
+
+## MANJARO SETTINGS MANAGER
+manjaro-settings-manager
+
+## BASE FONTS
+freetype2
+noto-fonts
+ttf-dejavu
+
+## Qt
+kvantum
+
+## kwin theme and icon
+breeze
+breeze-gtk
+breeze-icons
+xcursor-breeze
+
+## gtk theme and icons
+adwaita-icon-theme
+gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-themes-extra
+hicolor-icon-theme
+
+## DISPLAY MANAGER
+sddm
+
+## WINDOW MANAGER
+kwin
+#systemsettings
+
+## CORE
+lximage-qt
+lxqt-about
+lxqt-admin
+lxqt-archiver
+lxqt-config
+lxqt-globalkeys
+lxqt-notificationd
+lxqt-openssh-askpass
+lxqt-panel
+lxqt-policykit
+lxqt-powermanagement
+lxqt-qtplugin
+lxqt-runner
+lxqt-session
+lxqt-sudo
+pcmanfm-qt
+
+## ALSA
+alsa-utils
+alsa-firmware
+pavucontrol-qt
+pipewire-alsa
+pipewire
+pipewire-v4l2
+pipewire-zeroconf
+sof-firmware
+
+## SYSTEM
+accountsservice
+gnome-keyring
+perl-file-mimeinfo
+polkit
+python-pyxdg
+squashfs-tools
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
+zlib
+
+## xorg
+xlockmore
+xorg-server
+xorg-server-common
+xorg-server-xephyr
+xorg-twm
+xorg-xbacklight
+xorg-xinit
+xorg-xinput
+xorg-xkill
+xorg-xprop
+xsettingsd
+xsettings-client
+xscreensaver
+
+## Xorg drivers
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-vmmouse
+xf86-video-amdgpu
+xf86-video-dummy
+xf86-video-fbdev
+xf86-video-nouveau
+xf86-video-vesa
