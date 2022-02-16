@@ -21,6 +21,7 @@ bash-completion
 dmidecode
 htop
 inxi
+mc
 micro
 numlockx
 powertop
@@ -44,6 +45,7 @@ manjaro-settings-manager
 freetype2
 noto-fonts
 ttf-dejavu
+ttf-hack
 
 ## Qt
 kvantum
@@ -123,7 +125,7 @@ xorg-xprop
 xsettingsd
 xsettings-client
 xscreensaver
-xterm
+#xterm
 
 ## Xorg drivers
 xf86-input-evdev

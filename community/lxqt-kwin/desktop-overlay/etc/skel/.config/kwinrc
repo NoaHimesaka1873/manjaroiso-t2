@@ -15,3 +15,7 @@ Name_3=Desk 3
 Name_4=Desk 4
 Number=4
 Rows=1
+
+[Plugins]
+magiclampEnabled=true
+wobblywindowsEnabled=true
