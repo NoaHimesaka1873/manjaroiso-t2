@@ -112,7 +112,6 @@ xdg-utils
 zlib
 
 ## xorg
-xlockmore
 xorg-server
 xorg-server-common
 xorg-server-xephyr
