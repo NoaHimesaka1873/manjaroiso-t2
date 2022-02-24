@@ -39,7 +39,7 @@ bspwm-wallpapers
 compton
 compton-conf
 dbus-x11
-dunstify
+#dunstify
 desktop-file-utils
 dconf-editor
 feh
