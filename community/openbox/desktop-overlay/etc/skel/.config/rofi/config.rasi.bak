@@ -11,7 +11,7 @@ configuration {
 /*  color-normal: ;*/
 /*  color-urgent: ;*/
 /*  color-window: ;*/
-/*  columns: 1;*/
+    columns: 5;
 /*  combi-hide-mode-prefix: false;*/
 /*  combi-modi: "window,run";*/
 /*  cycle: true;*/
@@ -147,4 +147,4 @@ configuration {
 /*  xoffset: 0;*/
 /*  yoffset: 0;*/
 }
-@import "/usr/share/rofi/themes/Adapta-Nokto.rasi"
+@import "/usr/share/rofi/themes/Arc-Dark.rasi"

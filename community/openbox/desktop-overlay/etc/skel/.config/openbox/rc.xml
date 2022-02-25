@@ -19,31 +19,31 @@
     <primaryMonitor>Mouse</primaryMonitor>
   </placement>
   <theme>
-    <name>PacBang</name>
+    <name>NorseSolid</name>
     <titleLayout>NLIMC</titleLayout>
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
       <name>Sans</name>
-      <size>12</size>
+      <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
       <name>Sans</name>
-      <size>11</size>
+      <size>9</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
       <name>Sans</name>
-      <size>12</size>
+      <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuItem">
       <name>Sans</name>
-      <size>11</size>
+      <size>9</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
