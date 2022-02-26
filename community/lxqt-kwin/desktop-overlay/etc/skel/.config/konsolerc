@@ -1,7 +1,8 @@
 [Desktop Entry]
-DefaultProfile=qt-bash.profile
+DefaultProfile=core-qt-bash.profile
 
-[MainWindow]
+[KonsoleWindow]
+RememberWindowSize=false
 
 [UiSettings]
 ColorScheme=Default

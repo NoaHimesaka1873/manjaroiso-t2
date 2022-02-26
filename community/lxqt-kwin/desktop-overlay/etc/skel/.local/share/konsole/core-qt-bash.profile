@@ -3,7 +3,7 @@ Font=Hack,10,-1,5,50,0,0,0,0,0
 
 [General]
 Command=/bin/bash
-Name=qt-bash
+Name=core-qt-bash
 Parent=FALLBACK/
-TerminalColumns=80
-TerminalRows=24
+TerminalColumns=120
+TerminalRows=30
