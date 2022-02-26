@@ -1,0 +1,12 @@
+[SddmGreeterTheme]
+Name=core-qt
+Copyright=(c) 2019, Gabriel Retana (c) 2022, Linux Aarhus
+Screenshot=
+License=GPL
+Version=0.3
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=lxqt-origami-dark
+Theme-API=2.0
+Website=https://codeberg.org/fhdk/lxqt-dark-sddm-theme

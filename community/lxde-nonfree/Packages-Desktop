@@ -1,0 +1,135 @@
+## External filesystem
+gvfs
+udiskie
+udisks2
+
+## browser
+firefox
+
+## Power manager
+tlpui
+
+## Themes and artwork
+manjaro-lxde-config
+manjaro-lxde-desktop-settings
+manjaro-lxde-logout-banner
+manjaro-zsh-config
+norse-theme
+
+## utilities
+engrampa
+galculator
+gparted
+
+## office
+epdfview
+gpicview
+
+## text editor gui
+leafpad
+
+## user information
+manjaro-application-utility
+manjaro-hello
+
+## Display manager
+sddm
+norse-sddm-theme
+
+## base cli apps
+inxi
+dmidecode
+htop
+micro
+mlocate
+numlockx
+pastebinit
+powertop
+scrot
+xclip
+xsel
+
+## qt5 theme handling
+kvantum-qt5
+qt5ct
+
+## network
+firewalld
+network-manager-applet
+networkmanager
+networkmanager-openvpn
+
+## filemanager
+pcmanfm-gtk3
+
+## core
+lxappearance-gtk3
+obconf
+lxde-common
+lxhotkey
+lxinput-gtk3
+lxlauncher-gtk3
+lxpanel-gtk3
+lxrandr-gtk3
+lxsession-gtk3
+lxtask-gtk3
+lxterminal
+perl-file-mimeinfo
+
+## alsa
+alsa-utils
+alsa-firmware
+sof-firmware
+
+## system icons
+adwaita-icon-theme
+gnome-icon-theme
+gnome-icon-theme-extras
+gnome-icon-theme-symbolic
+gnome-themes-extra
+hicolor-icon-theme
+
+## cursor
+xcursor-pinux
+
+## system fonts
+freetype2
+ttf-dejavu
+
+## System
+#polkit is provided by lxsession
+accountsservice
+dconf
+gnome-keyring
+gtk3
+gtk-engine-murrine
+gtk-engines
+polkit
+python-pyxdg
+squashfs-tools
+xdg-user-dirs
+xdg-utils
+
+## Xorg
+xorg-fonts-75dpi
+xorg-fonts-100dpi
+xorg-fonts-type1
+xorg-server
+xorg-server-common
+xorg-server-xephyr
+xorg-xbacklight
+xorg-xdpyinfo
+xorg-xinit
+xorg-xkill
+xorg-xprop
+xorg-xwininfo
+
+## Xorg drivers
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-vmmouse
+xf86-video-amdgpu
+xf86-video-dummy
+xf86-video-fbdev
+xf86-video-nouveau
+xf86-video-vesa
