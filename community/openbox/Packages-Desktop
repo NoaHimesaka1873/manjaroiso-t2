@@ -32,11 +32,8 @@ traceroute
 whois
 
 ## FONTS - THEMING - ICONS - CURSORS
-manjaro-openbox-config
-manjaro-openbox-desktop-settings
 manjaro-openbox-scripts
 norse-theme
-manjaro-zsh-config
 masalla-icon-theme
 terminus-font
 ttf-font-awesome
