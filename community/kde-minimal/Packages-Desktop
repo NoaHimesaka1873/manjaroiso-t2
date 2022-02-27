@@ -11,7 +11,6 @@ plasma-desktop
 dolphin
 konsole
 >extra kwrite
->extra kde-servicemenus-rootactions
 >extra plasma-pa
 >extra kde-gtk-config
 >extra breeze-gtk
