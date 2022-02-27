@@ -74,7 +74,7 @@ gnome-system-monitor
 gnome-screenshot
 # totem                            # celluloid included instead
 >extra gnome-weather
-gdm
+>basic gdm
 gnome-backgrounds
 gnome-control-center
 gnome-keyring
@@ -161,19 +161,19 @@ gnome-terminal
 >extra gnome-shell-extension-appindicator
 
 ## Themes
->extra adwaita-maia
->extra manjaro-gdm-theme
+adwaita-maia
+manjaro-gdm-theme
 >extra firefox-gnome-theme-maia
 >extra gdm-plymouth
 >extra plymouth-theme-manjaro
 >extra gnome-wallpapers
->extra papirus-maia-icon-theme
->extra grub-theme-manjaro
->extra manjaro-artwork
+papirus-maia-icon-theme
+grub-theme-manjaro
+manjaro-artwork
 >extra wallpapers-2018
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
->extra illyria-wallpaper
+illyria-wallpaper
 qgnomeplatform
 gnome-themes-extra
 
