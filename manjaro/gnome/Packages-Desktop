@@ -228,7 +228,7 @@ celluloid
 >extra unrar
 >extra unace
 >extra lrzip
->basic squashfs-tools
+>extra squashfs-tools
 
 ## Optional dependencies for inxi
 dmidecode
