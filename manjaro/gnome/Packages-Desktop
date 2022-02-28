@@ -124,8 +124,6 @@ gnome-tweaks
 #devhelp
 #gnome-documents
 #evolution                         # geary included instead
-#five-or-more
-#four-in-a-row
 #gnome-games
 #glade
 #gnome-code-assistance
@@ -137,6 +135,8 @@ gnome-tweaks
 #sysprof
 
 ## GNOME Extra games
+#five-or-more
+#four-in-a-row
 >extra gnome-chess
 >extra gnome-mines
 >extra iagno
