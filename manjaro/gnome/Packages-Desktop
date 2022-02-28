@@ -74,7 +74,7 @@ gnome-system-monitor
 gnome-screenshot
 # totem                            # celluloid included instead
 >extra gnome-weather
->basic gdm
+>basic gdm                         # gdm-plymouth in full edition
 gnome-backgrounds
 gnome-control-center
 gnome-keyring
@@ -176,6 +176,7 @@ manjaro-gnome-settings
 >extra wallpapers-juhraya
 >extra illyria-wallpaper
 qgnomeplatform
+qgnomeplatform-qt6
 gnome-themes-extra
 xcursor-breeze
 
