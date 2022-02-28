@@ -25,12 +25,12 @@ systemd-sysvcompat
 tar
 util-linux
 xz
-dkms
 
-# Custom
-apple-bcm-wifi-firmware
+# t2linux
 apple-bce-dkms-git
 apple-ibridge-dkms-git
+apple-bcm-wifi-firmware
+dkms
 
 # Manjaro
 >multilib gcc-libs-multilib

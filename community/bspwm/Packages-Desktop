@@ -10,7 +10,7 @@
 >extra adwaita-maia
 >extra compton
 >extra dconf
->extra dunstify
+#>extra dunstify
 >extra ffmpegthumbnailer
 >extra file-roller
 >extra firefox

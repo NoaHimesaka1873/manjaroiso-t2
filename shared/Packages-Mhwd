@@ -4,8 +4,9 @@
 
 ## Normal MHWD package list
 
-
 zfs-utils
+#KERNEL-rt3562sta
+#KERNEL-virtualbox-guest-modules
 KERNEL-headers
 zfs-dkms
 libva-intel-driver
@@ -18,11 +19,7 @@ libxvmc
 mesa-vdpau
 >multilib lib32-mesa-vdpau
 >multilib lib32-libxvmc
-
-
 opencl-mesa
-open-vm-tools
-
 qemu-guest-agent
 
 gtkmm3
@@ -38,8 +35,5 @@ xf86-video-ati
 xf86-video-dummy
 xf86-video-fbdev
 xf86-video-intel
-xf86-video-openchrome
-xf86-video-sisusb
 xf86-video-vesa
-xf86-video-vmware
 xf86-video-voodoo
