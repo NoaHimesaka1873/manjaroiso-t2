@@ -162,8 +162,9 @@ gnome-terminal
 
 ## Themes
 adwaita-maia
-manjaro-gdm-theme
 firefox-gnome-theme-maia
+manjaro-gdm-branding
+manjaro-gdm-theme
 >extra gdm-plymouth
 >extra plymouth-theme-manjaro
 gnome-wallpapers
