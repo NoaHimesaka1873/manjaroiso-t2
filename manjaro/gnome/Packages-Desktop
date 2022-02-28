@@ -114,7 +114,7 @@ gnome-terminal
 ## GNOME Extra applications
 >extra dconf-editor
 >extra geary
->extra gnome-tweaks
+gnome-tweaks
 #gnome-usage
 #gnome-sound-recorder
 >extra gnome-todo
