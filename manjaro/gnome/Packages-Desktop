@@ -161,21 +161,23 @@ gnome-terminal
 >extra gnome-shell-extension-appindicator
 
 ## Themes
->extra adwaita-maia
->extra manjaro-gdm-theme
->extra firefox-gnome-theme-maia
+adwaita-maia
+manjaro-gdm-theme
+firefox-gnome-theme-maia
 >extra gdm-plymouth
 >extra plymouth-theme-manjaro
 >extra gnome-wallpapers
->extra papirus-maia-icon-theme
+papirus-maia-icon-theme
 grub-theme-manjaro
->extra manjaro-artwork
+manjaro-artwork
+manjaro-gnome-settings
 >extra wallpapers-2018
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
->extra illyria-wallpaper
+illyria-wallpaper
 qgnomeplatform
 gnome-themes-extra
+xcursor-breeze
 
 ## Applications
 >extra apparmor
