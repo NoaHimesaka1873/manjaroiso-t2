@@ -166,7 +166,7 @@ manjaro-gdm-theme
 firefox-gnome-theme-maia
 >extra gdm-plymouth
 >extra plymouth-theme-manjaro
->extra gnome-wallpapers
+gnome-wallpapers
 papirus-maia-icon-theme
 grub-theme-manjaro
 manjaro-artwork
@@ -174,7 +174,7 @@ manjaro-gnome-settings
 >extra wallpapers-2018
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
-illyria-wallpaper
+>extra illyria-wallpaper
 qgnomeplatform
 gnome-themes-extra
 xcursor-breeze
