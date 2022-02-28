@@ -28,9 +28,9 @@ jobs:
     strategy:
       matrix:
         ##### EDIT ME #####      
-        EDITION: [cinnamon, gnome]
+        EDITION: [cinnamon, gnome, kde]
         BRANCH: [stable]
-        SCOPE: [minimal,full]
+        SCOPE: [full]
         ###################
     steps:
       # cancel already running instances of the same action on the currently working on branch
