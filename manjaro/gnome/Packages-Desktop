@@ -187,8 +187,8 @@ gthumb
 >extra manjaro-log-helper
 firefox
 >extra gnome-layout-switcher
->extra gtksourceview-pkgbuild #highlight for PKGBUILD
-fprintd #need for finger id reader
+>extra gtksourceview-pkgbuild      #highlight for PKGBUILD
+fprintd                            # need for finger id reader
 gnome-system-log
 >extra gnome-firmware
 gparted
