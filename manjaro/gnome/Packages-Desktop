@@ -31,7 +31,7 @@ ttf-indic-otf
 ttf-liberation
 noto-fonts                         # default font
 >extra noto-fonts-compat
-# >extra noto-fonts-emoji
+>extra noto-fonts-emoji
 #noto-fonts-cjk                    # asian fonts - large package, ~76 mb compressed
 adobe-source-sans-pro-fonts
 adobe-source-han-sans-jp-fonts
@@ -68,7 +68,7 @@ gnome-disk-utility
 >extra gnome-font-viewer
 #yelp                              # required by gnome-user-docs
 >extra gnome-logs
->extra gnome-maps
+#>extra gnome-maps
 gnome-system-monitor
 #epiphany                          # Firefox included as default browser
 gnome-screenshot
