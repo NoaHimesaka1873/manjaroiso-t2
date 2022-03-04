@@ -8,6 +8,7 @@ networkmanager
 >extra networkmanager-vpnc
 ntp
 >extra modemmanager                # optional for networkmanager
+usb_modeswitch                     # Optional for modemmanager
 openresolv                         # optional for networkmanager
 >extra openssh                     # optional for gnome-control-center
 >extra nss-mdns                    # optional for avahi; avahi required by gvfs
@@ -20,6 +21,7 @@ btrfsmaintenance
 ## Libraries for Sound/Audio/Video
 >extra manjaro-alsa
 >extra manjaro-gstreamer
+#>extra manjaro-modem              # ?
 >extra manjaro-pulse
 >extra libdvdcss
 
@@ -208,7 +210,6 @@ nautilus-empty-file
 >extra onlyoffice-desktopeditors
 polkit-gnome
 >extra timeshift
-usb_modeswitch
 xdg-utils
 >extra caffeine-ng
 >extra libappindicator-gtk3
