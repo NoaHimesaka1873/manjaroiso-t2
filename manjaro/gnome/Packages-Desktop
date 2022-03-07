@@ -90,8 +90,8 @@ gnome-user-docs
 grilo-plugins
 gvfs
 >extra gvfs-afc
-#gvfs-goa                          # optional for gnome-control-center
-#gvfs-google                       # optional for gnome-online-accounts
+#>extra gvfs-goa                    # required by gvfs-google; optional for gnome-control-center
+> gvfs-google                       # optional for gnome-online-accounts
 >extra gvfs-gphoto2
 >extra gvfs-mtp
 >extra gvfs-nfs
