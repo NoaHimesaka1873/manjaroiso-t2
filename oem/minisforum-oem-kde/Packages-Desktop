@@ -281,10 +281,8 @@ xf86-input-synaptics
 xf86-input-void
 
 ## Xorg Server and Graphics
->multilib lib32-libva-intel-driver
 >multilib lib32-libva-mesa-driver
 >multilib lib32-libva-vdpau-driver
-libva-intel-driver
 libva-mesa-driver
 libva-vdpau-driver
 mesa-demos
@@ -296,6 +294,15 @@ xorg-twm
 xorg-xinit
 xorg-xkill
 xorg-mkfontscale
+
+## Vulkan
+amdvlk
+spirv-tools
+vulkan-headers
+vulkan-radeon
+vulkan-tools
+vkd3d
+>multilib lib32-vulkan-radeon
 
 ## Desktop Utils
 perl-file-mimeinfo
