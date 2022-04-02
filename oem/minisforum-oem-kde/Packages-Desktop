@@ -142,7 +142,6 @@ systemsettings
 plasma-browser-integration
 
 ## Themes QT/GTK/SDDM
-gnome-icon-theme
 gnome-themes-standard
 oxygen # needed to provide KDE system sounds
 oxygen-icons

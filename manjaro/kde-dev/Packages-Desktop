@@ -152,7 +152,6 @@ systemsettings
 breeze
 breeze-gtk
 breeze-icons
-gnome-icon-theme
 gnome-themes-standard
 #gtk-theme-breath
 oxygen

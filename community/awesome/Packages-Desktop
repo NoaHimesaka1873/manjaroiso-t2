@@ -157,7 +157,6 @@ network-manager-applet
 >extra manjaro-wallpapers-18.0
 # >extra wallpapers-2018  # removed to reduce iso size (-15MB)
 # >extra wallpapers-juhraya  # removed to reduce iso size (~20MB)
->extra gnome-icon-theme
 >extra gnome-themes-standard
 grub-theme-manjaro
 >extra matcha-gtk-theme

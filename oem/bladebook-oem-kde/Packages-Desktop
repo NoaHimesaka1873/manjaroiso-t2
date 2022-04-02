@@ -151,7 +151,6 @@ user-manager
 ## Themes QT/GTK/SDDM
 #breeze
 #breeze-gtk
-gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
 #>extra oxygen
