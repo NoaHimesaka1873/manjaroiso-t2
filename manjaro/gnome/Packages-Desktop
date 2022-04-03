@@ -74,7 +74,7 @@ gnome-logs
 gnome-system-monitor
 #epiphany                          # Firefox included as default browser
 gnome-screenshot
-# totem                            # celluloid included instead
+totem
 >extra gnome-weather
 >basic gdm                         # gdm-plymouth in full edition
 gnome-backgrounds
@@ -214,7 +214,6 @@ xdg-utils
 >extra caffeine-ng
 >extra libappindicator-gtk3
 lollypop
-celluloid
 >extra fragments
 >extra ffmpegthumbnailer
 >extra cheese
