@@ -69,12 +69,12 @@ gnome-calculator
 gnome-disk-utility
 >extra gnome-font-viewer
 #yelp                              # required by gnome-user-docs
->extra gnome-logs
+gnome-logs
 #>extra gnome-maps
 gnome-system-monitor
 #epiphany                          # Firefox included as default browser
 gnome-screenshot
-# totem                            # celluloid included instead
+totem
 >extra gnome-weather
 >basic gdm                         # gdm-plymouth in full edition
 gnome-backgrounds
@@ -194,7 +194,6 @@ firefox
 >extra gnome-layout-switcher
 >extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
 fprintd                            # needed for fingerprint reader
-gnome-system-log
 >extra gnome-firmware
 gparted
 >extra seahorse
@@ -215,7 +214,6 @@ xdg-utils
 >extra caffeine-ng
 >extra libappindicator-gtk3
 lollypop
-celluloid
 >extra fragments
 >extra ffmpegthumbnailer
 >extra cheese
