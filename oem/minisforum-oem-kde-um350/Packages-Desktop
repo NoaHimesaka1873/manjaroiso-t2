@@ -227,11 +227,10 @@ firefox
 htop
 inxi
 #>extra krita
-onlyoffice-desktopeditors
 #ms-office-online
 #>extra freeoffice
->extra libreoffice-fresh
-#>extra onlyoffice-desktopeditors
+#>extra libreoffice-fresh
+>extra onlyoffice-desktopeditors
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager-kcm
