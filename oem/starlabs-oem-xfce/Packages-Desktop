@@ -74,11 +74,6 @@ pamac-gtk
 >extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
 
-## Java
->extra jdk8-openjdk
->extra jre8-openjdk-headless
->extra jre8-openjdk
-
 ## Printing
 >extra manjaro-printer
 
@@ -172,7 +167,7 @@ gufw
 >extra audacious
 >extra hexchat
 htop
-qpdfview
+evince
 inxi
 >extra libreoffice-still
 #>extra microsoft-office-online-jak
@@ -239,21 +234,12 @@ perl-file-mimeinfo
 xdg-utils
 zensu
 >extra timeshift
-#>extra kernel-alive
-gnome-firmware
 
 ## Misc
 gtkhash-thunar
 manjaro-hotfixes
 >basic squashfs-tools
 xiccd # enable color profile settings
-
-## Handshake tools
-#faucet-tool
-#hnsd-git
-#hsd-git
-#veracrypt
-#cryptoseed
 
 ## OEM
 calamares
