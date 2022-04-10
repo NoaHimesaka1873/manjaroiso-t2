@@ -158,10 +158,11 @@ gnome-tweaks
 #tali
 
 ## GNOME Shell Extensions
->extra gnome-shell-extension-x11gestures
->extra gnome-shell-extension-gnome-ui-tune
->extra gnome-shell-extension-dash-to-dock
 >extra gnome-shell-extension-appindicator
+>extra gnome-shell-extension-dash-to-dock
+>extra gnome-shell-extension-gnome-ui-tune
+>extra gnome-shell-extension-gsconnect
+>extra gnome-shell-extension-x11gestures
 
 ## Themes
 #adwaita-maia
@@ -193,7 +194,7 @@ inxi
 gthumb
 >extra manjaro-log-helper
 firefox
->extra gnome-layout-switcher
+gnome-layout-switcher
 >extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
 fprintd                            # needed for fingerprint reader
 >extra gnome-firmware
