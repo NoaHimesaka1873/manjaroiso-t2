@@ -1,7 +1,7 @@
 # OPENBOX PROFILE
 
 ## PDFVIEW
-qpdfview
+mupdf
 
 ## EDITOR
 xed
@@ -53,6 +53,7 @@ sddm
 norse-sddm-theme
 
 ## CONFIGURATION DEPENDENCIES
+alacritty
 arandr
 dunst
 fzf
@@ -63,7 +64,6 @@ jgmenu
 numlockx
 picom
 rofi
-sakura
 skippy-xd
 tint2
 xcape
@@ -72,7 +72,6 @@ zenity
 
 ## CORE
 ### WINDOW MANAGER
-kickshaw                # menu editor
 lxmenu-data
 lxsession-gtk3          # session
 obkey-gtk3              # hotkey editor
@@ -87,9 +86,6 @@ sof-firmware
 
 ### SYSTEM ICON THEMES
 adwaita-icon-theme
-gnome-icon-theme-extras
-gnome-icon-theme-symbolic
-gnome-themes-extra
 hicolor-icon-theme
 
 ### SYSTEM CURSOR THEME

@@ -30,7 +30,7 @@
     <separator label="SYSTEM TOOLS"/>
     <item label="Terminal">
         <action name="Execute">
-            <command>sakura</command>
+            <command>alacritty</command>
         </action>
     </item>
     <item label="Filemanager">
@@ -40,12 +40,12 @@
     </item>
     <item label="Midnight Commander">
         <action name="Execute">
-            <command>sakura -e mc</command>
+            <command>alacritty -e mc</command>
         </action>
     </item>
     <item label="Clonezilla">
         <action name="Execute">
-            <command>sakura -e "sudo clonezilla"</command>
+            <command>alacritty -e "sudo clonezilla"</command>
         </action>
     </item>
     <item label="Gparted">
@@ -55,7 +55,7 @@
     </item>
     <item label="Testdisk">
         <action name="Execute">
-            <command>sakura -e "sudo testdisk"</command>
+            <command>alacritty -e "sudo testdisk"</command>
         </action>
     </item>
     <menu id="screenshot"/>

@@ -95,7 +95,7 @@
 	<separator label="Manjaro Openbox"/>
 	<item label="Terminal">
 		<action name="Execute">
-			<command>sakura</command>
+			<command>alacritty</command>
 		</action>
 	</item>
 	<item label="File Manager">

@@ -439,7 +439,7 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>sakura</command>
+        <command>alacritty</command>
       </action>
     </keybind>
     <keybind key="W-w">
@@ -469,7 +469,7 @@
     </keybind>
     <keybind key="W-Return">
       <action name="Execute">
-        <command>sakura</command>
+        <command>alacritty</command>
       </action>
     </keybind>
     <keybind key="C-A-l">

@@ -73,7 +73,7 @@ gnome-logs
 #>extra gnome-maps
 gnome-system-monitor
 #epiphany                          # Firefox included as default browser
-gnome-screenshot
+#gnome-screenshot                  # New screenshot tool integrated
 totem
 >extra gnome-weather
 >basic gdm                         # gdm-plymouth in full edition
