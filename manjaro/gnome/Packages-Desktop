@@ -227,6 +227,7 @@ lollypop
 >extra gnome-appfolders-manager
 >extra gnuchess                    # optional for gnome-chess to play against computer
 chrome-gnome-shell
+>extra deja-dup
 
 ## Optional dependencies for file-roller
 >extra p7zip
