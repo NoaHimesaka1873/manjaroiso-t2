@@ -76,7 +76,7 @@ gnome-system-monitor
 #epiphany                          # Firefox included as default browser
 gnome-screenshot                   # New screenshot tool integrated in 42
 totem
->extra gnome-weather
+gnome-weather
 >basic gdm                         # gdm-plymouth in full edition
 gnome-backgrounds
 gnome-control-center
