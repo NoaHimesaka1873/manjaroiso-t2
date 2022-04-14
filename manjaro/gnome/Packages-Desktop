@@ -74,7 +74,7 @@ gnome-logs
 #>extra gnome-maps
 gnome-system-monitor
 #epiphany                          # Firefox included as default browser
-#gnome-screenshot                  # New screenshot tool integrated
+gnome-screenshot
 totem
 gnome-weather
 >basic gdm                         # gdm-plymouth in full edition
@@ -165,11 +165,10 @@ gnome-tweaks
 >extra gnome-shell-extension-x11gestures
 
 ## Themes
-#adwaita-maia
-adw-gtk-theme
+adwaita-maia
 firefox-gnome-theme-maia
 manjaro-gdm-branding
-#manjaro-gdm-theme                 # Needs updating for GNOME 42
+manjaro-gdm-theme
 >extra gdm-plymouth
 >extra plymouth-theme-manjaro
 gnome-wallpapers
@@ -246,6 +245,7 @@ mesa-utils
 ## Settings packages
 manjaro-base-skel
 manjaro-gnome-settings
+>extra manjaro-gnome-assets
 >extra manjaro-gnome-extension-settings
 >extra lighter-gnome
 #manjaro-browser-settings
