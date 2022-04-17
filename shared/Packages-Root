@@ -28,7 +28,7 @@ xz
 
 # t2linux
 apple-bcm-wifi-firmware
-KENREL-headers
+KERNEL-headers
 
 # Manjaro
 >multilib gcc-libs-multilib
