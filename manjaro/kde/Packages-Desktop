@@ -132,7 +132,7 @@ plasma-desktop
 plasma-nm
 plasma-pa
 plasma-simplemenu
-plasma-wayland-session
+#plasma-wayland-session # drop wayland support for now
 plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
@@ -140,7 +140,6 @@ systemsettings
 plasma-browser-integration
 
 ## Themes QT/GTK/SDDM
-gnome-icon-theme
 gnome-themes-standard
 oxygen # needed to provide KDE system sounds
 oxygen-icons

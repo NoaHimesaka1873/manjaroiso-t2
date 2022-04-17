@@ -1,7 +1,7 @@
 # OPENBOX PROFILE
 
 ## PDFVIEW
-qpdfview
+mupdf
 
 ## EDITOR
 xed
@@ -53,6 +53,7 @@ sddm
 norse-sddm-theme
 
 ## CONFIGURATION DEPENDENCIES
+alacritty
 arandr
 dunst
 fzf
@@ -63,7 +64,6 @@ jgmenu
 numlockx
 picom
 rofi
-sakura
 skippy-xd
 tint2
 xcape
@@ -87,10 +87,6 @@ sof-firmware
 
 ### SYSTEM ICON THEMES
 adwaita-icon-theme
-gnome-icon-theme
-gnome-icon-theme-extras
-gnome-icon-theme-symbolic
-gnome-themes-extra
 hicolor-icon-theme
 
 ### SYSTEM CURSOR THEME

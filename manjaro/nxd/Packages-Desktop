@@ -191,7 +191,6 @@ startup-notification # needed for waterfox
 ## Themes QT/GTK/SDDM
 #breeze
 #breeze-gtk
-gnome-icon-theme
 gnome-themes-standard
 gtk-theme-breath
 oxygen # needed to provide KDE system sounds
