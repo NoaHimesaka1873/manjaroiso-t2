@@ -44,8 +44,8 @@ jobs:
           edition: ${{ matrix.edition }}
           branch: ${{ matrix.branch }}
           scope: ${{ matrix.scope }}
-          version: "21.0-t2"
-          kernel: linux516-t2
+          version: "21.2.5-t2"
+          kernel: linux515-t2
           code-name: "Ornara-T2"
           # providing a release-tag allows for github releases
           release-tag: ${{ needs.prepare-release.outputs.release_tag }}

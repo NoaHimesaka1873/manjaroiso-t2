@@ -148,7 +148,6 @@ pavucontrol
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-2018
 >extra wallpapers-juhraya
-gnome-icon-theme
 gnome-themes-standard
 grub-theme-manjaro
 matcha-gtk-theme
@@ -169,7 +168,6 @@ gufw
 >extra audacious
 >extra hexchat
 htop
-qpdfview
 inxi
 #>extra libreoffice-still
 #>extra microsoft-office-online-jak
@@ -187,6 +185,7 @@ mugshot
 >extra pidgin
 powertop
 screenfetch
+evince
 >extra poppler-data  # CKJ support for pdf
 #>basic sylpheed # mail client
 >extra thunderbird

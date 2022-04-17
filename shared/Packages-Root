@@ -27,11 +27,8 @@ util-linux
 xz
 
 # t2linux
-apple-bce-dkms-git
-apple-ibridge-dkms-git
 apple-bcm-wifi-firmware
-dkms
-KERNEL-headers
+KENREL-headers
 
 # Manjaro
 >multilib gcc-libs-multilib

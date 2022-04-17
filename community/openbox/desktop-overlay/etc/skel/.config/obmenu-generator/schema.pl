@@ -25,7 +25,7 @@ my $editor = $CONFIG->{editor};
 our $SCHEMA = [
     # Format:  NAME, LABEL, ICON
     {sep => "Manjaro Openbox"},
-    {item => ['sakura', 'Terminal', 'terminal-emulator']},
+    {item => ['alacritty', 'Terminal', 'terminal-emulator']},
     {item => ['xdg-open http:///', 'Web Browser', 'web-browser']},
     {item => ['xdg-open ~/', 'File Manager', 'file-manager']},
     {cat => ['utility', 'Accessories', 'applications-utilities']},
