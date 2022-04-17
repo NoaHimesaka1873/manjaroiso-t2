@@ -59,7 +59,7 @@ xcursor-breeze
 ## gtk theme and icons
 adwaita-icon-theme
 gnome-icon-theme-extras
-gnome-icon-theme-symbolic
+#gnome-icon-theme-symbolic
 gnome-themes-extra
 hicolor-icon-theme
 
