@@ -1,4 +1,5 @@
 ## Branding
+minisforum-kde-settings
 plasma-theme-minisforum
 
 ## Network
@@ -269,7 +270,6 @@ crossover-extras
 manjaro-documentation-en
 
 ## Settings packages
-minisforum-kde-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
