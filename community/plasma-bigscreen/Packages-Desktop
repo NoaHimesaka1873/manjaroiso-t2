@@ -85,6 +85,10 @@ oxygen
 oxygen-icons
 grub-theme-manjaro
 
+## plasma packages
+plasma-pa
+plasma-nm
+
 ## plasma-bigscreen
 bigscreen-image-settings
 mycroft-skill-installer
