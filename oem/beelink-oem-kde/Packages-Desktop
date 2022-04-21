@@ -152,11 +152,9 @@ breeze-gtk
 
 ## KDE Applications
 ark
-#>extra digikam
 dolphin
 dolphin-plugins
 >extra filelight
-#>extra k3b
 kate
 kcalc
 >extra keditbookmarks
@@ -167,12 +165,10 @@ okular
 >extra >x86_64 libktorrent
 >extra >i686 kdenetwork-kget
 kdenetwork-filesharing
-#>extra kdenlive
 khelpcenter
 khotkeys
 kinit # for "Open in Terminal" action
 kio-extras
-#>extra kleopatra
 konsole
 ksystemlog
 kwalletmanager
@@ -186,10 +182,6 @@ spectacle
 p7zip  # 7Z format support
 unarchiver  # RAR format support
 
-## Optional dependency for digikam
-#>extra kipi-plugins  # export to various online services
-#>extra hugin         # panorama tool
-
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
 ffmpegthumbs              # video thumbnails
@@ -199,27 +191,11 @@ ruby                      # installing new service menus with GHNS
 kimageformats     # support for dds, xcf, exr, psd, and more image formats
 qt5-imageformats  # support for tiff, webp, and more image formats
 
-## Optional dependencies for k3b
-#>extra cdparanoia    # for cd ripping support
-#>extra cdrdao        # for disk-at-once (DAO) mode support
-#>extra dvd+rw-tools  # for dvd burning support
-#>extra emovix        # for bootable multimedia cd/dvd support
-#>extra transcode     # for advanced mpeg conversion support
-#>extra vcdimager     # for vcd burning support
-
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
 
 ## Optional dependencies for kdeconnect
 sshfs  # remote filesystem browser
-
-## Optional dependencies for kdenlive
-#>extra cdrtools         # for creation of DVD ISO images
-#>extra dvdauthor        # for creation of DVD
-#>extra dvgrab           # for firewire capture
-#>extra recordmydesktop  # for screen capture
-#>extra vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
-#>extra movit            # for GPU video processing
 
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
@@ -232,11 +208,7 @@ element-desktop
 firefox
 htop
 inxi
-#>extra krita
-#ms-office-online
-#>extra freeoffice
 >extra libreoffice-fresh
-#>extra onlyoffice-desktopeditors
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager-kcm
@@ -248,15 +220,12 @@ screenfetch
 systemd-kcm
 skype-web-jak
 telegram-desktop
-#>extra thunderbird
+>extra thunderbird
 >extra vlc
 vivaldi
 vivaldi-ffmpeg-codecs
-#yakuake
-#matray
-
-## Paid Applications
-crossover-extras
+yakuake
+matray
 
 ## Optional dependencis for cantata
 >extra mpd       # playback
@@ -308,7 +277,7 @@ perl-file-mimeinfo
 xdg-utils
 zensu
 >extra timeshift
-#>extra kernel-alive
+extra kernel-alive
 gnome-firmware
 
 ## Misc
