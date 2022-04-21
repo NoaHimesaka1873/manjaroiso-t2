@@ -86,13 +86,16 @@ oxygen-icons
 grub-theme-manjaro
 
 ## plasma packages
-plasma-pa
+konsole
 plasma-nm
+plasma-pa
+plasma-settings
 
 ## plasma-bigscreen
 bigscreen-image-settings
 mycroft-skill-installer
 mycroft-bigscreen
+pico-wizard-bigscreen-configs
 
 ## Xorg Input Drivers
 xf86-input-elographics
