@@ -162,6 +162,7 @@ gnome-tweaks
 >extra gnome-shell-extension-dash-to-dock
 >extra gnome-shell-extension-gnome-ui-tune
 >extra gnome-shell-extension-gsconnect
+>extra gnome-shell-extension-legacy-theme-auto-switcher
 >extra gnome-shell-extension-x11gestures
 
 ## Themes
