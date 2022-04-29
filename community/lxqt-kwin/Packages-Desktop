@@ -54,18 +54,23 @@ kvantum
 breeze
 breeze-gtk
 breeze-icons
-xcursor-breeze
 
 ## gtk theme and icons
 adwaita-icon-theme
+gnome-icon-theme-extras
 hicolor-icon-theme
+
+## oxygen
+oxygen
+oxygen-icons
+oxygen-icons-svg
 
 ## DISPLAY MANAGER
 sddm
 
 ## WINDOW MANAGER
 kwin
-#systemsettings
+systemsettings
 
 ## CORE
 lximage-qt
