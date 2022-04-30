@@ -22,7 +22,7 @@ gparted
 dosfstools
 f2fs-tools
 btrfs-progs
-exfat-utils
+exfatprogs
 ntfs-3g
 xfsprogs
 nilfs-utils
