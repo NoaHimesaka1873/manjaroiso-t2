@@ -36,7 +36,6 @@ gvfs-google
 gnome-keyring
 >extra gnome-online-accounts
 >extra gnome-screenshot
-gnome-system-log
 >extra gnome-system-monitor
 gnome-terminal
 gnome-themes-standard
