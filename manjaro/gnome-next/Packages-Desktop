@@ -181,7 +181,7 @@ manjaro-artwork
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
 >extra illyria-wallpaper
-qgnomeplatform
+qgnomeplatform-qt5
 qgnomeplatform-qt6
 gnome-themes-extra
 xcursor-breeze
