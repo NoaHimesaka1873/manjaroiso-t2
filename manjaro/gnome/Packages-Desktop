@@ -159,9 +159,13 @@ gnome-tweaks
 
 ## GNOME Shell Extensions
 >extra gnome-shell-extension-appindicator
+>extra gnome-shell-extension-arcmenu
 >extra gnome-shell-extension-dash-to-dock
+>extra gnome-shell-extension-dash-to-panel
+>extra gnome-shell-extension-desktop-icons-ng
 >extra gnome-shell-extension-gnome-ui-tune
 >extra gnome-shell-extension-gsconnect
+>extra gnome-shell-extension-material-shell
 >extra gnome-shell-extension-x11gestures
 
 ## Themes
