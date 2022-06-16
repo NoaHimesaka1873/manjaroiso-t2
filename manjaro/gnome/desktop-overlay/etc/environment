@@ -4,10 +4,16 @@
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
 
+# https://doc.qt.io/qt-5/highdpi.html#high-dpi-support-in-qt
 QT_AUTO_SCREEN_SCALE_FACTOR=1
 
-#QT_QPA_PLATFORMTHEME=qt5ct
-#QT_STYLE_OVERRIDE=kvantum
+# Available options: gtk2, gnome, kde, qt5ct, xcb
+#QT_QPA_PLATFORMTHEME=
+
+# Available styles: HighContrastInverse, HighContrast, Adwaita-HighContrastInverse,
+# Adwaita-HighContrast, Adwaita-Dark, Adwaita, kvantum-dark, kvantum, qt5ct-style,
+# Windows, Fusion
+#QT_STYLE_OVERRIDE=
 
 EDITOR=/usr/bin/nano
 
