@@ -74,7 +74,7 @@ zenity
 ### WINDOW MANAGER
 lxmenu-data
 lxsession-gtk3          # session
-obkey-gtk3              # hotkey editor
+#obkey-gtk3              # hotkey editor
 obmenu-generator        # pipe menu generator
 openbox                 # window manager
 wmctrl
