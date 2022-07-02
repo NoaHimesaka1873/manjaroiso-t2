@@ -54,6 +54,7 @@ pavucontrol
 pipewire
 pipewire-v4l2
 pipewire-zeroconf
+wireplumber
 
 ## Display manager
 sddm
@@ -122,6 +123,7 @@ python-pyxdg
 squashfs-tools
 xdg-user-dirs
 xdg-utils
+xdg-desktop-portal-gtk
 zensu
 
 ## Xorg Input Drivers

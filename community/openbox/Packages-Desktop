@@ -108,6 +108,7 @@ squashfs-tools
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+xdg-desktop-portal-gtk
 
 ### XORG
 xorg-fonts-100dpi
@@ -127,9 +128,3 @@ xorg-xwininfo
 ## Xorg drivers
 xf86-input-evdev
 xf86-input-libinput
-xf86-input-vmmouse
-xf86-video-amdgpu
-xf86-video-dummy
-xf86-video-fbdev
-xf86-video-nouveau
-xf86-video-vesa
