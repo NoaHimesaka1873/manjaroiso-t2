@@ -4,10 +4,10 @@
 
 ## Normal MHWD package list
 
-KERNEL-bbswitch
-KERNEL-broadcom-wl
+#KERNEL-bbswitch
+#KERNEL-broadcom-wl
 #KERNEL-r8168
-KERNEL-zfs
+#KERNEL-zfs
 zfs-utils
 #KERNEL-rt3562sta
 #KERNEL-virtualbox-guest-modules
@@ -38,10 +38,7 @@ mesa-vdpau
 >nonfree_multilib lib32-nvidia-utils
 opencl-mesa
 open-vm-tools
-primus
 qemu-guest-agent
-bumblebee
-nvidia-prime
 gtkmm3
 spice-vdagent
 virtualbox-guest-utils
@@ -51,13 +48,8 @@ vulkan-intel
 >multilib lib32-vulkan-intel
 xf86-input-vmmouse
 xf86-video-amdgpu
-xf86-video-ati
 xf86-video-dummy
 xf86-video-fbdev
 xf86-video-intel
-xf86-video-nouveau
-xf86-video-openchrome
 xf86-video-sisusb
 xf86-video-vesa
-xf86-video-vmware
-xf86-video-voodoo
