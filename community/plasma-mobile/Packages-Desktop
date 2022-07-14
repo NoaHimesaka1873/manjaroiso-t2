@@ -93,5 +93,6 @@ telepathy-mission-control
 unarchiver
 wget
 xdg-desktop-portal-kde
-xdg-user-dirsxdg-utils
+xdg-user-dirs
+xdg-utils
 xorg-server-xwayland
