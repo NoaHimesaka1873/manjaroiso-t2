@@ -195,7 +195,7 @@ inxi
 gthumb
 >extra manjaro-log-helper
 firefox
-gnome-layout-switcher
+>extra gnome-layout-switcher
 >extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
 fprintd                            # needed for fingerprint reader
 >extra gnome-firmware
