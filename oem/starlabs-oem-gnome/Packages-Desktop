@@ -28,6 +28,7 @@ btrfsmaintenance
 ## Fonts
 ttf-dejavu
 ttf-droid
+ttf-hack
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
@@ -73,9 +74,9 @@ gnome-logs
 #>extra gnome-maps
 gnome-system-monitor
 #epiphany                          # Firefox included as default browser
-gnome-screenshot
+#gnome-screenshot                  # New screenshot tool integrated
 totem
->extra gnome-weather
+gnome-weather
 >basic gdm                         # gdm-plymouth in full edition
 gnome-backgrounds
 gnome-control-center
@@ -157,16 +158,23 @@ gnome-tweaks
 #tali
 
 ## GNOME Shell Extensions
->extra gnome-shell-extension-x11gestures
->extra gnome-shell-extension-gnome-ui-tune
->extra gnome-shell-extension-dash-to-dock
 >extra gnome-shell-extension-appindicator
+>extra gnome-shell-extension-arcmenu
+>extra gnome-shell-extension-dash-to-dock
+>extra gnome-shell-extension-dash-to-panel
+>extra gnome-shell-extension-desktop-icons-ng
+>extra gnome-shell-extension-gnome-ui-tune
+>extra gnome-shell-extension-gsconnect
+>extra gnome-shell-extension-legacy-theme-auto-switcher
+>extra gnome-shell-extension-material-shell
+>extra gnome-shell-extension-x11gestures
 
 ## Themes
-adwaita-maia
+#adwaita-maia
+adw-gtk-theme
 firefox-gnome-theme-maia
 manjaro-gdm-branding
-manjaro-gdm-theme
+#manjaro-gdm-theme                 # Needs updating for GNOME 42
 >extra gdm-plymouth
 >extra plymouth-theme-manjaro
 gnome-wallpapers
@@ -177,7 +185,7 @@ manjaro-artwork
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
 >extra illyria-wallpaper
-qgnomeplatform
+qgnomeplatform-qt5
 qgnomeplatform-qt6
 gnome-themes-extra
 xcursor-breeze
@@ -203,7 +211,6 @@ ibus
 manjaro-hello
 manjaro-application-utility
 >extra manjaro-dynamic-wallpaper
-beelink-dynamic-wallpaper
 manjaro-settings-manager-notifier
 mousetweaks
 nautilus-admin
@@ -224,6 +231,8 @@ lollypop
 >extra power-profiles-daemon       # optional for gnome-control-center
 >extra gnome-appfolders-manager
 >extra gnuchess                    # optional for gnome-chess to play against computer
+gnome-browser-connector
+>extra deja-dup
 
 ## Optional dependencies for file-roller
 >extra p7zip
@@ -242,7 +251,6 @@ mesa-utils
 ## Settings packages
 manjaro-base-skel
 manjaro-gnome-settings
->extra manjaro-gnome-assets
 >extra manjaro-gnome-extension-settings
 >extra lighter-gnome
 #manjaro-browser-settings
