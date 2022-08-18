@@ -95,3 +95,5 @@ which
 wpa_supplicant
 xfsprogs
 
+# t2linux
+apple-bcm-wifi-firmware
