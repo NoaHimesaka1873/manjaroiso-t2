@@ -63,9 +63,6 @@ terminus-font
 >extra ttf-liberation
 >extra ttf-droid
 
-## Games
->x86_64 >extra steam-manjaro
-
 ## Package management
 >extra apparmor
 #>extra gnome-software-snap
