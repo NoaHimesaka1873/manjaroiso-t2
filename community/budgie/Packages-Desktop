@@ -145,7 +145,6 @@ yelp
 timeshift
 #>extra kernel-alive
 >extra libdvdcss
->extra steam-manjaro
 >extra manjaro-printer
 >extra blueman
 >extra ffmpegthumbnailer
