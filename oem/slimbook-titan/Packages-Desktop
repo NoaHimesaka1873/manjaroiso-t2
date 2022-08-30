@@ -266,6 +266,7 @@ xorg-mkfontscale
 KERNEL-nvidia
 nvidia-prime
 xf86-video-amdgpu
+optimus-manager-plasma
 
 ## Desktop Utils
 perl-file-mimeinfo
