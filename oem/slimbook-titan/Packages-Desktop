@@ -267,6 +267,7 @@ KERNEL-nvidia
 nvidia-prime
 xf86-video-amdgpu
 optimus-manager-plasma
+KERNEL-acpi_call
 
 ## Desktop Utils
 perl-file-mimeinfo
