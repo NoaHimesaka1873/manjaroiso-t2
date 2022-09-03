@@ -277,8 +277,8 @@ perl-file-mimeinfo
 xdg-utils
 zensu
 >extra timeshift
-extra kernel-alive
-gnome-firmware
+#>extra kernel-alive
+#gnome-firmware
 
 ## Misc
 manjaro-hotfixes
