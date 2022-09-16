@@ -285,7 +285,7 @@ manjaro-hotfixes
 calamares
 calamares-oem-modules
 calamares-oem-kde-settings
-slimbookamdcontroller
+#slimbookamdcontroller # redundant for titan as it has a dedicated performance button
 slimbook-qc71-dkms
 slimbook-rgb-keyboard
 slimbook_service
