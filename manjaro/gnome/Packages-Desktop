@@ -245,7 +245,7 @@ dmidecode
 mesa-utils
 
 ## Documentation
->extra manjaro-documentation-en
+#manjaro-documentation-en
 
 ## Settings packages
 manjaro-base-skel
