@@ -42,8 +42,6 @@ intel-ucode
 iproute2
 iptables
 iputils
-ipw2100-fw
-ipw2200-fw
 jfsutils
 KERNEL
 less
@@ -54,7 +52,7 @@ lsb-release
 lvm2
 man-db
 man-pages
-manjaro-firmware
+#manjaro-firmware
 manjaro-system
 mdadm
 memtest86+
