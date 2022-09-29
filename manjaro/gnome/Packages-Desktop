@@ -202,6 +202,7 @@ firefox
 >extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
 fprintd                            # needed for fingerprint reader
 >extra gnome-firmware
+gnome-tour
 gparted
 >extra seahorse
 >extra gufw
