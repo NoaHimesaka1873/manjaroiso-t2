@@ -152,6 +152,7 @@ xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
 
 ## Applications
+bash-completion
 >extra catfish
 dmidecode # optional dependency inxi
 engrampa
