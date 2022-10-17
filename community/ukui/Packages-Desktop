@@ -85,7 +85,6 @@ xf86-input-void
 xorg-twm
 xorg-xinit
 yelp
->extra manjaro-documentation-en
 #>extra libreoffice-fresh
 >extra thunderbird
 >extra lollypop
