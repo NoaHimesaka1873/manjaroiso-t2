@@ -225,7 +225,6 @@ telegram-desktop
 vivaldi
 vivaldi-ffmpeg-codecs
 yakuake
-matray
 
 ## Optional dependencis for cantata
 >extra mpd       # playback
@@ -277,8 +276,8 @@ perl-file-mimeinfo
 xdg-utils
 zensu
 >extra timeshift
-extra kernel-alive
-gnome-firmware
+#>extra kernel-alive
+#gnome-firmware
 
 ## Misc
 manjaro-hotfixes

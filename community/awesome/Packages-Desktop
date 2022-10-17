@@ -80,7 +80,6 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra ttf-droid
 
 ## Games
-# >x86_64 >extra steam-manjaro  # removed to reduce iso size (-74MB)
 
 ## Package management
 >extra apparmor

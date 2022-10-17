@@ -102,6 +102,7 @@ sddm
 sddm-kcm
 
 ## Plasma5
+audiocd-kio
 bluedevil
 kde-gtk-config
 kdeplasma-addons
@@ -180,7 +181,6 @@ unarchiver  # RAR format support
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
 ffmpegthumbs              # video thumbnails
-ruby                      # installing new service menus with GHNS
 
 ## Optional dependencies for gwenview
 kimageformats     # support for dds, xcf, exr, psd, and more image formats
@@ -226,10 +226,9 @@ systemd-kcm
 #>extra thunderbird
 >extra vlc
 yakuake
-matray
 
 ## Documentation
-manjaro-documentation-en
+#manjaro-documentation-en
 
 ## Settings packages
 manjaro-kde-settings

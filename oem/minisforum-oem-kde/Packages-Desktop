@@ -116,6 +116,7 @@ sddm
 sddm-kcm
 
 ## Plasma5
+audiocd-kio
 bluedevil
 kde-gtk-config
 kdeplasma-addons
@@ -253,7 +254,6 @@ telegram-desktop
 vivaldi
 vivaldi-ffmpeg-codecs
 #yakuake
-#matray
 
 ## Paid Applications
 crossover-extras

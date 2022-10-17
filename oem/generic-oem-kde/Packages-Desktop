@@ -5,6 +5,7 @@ networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
+networkmanager-l2tp
 nss-mdns # NSS support for mDNS (optdepend for avahi)
 ntp
 mobile-broadband-provider-info
@@ -34,20 +35,12 @@ phonon-qt5-gstreamer
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
- 
+
 ## Btrfs
 grub-btrfs
 timeshift-autosnap-manjaro
 
 ## Connect Packages
-android-tools
-android-udev
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
 kamera
 mtpfs
 udiskie
@@ -69,18 +62,15 @@ terminus-font
 >extra ttf-liberation
 >extra ttf-droid
 
-## Games
->x86_64 >extra steam-manjaro
-
 ## Package management
->extra appimagelauncher
+#>extra appimagelauncher
 pamac-gtk
 pamac-tray-icon-plasma
 pamac-cli
->extra apparmor
->extra snapd
->extra snapd-glib
->extra pamac-snap-plugin
+#>extra apparmor
+#>extra snapd
+#>extra snapd-glib
+#>extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
 #discover-snap
 #discover
@@ -91,7 +81,7 @@ packagekit-qt5
 #octopi-repoeditor
 #octopi-notifier-frameworks
 #pamac-qt
-manjaro-application-utility
+#manjaro-application-utility
 
 ## Printing
 >extra manjaro-printer
@@ -112,6 +102,7 @@ sddm
 sddm-kcm
 
 ## Plasma5
+audiocd-kio
 bluedevil
 kde-gtk-config
 kdeplasma-addons
@@ -132,23 +123,21 @@ plasma-desktop
 plasma-nm
 plasma-pa
 plasma-simplemenu
+#plasma-wayland-session # drop wayland support for now
 plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
 systemsettings
 plasma-browser-integration
+xdg-desktop-portal-kde
 
 ## Themes QT/GTK/SDDM
 gnome-themes-standard
 oxygen # needed to provide KDE system sounds
 oxygen-icons
-#sddm-breath2-theme
+sddm-breath-theme
 grub-theme-manjaro
-#breeze-gtk
-#illyria-wallpaper
-#>extra wallpapers-juhraya
-#>extra wallpapers-2018
-#>extra manjaro-wallpapers-18.0
+breeze-gtk
 
 ## KDE Applications
 ark
@@ -156,16 +145,15 @@ ark
 dolphin
 dolphin-plugins
 >extra filelight
->extra k3b
 kate
 kcalc
 >extra keditbookmarks
 kfind
 kdeconnect
 okular
->extra >x86_64 kget
->extra >x86_64 libktorrent
->extra >i686 kdenetwork-kget
+#>extra >x86_64 kget
+#>extra >x86_64 libktorrent
+#>extra >i686 kdenetwork-kget
 kdenetwork-filesharing
 #>extra kdenlive
 khelpcenter
@@ -193,19 +181,10 @@ unarchiver  # RAR format support
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
 ffmpegthumbs              # video thumbnails
-ruby                      # installing new service menus with GHNS
 
 ## Optional dependencies for gwenview
 kimageformats     # support for dds, xcf, exr, psd, and more image formats
 qt5-imageformats  # support for tiff, webp, and more image formats
-
-## Optional dependencies for k3b
->extra cdparanoia    # for cd ripping support
->extra cdrdao        # for disk-at-once (DAO) mode support
->extra dvd+rw-tools  # for dvd burning support
->extra emovix        # for bootable multimedia cd/dvd support
->extra transcode     # for advanced mpeg conversion support
->extra vcdimager     # for vcd burning support
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -232,33 +211,24 @@ htop
 inxi
 #>extra krita
 #ms-office-online
+>extra onlyoffice-desktopeditors
 #>extra freeoffice
 #>extra libreoffice-still
->extra onlyoffice-desktopeditors
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 plasma-systemmonitor
 powertop
->extra qbittorrent
-screenfetch
+#>extra qbittorrent
+neofetch
 systemd-kcm
->extra thunderbird
+#>extra thunderbird
 >extra vlc
-#yakuake
-#matray
-
-## Optional dependencis for cantata
->extra mpd       # playback
->extra perl-uri  # dynamic playlist
-
-## Optional dependencies for libreoffice
-#>extra jre8-openjdk
-#>extra jdk8-openjdk
+yakuake
 
 ## Documentation
-manjaro-documentation-en
+#manjaro-documentation-en
 
 ## Settings packages
 manjaro-kde-settings
@@ -268,7 +238,6 @@ manjaro-browser-settings
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
-xf86-input-synaptics
 xf86-input-void
 
 ## Xorg Server and Graphics
@@ -291,18 +260,12 @@ xorg-mkfontscale
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-zensu
 >extra timeshift
 #>extra kernel-alive
-gnome-firmware
 
 ## Misc
 manjaro-hotfixes
 >basic squashfs-tools
-
-## Flatpak support
->extra xdg-desktop-portal
->extra xdg-desktop-portal-kde
 
 ## OEM
 calamares

@@ -127,7 +127,6 @@ caja-open-terminal
 timeshift 								#backup utility
 #>extra kernel-alive 					#after a kernel update this maintain usable the modules
 >extra libdvdcss
->extra steam-manjaro
 >extra manjaro-printer
 >extra blueman
 >extra mate-applet-dock

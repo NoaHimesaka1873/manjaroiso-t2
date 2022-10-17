@@ -63,9 +63,6 @@ terminus-font
 >extra ttf-liberation
 >extra ttf-droid
 
-## Games
->x86_64 >extra steam-manjaro
-
 ## Package management
 >extra apparmor
 #>extra gnome-software-snap
@@ -155,6 +152,7 @@ xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
 
 ## Applications
+bash-completion
 >extra catfish
 dmidecode # optional dependency inxi
 engrampa
@@ -200,7 +198,7 @@ unace  # ACE archive support
 unrar  # RAR archive support
 
 ## Documentation
-manjaro-documentation-en
+#manjaro-documentation-en
 
 ## Settings packages
 >extra manjaro-xfce-gtk3-settings

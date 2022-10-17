@@ -42,7 +42,6 @@ adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
 
 ## Games
-#>x86_64 >extra steam-manjaro
 
 ## Package management
 pamac-gtk
@@ -199,6 +198,7 @@ firefox
 >extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
 fprintd                            # needed for fingerprint reader
 >extra gnome-firmware
+gnome-tour
 gparted
 >extra seahorse
 >extra gufw
@@ -242,7 +242,7 @@ dmidecode
 mesa-utils
 
 ## Documentation
->extra manjaro-documentation-en
+#manjaro-documentation-en
 
 ## Settings packages
 manjaro-base-skel
@@ -263,6 +263,6 @@ xorg-xinit
 
 ## Matti's corner
 >extra pacui
-# manjaro-ranger-settings          # dependency atool only in AUR
+manjaro-ranger-settings
 >extra bmenu
 
