@@ -235,7 +235,7 @@ yakuake
 #>extra jdk8-openjdk
 
 ## Documentation
-manjaro-documentation-en
+#manjaro-documentation-en
 
 ## Settings packages
 manjaro-browser-settings
