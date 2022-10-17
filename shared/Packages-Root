@@ -96,4 +96,5 @@ wpa_supplicant
 xfsprogs
 
 # t2linux
-apple-bcm-wifi-firmware
+apple-bcm-firmware
+apple-t2-audio-config
