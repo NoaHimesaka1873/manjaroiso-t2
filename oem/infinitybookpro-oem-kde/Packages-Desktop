@@ -316,7 +316,7 @@ bootsplash-systemd
 manjaro-hotfixes
 tlpui
 tuxedo-keyboard-dkms
-KERNEL-headers
+linux60-t2-headers
 
 ## Flatpak support
 flatpak

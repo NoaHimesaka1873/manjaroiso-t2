@@ -1,8 +1,8 @@
-KERNEL-bbswitch
-KERNEL-broadcom-wl
-KERNEL-r8168
-#KERNEL-rt3562sta
-KERNEL-virtualbox-guest-modules
+linux60-t2-bbswitch
+linux60-t2-broadcom-wl
+linux60-t2-r8168
+#linux60-t2-rt3562sta
+linux60-t2-virtualbox-guest-modules
 libva-intel-driver
 libva-mesa-driver
 libva-vdpau-driver
@@ -15,10 +15,10 @@ mesa-vdpau
 >multilib lib32-libxvmc
 >multilib lib32-primus
 >nonfree_default catalyst-utils
->nonfree_default KERNEL-catalyst
->nonfree_default KERNEL-nvidia
->nonfree_default KERNEL-nvidia-340xx
->nonfree_default KERNEL-nvidia-390xx
+>nonfree_default linux60-t2-catalyst
+>nonfree_default linux60-t2-nvidia
+>nonfree_default linux60-t2-nvidia-340xx
+>nonfree_default linux60-t2-nvidia-390xx
 >nonfree_default nvidia-340xx-utils
 >nonfree_default nvidia-390xx-utils
 >nonfree_default nvidia-utils

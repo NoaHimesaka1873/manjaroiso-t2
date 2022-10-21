@@ -252,7 +252,7 @@ xdg-su
 ## Misc
 manjaro-hotfixes
 tuxedo-keyboard-dkms
-KERNEL-headers
+linux60-t2-headers
 timeshift
 #kernel-alive
 

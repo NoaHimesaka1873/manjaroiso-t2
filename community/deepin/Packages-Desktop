@@ -80,7 +80,7 @@ inxi
 >extra libdvdcss
 >extra libimobiledevice
 libtool
-KERNEL-headers # needed for deepin-anything and its vfs_monitor dkms-module...
+linux60-t2-headers # needed for deepin-anything and its vfs_monitor dkms-module...
 m4
 make
 manjaro-alsa

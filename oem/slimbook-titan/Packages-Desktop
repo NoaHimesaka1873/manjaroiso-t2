@@ -264,11 +264,11 @@ xorg-twm
 xorg-xinit
 xorg-xkill
 xorg-mkfontscale
-KERNEL-nvidia
+linux60-t2-nvidia
 nvidia-prime
 xf86-video-amdgpu
 optimus-manager-plasma
-KERNEL-acpi_call
+linux60-t2-acpi_call
 
 ## Desktop Utils
 perl-file-mimeinfo
@@ -288,4 +288,4 @@ calamares-oem-kde-settings
 slimbook-qc71-dkms
 slimbook-rgb-keyboard
 slimbook_service
-KERNEL-headers
+linux60-t2-headers

@@ -43,7 +43,7 @@ iproute2
 iptables
 iputils
 jfsutils
-KERNEL
+linux60-t2
 less
 licenses
 linux-firmware

@@ -3,7 +3,7 @@
 base
 
 ## manjaro base system
-KERNEL
+linux60-t2
 manjaro-system
 mhwd
 sudo

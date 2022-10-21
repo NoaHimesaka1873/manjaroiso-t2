@@ -7,7 +7,7 @@ filesystem
 gcc-libs
 glibc
 grub-quiet
-KERNEL
+linux60-t2
 lsb-release
 >manjaro manjaro-release
 systemd-sysvcompat
