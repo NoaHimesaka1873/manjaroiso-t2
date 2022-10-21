@@ -74,7 +74,7 @@ terminus-font
 >extra ttf-droid
 
 ## Games
->x86_64 >extra steam-manjaro
+>x86_64 >extra steam
 >x86_64 >extra steamos-compositor-plus
 
 ## Package management
@@ -235,7 +235,7 @@ yakuake
 #>extra jdk8-openjdk
 
 ## Documentation
-manjaro-documentation-en
+#manjaro-documentation-en
 
 ## Settings packages
 manjaro-browser-settings
