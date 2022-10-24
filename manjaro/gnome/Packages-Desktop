@@ -171,7 +171,6 @@ gnome-tweaks
 ## Themes
 #adwaita-maia
 adw-gtk-theme
-firefox-gnome-theme-maia
 manjaro-gdm-branding
 #manjaro-gdm-theme                 # Needs updating for GNOME 42
 >extra gdm-plymouth
