@@ -46,7 +46,7 @@ adobe-source-han-sans-cn-fonts
 ## Package management
 pamac-gtk
 pamac-gnome-integration
->extra pamac-snap-plugin
+#>extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
 
 ## Printing
