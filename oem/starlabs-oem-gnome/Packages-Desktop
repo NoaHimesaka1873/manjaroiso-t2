@@ -101,7 +101,6 @@ mutter
 >extra rygel                       # optional for gnome-control-center
 sushi
 tracker3-miners
->extra vino
 xdg-user-dirs-gtk
 #gnome-books
 #eog                               # gthumb included instead
