@@ -219,7 +219,7 @@ lollypop
 >extra fragments
 >extra ffmpegthumbnailer
 >extra cheese
->extra gtkhash-nautilus
+#>extra gtkhash-nautilus           # not compatible with Nautilus 43
 #manjaro-gnome-vanilla
 #tlp
 >extra power-profiles-daemon       # optional for gnome-control-center
