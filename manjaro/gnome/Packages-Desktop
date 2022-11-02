@@ -227,7 +227,6 @@ lollypop
 #manjaro-gnome-vanilla
 #tlp
 >extra power-profiles-daemon       # optional for gnome-control-center
->extra gnome-appfolders-manager
 >extra gnuchess                    # optional for gnome-chess to play against computer
 gnome-browser-connector
 >extra deja-dup
