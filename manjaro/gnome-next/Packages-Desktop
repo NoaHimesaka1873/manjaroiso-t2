@@ -246,7 +246,7 @@ manjaro-base-skel
 manjaro-gnome-settings
 >extra manjaro-gnome-extension-settings
 >extra lighter-gnome
-#manjaro-browser-settings
+manjaro-browser-settings
 
 ## Xorg Input Drivers
 >extra manjaro-input
