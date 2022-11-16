@@ -81,6 +81,8 @@ accountsservice  # Enhanced user accounts handling
 
 ## Unity Group
 unity-meta
+libindicator-common
+libayatana-appindicator 
 
 ## Themes
 >extra manjaro-wallpapers-18.0
