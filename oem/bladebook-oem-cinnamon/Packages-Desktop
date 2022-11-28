@@ -23,7 +23,7 @@ flex
 >extra gcc
 >extra >multilib gcc-libs-multilib
 >extra >multilib gcc-multilib
->extra gcolor2
+>extra gcolor3
 >extra gimp
 >extra git
 >extra gnome-disk-utility

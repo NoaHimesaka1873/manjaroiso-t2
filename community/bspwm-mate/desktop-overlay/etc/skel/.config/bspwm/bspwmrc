@@ -47,7 +47,7 @@ bspc monitor -d I II III IV V VI
 #workspaces_multimonitor &
 
 bspc rule -a screenkey --unmanage
-bspc rule -a gcolor2 state=floating center=true
+bspc rule -a gcolor3 state=floating center=true
 bspc rule -a lxappearance state=floating center=true
 bspc rule -a gmrun state=floating center=true
 bspc rule -a lxterminal state=floating center=true sticky=true

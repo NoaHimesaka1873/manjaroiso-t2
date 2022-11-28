@@ -29,7 +29,7 @@ flex
 >extra gcc
 >extra >multilib gcc-libs-multilib
 >extra >multilib gcc-multilib
-gcolor2
+gcolor3
 #gconf
 >extra gimp
 >extra git
