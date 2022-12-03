@@ -198,7 +198,7 @@ fprintd                            # needed for fingerprint reader
 gnome-browser-connector
 gnome-firmware
 >extra gnome-layout-switcher
-gnome-tour
+#gnome-tour                        # disabled for now
 >extra gnuchess                    # optional for gnome-chess to play against computer
 gparted
 gthumb
@@ -212,9 +212,10 @@ inxi
 lollypop
 #manjaro-application-utility       # required by manjaro-hello
 #manjaro-gnome-vanilla
-manjaro-hello
+#manjaro-hello                     # using manjaro-starter instead
 >extra manjaro-log-helper
 manjaro-settings-manager-notifier
+manjaro-starter
 #mousetweaks
 nautilus-admin
 nautilus-empty-file
@@ -263,4 +264,3 @@ xorg-xinit
 >extra bmenu
 manjaro-ranger-settings
 >extra pacui
-
