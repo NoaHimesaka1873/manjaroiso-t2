@@ -58,8 +58,6 @@ bison
 fakeroot
 flex
 gcc
->multilib gcc-libs-multilib
->multilib gcc-multilib
 libtool
 m4
 make
@@ -90,7 +88,7 @@ terminus-font
 #packagekit-qt5
 #discover
 flatpak
-#fwupd 
+#fwupd
 octopi
 octopi-cachecleaner
 octopi-repoeditor

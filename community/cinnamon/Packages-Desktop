@@ -27,8 +27,6 @@ gvfs-goa
 gvfs-google
 >extra galculator
 >extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
 >extra gcolor3
 >extra gimp
 >extra git

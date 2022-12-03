@@ -21,7 +21,6 @@ filesystem
 findutils
 gawk
 gcc-libs
->multilib gcc-libs-multilib
 gettext
 glibc
 grep

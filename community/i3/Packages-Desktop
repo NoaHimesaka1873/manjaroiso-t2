@@ -27,8 +27,6 @@ fakeroot
 >extra flac
 flex
 >extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
 gcolor3
 #gconf
 >extra gimp

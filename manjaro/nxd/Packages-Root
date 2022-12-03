@@ -1,6 +1,5 @@
 #sonar sonar-release
 >i686 archlinux32-keyring
->multilib gcc-libs-multilib
 acpi
 acpid
 amd-ucode

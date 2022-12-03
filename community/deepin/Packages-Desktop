@@ -55,8 +55,6 @@ fakeroot
 firefox
 flex
 >extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
 >extra gimp
 >extra git
 grub-theme-manjaro
