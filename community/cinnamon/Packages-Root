@@ -11,7 +11,6 @@ coreutils
 cpupower
 cronie
 cryptsetup
-dbus-x11
 device-mapper
 dhclient
 dhcpcd

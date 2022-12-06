@@ -5,7 +5,6 @@ bash
 btrfs-progs
 bzip2
 coreutils
-dbus-x11
 dhclient
 diffutils
 dmraid

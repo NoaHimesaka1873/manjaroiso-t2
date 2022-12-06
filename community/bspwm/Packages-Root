@@ -9,7 +9,6 @@ coreutils
 dhclient
 diffutils
 dmraid
-dbus-x11
 dnsmasq
 dosfstools
 e2fsprogs
