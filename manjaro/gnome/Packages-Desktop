@@ -80,7 +80,7 @@ gnome-logs
 #>extra gnome-remote-desktop       # optional for gnome-control-center
 gnome-session
 gnome-settings-daemon
-gnome-shell
+#gnome-shell                       # custom gnome-shell-maia used
 gnome-shell-extensions
 #gnome-software                    # pamac-gtk used instead
 gnome-system-monitor
@@ -158,6 +158,7 @@ gnome-tweaks
 ## GNOME Shell Extensions
 >extra gnome-shell-extension-appindicator
 >extra gnome-shell-extension-arcmenu
+>extra gnome-shell-extension-custom-accent-colors
 >extra gnome-shell-extension-dash-to-dock
 >extra gnome-shell-extension-dash-to-panel
 >extra gnome-shell-extension-desktop-icons-ng
@@ -170,6 +171,7 @@ gnome-tweaks
 ## Themes
 adw-gtk-theme
 >extra gdm-plymouth
+gnome-shell-maia
 gnome-themes-extra
 gnome-wallpapers
 grub-theme-manjaro
