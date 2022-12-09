@@ -175,6 +175,7 @@ gnome-shell-maia
 gnome-themes-extra
 gnome-wallpapers
 grub-theme-manjaro
+kvantum
 >extra illyria-wallpaper
 manjaro-artwork
 manjaro-gdm-branding
@@ -182,8 +183,10 @@ manjaro-gdm-branding
 >extra manjaro-wallpapers-18.0
 papirus-maia-icon-theme
 >extra plymouth-theme-manjaro
-qgnomeplatform-qt5
-qgnomeplatform-qt6
+#qgnomeplatform-qt5
+#qgnomeplatform-qt6
+qt5ct
+qt6ct
 >extra wallpapers-2018
 >extra wallpapers-juhraya
 xcursor-breeze
