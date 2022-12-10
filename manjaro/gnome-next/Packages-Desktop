@@ -174,7 +174,6 @@ gnome-themes-extra
 gnome-wallpapers
 grub-theme-manjaro
 >extra illyria-wallpaper
-manjaro-artwork
 manjaro-gdm-branding
 #manjaro-gdm-theme                 # Needs updating for GNOME 42
 >extra manjaro-wallpapers-18.0
@@ -263,4 +262,3 @@ xorg-xinit
 >extra bmenu
 manjaro-ranger-settings
 >extra pacui
-
