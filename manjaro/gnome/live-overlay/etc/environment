@@ -1,0 +1,24 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+
+EDITOR=/usr/bin/nano
+
+# https://doc.qt.io/qt-5/highdpi.html#high-dpi-support-in-qt
+QT_AUTO_SCREEN_SCALE_FACTOR=1
+
+# To use QGnomePlaform with AdwaitaQt style, comment out the following keys:
+
+# Available options: gtk2, gnome, kde, qt5ct, xcb
+
+# Note: Don't use in combination with QT_STYLE_OVERRIDE
+QT_QPA_PLATFORMTHEME="qt5ct"
+
+# Available styles: HighContrastInverse, HighContrast, Adwaita-HighContrastInverse,
+# Adwaita-HighContrast, Adwaita-Dark, Adwaita, kvantum-dark, kvantum, qt5ct-style,
+# Windows, Fusion
+
+# Note: Don't use in combination with QT_QPA_PLATFORMTHEME
+#QT_STYLE_OVERRIDE=""
