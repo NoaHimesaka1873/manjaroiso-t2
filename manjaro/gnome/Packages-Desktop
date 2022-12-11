@@ -217,10 +217,10 @@ inxi
 lollypop
 #manjaro-application-utility       # required by manjaro-hello
 #manjaro-gnome-vanilla             # unmaintained, needs updating
-manjaro-hello
+#manjaro-hello                     # using manjaro-starter instead
 >extra manjaro-log-helper
 manjaro-settings-manager-notifier
-#manjaro-starter                   # WIP
+manjaro-starter
 #mousetweaks
 nautilus-admin
 nautilus-empty-file
