@@ -173,21 +173,22 @@ adw-gtk-theme
 >extra gdm-plymouth
 gnome-shell-maia
 gnome-themes-extra
-gnome-wallpapers
+#gnome-wallpapers
 grub-theme-manjaro
 kvantum
->extra illyria-wallpaper
+#>extra illyria-wallpaper
 manjaro-gdm-branding
 #manjaro-gdm-theme                 # Needs updating for GNOME 42
->extra manjaro-wallpapers-18.0
+manjaro-gnome-backgrounds
+#>extra manjaro-wallpapers-18.0
 papirus-maia-icon-theme
 >extra plymouth-theme-manjaro
 #qgnomeplatform-qt5
 #qgnomeplatform-qt6
 qt5ct
 qt6ct
->extra wallpapers-2018
->extra wallpapers-juhraya
+#>extra wallpapers-2018
+#>extra wallpapers-juhraya
 xcursor-breeze
 
 ## Applications
@@ -215,7 +216,7 @@ inxi
 #>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator & caffeine-ng
 lollypop
 #manjaro-application-utility       # required by manjaro-hello
-#manjaro-gnome-vanilla
+#manjaro-gnome-vanilla             # unmaintained, needs updating
 manjaro-hello
 >extra manjaro-log-helper
 manjaro-settings-manager-notifier
