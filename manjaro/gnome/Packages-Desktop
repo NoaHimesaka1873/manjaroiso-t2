@@ -205,7 +205,6 @@ gnome-firmware
 >extra gnome-layout-switcher
 gnome-tour
 >extra gnuchess                    # optional for gnome-chess to play against computer
-gparted
 gthumb
 #>extra gtkhash-nautilus           # not compatible with Nautilus 43
 >extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
