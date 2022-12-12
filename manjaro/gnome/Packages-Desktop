@@ -98,7 +98,7 @@ gvfs
 >extra gvfs-mtp
 >extra gvfs-nfs
 >extra gvfs-smb
-#malcontent                        # optional for gnome-control-center
+>extra malcontent
 mutter
 nautilus
 #orca
