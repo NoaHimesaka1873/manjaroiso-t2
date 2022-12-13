@@ -32,7 +32,6 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 noto-fonts                         # default font
->extra noto-fonts-compat
 >extra noto-fonts-emoji
 #noto-fonts-cjk                    # asian fonts - large package, ~76 mb compressed
 adobe-source-sans-pro-fonts
