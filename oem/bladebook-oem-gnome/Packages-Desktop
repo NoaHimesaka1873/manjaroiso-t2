@@ -10,8 +10,8 @@ evince
 >extra firefox
 #gdm
 #manjaro-gdm-check #this check if nvidia closed drivers are installed and disable wayland session
-#manjaro-gdm-theme #branding theme for GDM: 18.0 
-gedit 
+#manjaro-gdm-theme #branding theme for GDM: 18.0
+gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
 manjaro-gnome-vanilla
 gnome-backgrounds
@@ -42,7 +42,7 @@ papirus-maia-icon-theme
 lightdm
 lightdm-slick-greeter
 manjaro-slick-greeter-theme-glassfield
-gnome-screensaver #if use lightdm we need a screensaver 
+gnome-screensaver #if use lightdm we need a screensaver
 #gnome-initial-setup
 >extra gnome-calendar
 >extra bijiben
@@ -127,7 +127,6 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 usb_modeswitch
-vino
 xdg-su
 xdg-user-dirs
 xdg-user-dirs-gtk
@@ -178,8 +177,6 @@ ms-office-online
 #>extra fakeroot
 #>extra flex
 #>extra gcc
-#>extra >multilib gcc-libs-multilib
-#>extra >multilib gcc-multilib
 #>extra libtool
 #>extra m4
 #>extra make

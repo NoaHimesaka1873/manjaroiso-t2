@@ -1,6 +1,5 @@
 #sonar sonar-release
 >i686 archlinux32-keyring
->multilib gcc-libs-multilib
 acpi
 acpid
 amd-ucode
@@ -10,7 +9,6 @@ btrfs-progs
 bzip2
 coreutils
 cpupower
-crda
 cronie
 cryptsetup
 device-mapper
@@ -83,6 +81,7 @@ util-linux
 vi
 wget
 which
+wireless-regdb
 wpa_supplicant
 xfsprogs
 xz

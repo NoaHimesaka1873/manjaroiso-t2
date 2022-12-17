@@ -44,9 +44,9 @@ jobs:
           edition: ${{ matrix.edition }}
           branch: ${{ matrix.branch }}
           scope: ${{ matrix.scope }}
-          version: "22.10-t2"
-          kernel: linux60-t2
-          code-name: "Wataten-T2"
+          version: "22.12-t2"
+          kernel: linux61-t2
+          code-name: "Watanare-T2"
           # providing a release-tag allows for github releases
           release-tag: ${{ needs.prepare-release.outputs.release_tag }}
       # delete the github release in case of cancellation or failure

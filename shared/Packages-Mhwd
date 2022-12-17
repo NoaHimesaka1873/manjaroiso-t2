@@ -4,11 +4,11 @@
 
 ## Normal MHWD package list
 
-#linux60-t2-r8168
+#linux61-t2-r8168
 zfs-utils
-#linux60-t2-rt3562sta
-#linux60-t2-virtualbox-guest-modules
-linux60-t2-headers
+#linux61-t2-rt3562sta
+#linux61-t2-virtualbox-guest-modules
+linux61-t2-headers
 zfs-dkms
 libva-intel-driver
 libva-mesa-driver

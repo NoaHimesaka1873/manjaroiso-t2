@@ -1,6 +1,5 @@
 >i686 archlinux32-keyring
 >manjaro manjaro-release
->multilib gcc-libs-multilib
 acpi
 acpid
 amd-ucode
@@ -10,10 +9,8 @@ btrfs-progs
 bzip2
 coreutils
 cpupower
-crda
 cronie
 cryptsetup
-dbus-x11
 device-mapper
 dhclient
 dhcpcd
@@ -89,6 +86,7 @@ util-linux
 vi
 wget
 which
+wireless-regdb
 wpa_supplicant
 xfsprogs
 zsh

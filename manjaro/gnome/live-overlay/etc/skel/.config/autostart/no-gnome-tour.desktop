@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Disable GNOME Tour
+Comment=Don't run GNOME Tour in the live session
+Type=Application
+Icon=gnome-tour
+Exec=sh -c "gsettings set org.gnome.shell welcome-dialog-last-shown-version 99.9"

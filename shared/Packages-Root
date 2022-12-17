@@ -27,7 +27,6 @@ util-linux
 xz
 
 # Manjaro
->multilib gcc-libs-multilib
 acpi
 acpid
 amd-ucode
@@ -36,7 +35,6 @@ btrfs-progs
 bzip2
 coreutils
 cpupower
-crda
 cronie
 cryptsetup
 device-mapper
@@ -57,7 +55,7 @@ haveged
 inetutils
 intel-ucode
 jfsutils
-linux60-t2
+linux61-t2
 less
 logrotate
 lvm2
@@ -69,6 +67,7 @@ manjaro-zsh-config
 man-pages
 mdadm
 memtest86+
+memtest86+-efi
 mhwd
 mhwd-db
 mkinitcpio-openswap
@@ -92,6 +91,7 @@ usbutils
 vi
 wget
 which
+wireless-regdb
 wpa_supplicant
 xfsprogs
 

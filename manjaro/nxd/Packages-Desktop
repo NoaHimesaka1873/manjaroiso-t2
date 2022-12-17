@@ -58,8 +58,6 @@ udisks2
 >extra fakeroot
 >extra flex
 >extra gcc
->extra >multilib gcc-libs-multilib
->extra >multilib gcc-multilib
 >extra libtool
 >extra m4
 >extra make
@@ -99,7 +97,7 @@ pamac-cli
 #discover
 #packagekit-qt5
 >extra flatpak
->extra fwupd 
+>extra fwupd
 #octopi
 #octopi-cachecleaner
 #octopi-repoeditor

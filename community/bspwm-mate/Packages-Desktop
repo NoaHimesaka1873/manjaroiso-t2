@@ -38,7 +38,6 @@ bspwm-scripts
 bspwm-wallpapers
 compton
 compton-conf
-dbus-x11
 #dunstify
 desktop-file-utils
 dconf-editor
@@ -166,4 +165,3 @@ breeze-maia-icon-themes
 gtk-theme-breath
 kvantum-manjaro
 qt5ct
-

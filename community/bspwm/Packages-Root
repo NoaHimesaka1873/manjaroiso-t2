@@ -6,11 +6,9 @@ bash
 btrfs-progs
 bzip2
 coreutils
-crda
 dhclient
 diffutils
 dmraid
-dbus-x11
 dnsmasq
 dosfstools
 e2fsprogs
@@ -23,7 +21,6 @@ filesystem
 findutils
 gawk
 gcc-libs
->multilib gcc-libs-multilib
 gettext
 glibc
 grep
@@ -89,5 +86,6 @@ util-linux
 vi
 wget
 which
+wireless-regdb
 xfsprogs
 zsh

@@ -5,8 +5,6 @@ bash
 btrfs-progs
 bzip2
 coreutils
-crda
-dbus-x11
 dhclient
 diffutils
 dmraid
@@ -22,7 +20,6 @@ filesystem
 findutils
 gawk
 gcc-libs
->multilib gcc-libs-multilib
 gettext
 glibc
 grep
@@ -88,6 +85,7 @@ util-linux
 vi
 wget
 which
+wireless-regdb
 xfsprogs
 #zd1211-firmware
 zsh

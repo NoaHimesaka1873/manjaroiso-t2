@@ -41,7 +41,6 @@ gucharmap
 mousetweaks
 file-roller
 sushi
-vino
 gedit
 firefox
 gparted
@@ -116,7 +115,6 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 budgie-wallpapers
-vino
 xdg-user-dirs-gtk
 xdg-utils
 xf86-input-elographics
@@ -155,8 +153,6 @@ timeshift
 #>extra fakeroot
 #>extra flex
 #>extra gcc
-#>extra >multilib gcc-libs-multilib
-#>extra >multilib gcc-multilib
 #>extra libtool
 #>extra m4
 #>extra make

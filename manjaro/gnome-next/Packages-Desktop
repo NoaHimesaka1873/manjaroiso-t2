@@ -6,24 +6,24 @@ networkmanager
 >extra network-manager-sstp
 >extra networkmanager-strongswan
 >extra networkmanager-vpnc
-ntp
 >extra modemmanager                # optional for networkmanager
-usb_modeswitch                     # Optional for modemmanager
+>extra nss-mdns                    # optional for avahi; avahi required by gvfs
+ntp
 openresolv                         # optional for networkmanager
 >extra openssh                     # optional for gnome-control-center
->extra nss-mdns                    # optional for avahi; avahi required by gvfs
+#usb_modeswitch                    # required by manjaro-modem; optional for modemmanager
 
 ## Btrfs
+btrfsmaintenance
 grub-btrfs
 >extra timeshift-autosnap-manjaro
-btrfsmaintenance
 
 ## Libraries for Sound/Audio/Video
+>extra libdvdcss
 >extra manjaro-alsa
 >extra manjaro-gstreamer
-#>extra manjaro-modem              # ?
+>extra manjaro-modem
 >extra manjaro-pulse
->extra libdvdcss
 
 ## Fonts
 ttf-dejavu
@@ -33,7 +33,6 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 noto-fonts                         # default font
->extra noto-fonts-compat
 >extra noto-fonts-emoji
 #noto-fonts-cjk                    # asian fonts - large package, ~76 mb compressed
 adobe-source-sans-pro-fonts
@@ -44,49 +43,51 @@ adobe-source-han-sans-cn-fonts
 ## Games
 
 ## Package management
-pamac-gtk
 pamac-gnome-integration
->extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
+pamac-gtk
+#>extra pamac-snap-plugin
 
 ## Printing
 >extra manjaro-printer
 
 ## GNOME group
-gnome-calendar
->extra gnome-contacts
 >extra baobab
->extra simple-scan
+>extra cheese
+#eog                               # gthumb included instead
+#epiphany                          # Firefox included as default browser
 evince
-gnome-shell
 file-roller
-gedit
->extra gnome-boxes
+>basic gdm                         # gdm-plymouth in full edition
+gnome-backgrounds
 gnome-calculator
+gnome-calendar
 >extra gnome-characters
 >extra gnome-clocks
 #gnome-color-manager               # required by gnome-control-center
+#gnome-console                     # gnome-terminal included instead
+>extra gnome-contacts
+gnome-control-center
 gnome-disk-utility
 >extra gnome-font-viewer
-#yelp                              # required by gnome-user-docs
+gnome-keyring
 gnome-logs
 #>extra gnome-maps
-gnome-system-monitor
-#epiphany                          # Firefox included as default browser
-#gnome-screenshot                  # New screenshot tool integrated
-totem
-gnome-weather
->basic gdm                         # gdm-plymouth in full edition
-gnome-backgrounds
-gnome-control-center
-gnome-keyring
-#gnome-menus                       # optional for gnome-shell-extensions
+#gnome-menus                       # required by alacarte; optional for gnome-shell-extensions
+#gnome-music                       # lollypop included instead
+#gnome-photos
+#>extra gnome-remote-desktop       # optional for gnome-control-center
 gnome-session
 gnome-settings-daemon
+gnome-shell
 gnome-shell-extensions
+#gnome-software                    # pamac-gtk used instead
+gnome-system-monitor
+#gnome-text-editor                  # gedit included instead
 gnome-user-docs
 >extra gnome-user-share            # optional for gnome-control-center
 #gnome-video-effects               # required by cheese
+gnome-weather
 grilo-plugins
 gvfs
 >extra gvfs-afc
@@ -96,146 +97,141 @@ gvfs
 >extra gvfs-mtp
 >extra gvfs-nfs
 >extra gvfs-smb
+#malcontent                        # optional for gnome-control-center
 mutter
->extra rygel                       # optional for gnome-control-center
-sushi
-tracker3-miners
->extra vino
-xdg-user-dirs-gtk
-#gnome-books
-#eog                               # gthumb included instead
 nautilus
 #orca
-#gnome-music                       # lollypop included instead
-#gnome-photos
-#gnome-software                    # pamac-gtk used instead
-gnome-terminal
-#tracker                           # deprecated
-#tracker-miners                    # deprecated
+>extra rygel                       # optional for gnome-control-center
+>extra simple-scan
+sushi
+totem
+tracker3-miners
+xdg-user-dirs-gtk
+#yelp                              # required by gnome-user-docs
+
 
 ## GNOME Extra applications
->extra dconf-editor
->extra geary
-gnome-tweaks
-#gnome-usage
-#gnome-sound-recorder
->extra gnome-todo
 #accerciser
+>extra dconf-editor
+#devhelp
+>extra endeavour
+#evolution                         # geary included instead
+>extra geary
+gedit
+#ghex
+#glade
+>extra gnome-boxes
 #gnome-builder
 #gnome-connections
-#devhelp
-#gnome-documents
-#evolution                         # geary included instead
-#gnome-games
-#glade
-#gnome-code-assistance
 #gnome-devel-docs
-#ghex
+#gnome-games
 #gnome-multi-writer
-#polari
+#gnome-nettool
 #gnome-recipes
-#sysprof
+#gnome-sound-recorder
+gnome-terminal
+gnome-tweaks
+#gnome-usage
+#polari
+
 
 ## GNOME Extra games
 #five-or-more
 #four-in-a-row
 >extra gnome-chess
->extra gnome-mines
->extra iagno
->extra quadrapassel
-#hitori
 #gnome-klotski
 #gnome-mahjongg
-#gnome-nettool
+>extra gnome-mines
 #gnome-nibbles
 #gnome-robots
-#gnome-soudoku
+#gnome-sudoku
 #gnome-taquin
 #gnome-tetravex
+#hitori
+>extra iagno
 #lightsoff
+>extra quadrapassel
 #swell-foop
 #tali
 
 ## GNOME Shell Extensions
 >extra gnome-shell-extension-appindicator
+>extra gnome-shell-extension-arcmenu
 >extra gnome-shell-extension-dash-to-dock
+>extra gnome-shell-extension-dash-to-panel
+>extra gnome-shell-extension-desktop-icons-ng
 >extra gnome-shell-extension-gnome-ui-tune
 >extra gnome-shell-extension-gsconnect
 >extra gnome-shell-extension-legacy-theme-auto-switcher
+>extra gnome-shell-extension-material-shell
 >extra gnome-shell-extension-x11gestures
 
 ## Themes
-#adwaita-maia
 adw-gtk-theme
-firefox-gnome-theme-maia
+>extra gdm-plymouth
+gnome-themes-extra
+gnome-wallpapers
+grub-theme-manjaro
+>extra illyria-wallpaper
 manjaro-gdm-branding
 #manjaro-gdm-theme                 # Needs updating for GNOME 42
->extra gdm-plymouth
->extra plymouth-theme-manjaro
-gnome-wallpapers
-papirus-maia-icon-theme
-grub-theme-manjaro
-manjaro-artwork
->extra wallpapers-2018
 >extra manjaro-wallpapers-18.0
->extra wallpapers-juhraya
->extra illyria-wallpaper
+papirus-maia-icon-theme
+>extra plymouth-theme-manjaro
 qgnomeplatform-qt5
 qgnomeplatform-qt6
-gnome-themes-extra
+>extra wallpapers-2018
+>extra wallpapers-juhraya
 xcursor-breeze
 
 ## Applications
->extra apparmor
-inxi
->extra touche
 >extra alacarte
->extra webapp-manager
-gthumb
->extra manjaro-log-helper
+>extra apparmor
+>extra caffeine-ng
+>extra deja-dup
+>extra ffmpegthumbnailer
 firefox
->extra gnome-layout-switcher
->extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
 fprintd                            # needed for fingerprint reader
->extra gnome-firmware
+>extra fragments
+gnome-browser-connector
+gnome-firmware
+>extra gnome-layout-switcher
 gnome-tour
+>extra gnuchess                    # optional for gnome-chess to play against computer
 gparted
->extra seahorse
+gthumb
+#>extra gtkhash-nautilus           # not compatible with Nautilus 43
+>extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
 >extra gufw
 htop
 ibus
+inxi
+#>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator & caffeine-ng
+lollypop
+#manjaro-application-utility       # required by manjaro-hello
+#manjaro-gnome-vanilla
 manjaro-hello
-manjaro-application-utility
->extra manjaro-dynamic-wallpaper
+>extra manjaro-log-helper
 manjaro-settings-manager-notifier
-mousetweaks
+#mousetweaks
 nautilus-admin
 nautilus-empty-file
 >extra onlyoffice-desktopeditors
 polkit-gnome
->extra timeshift
-xdg-utils
->extra caffeine-ng
->extra libappindicator-gtk3
-lollypop
->extra fragments
->extra ffmpegthumbnailer
->extra cheese
->extra gtkhash-nautilus
-#manjaro-gnome-vanilla
-#tlp
 >extra power-profiles-daemon       # optional for gnome-control-center
->extra gnome-appfolders-manager
->extra gnuchess                    # optional for gnome-chess to play against computer
-gnome-browser-connector
->extra deja-dup
+>extra seahorse
+>extra timeshift
+#tlp
+>extra touche
+>extra webapp-manager
+xdg-utils
 
 ## Optional dependencies for file-roller
->extra p7zip
->extra unrar
->extra unace
 >extra lrzip
+>extra p7zip
 >extra squashfs-tools
+>extra unace
+>extra unrar
 
 ## Optional dependencies for inxi
 dmidecode
@@ -245,11 +241,11 @@ mesa-utils
 #manjaro-documentation-en
 
 ## Settings packages
-manjaro-base-skel
-manjaro-gnome-settings
->extra manjaro-gnome-extension-settings
 >extra lighter-gnome
-#manjaro-browser-settings
+manjaro-base-skel
+manjaro-browser-settings
+>extra manjaro-gnome-extension-settings
+manjaro-gnome-settings
 
 ## Xorg Input Drivers
 >extra manjaro-input
@@ -262,7 +258,6 @@ xorg-twm
 xorg-xinit
 
 ## Matti's corner
->extra pacui
-manjaro-ranger-settings
 >extra bmenu
-
+manjaro-ranger-settings
+>extra pacui

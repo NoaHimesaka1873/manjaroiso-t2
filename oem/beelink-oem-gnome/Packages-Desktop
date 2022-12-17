@@ -32,7 +32,6 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 noto-fonts                         # default font
->extra noto-fonts-compat
 >extra noto-fonts-emoji
 #noto-fonts-cjk                    # asian fonts - large package, ~76 mb compressed
 adobe-source-sans-pro-fonts
@@ -100,7 +99,6 @@ mutter
 >extra rygel                       # optional for gnome-control-center
 sushi
 tracker3-miners
->extra vino
 xdg-user-dirs-gtk
 #gnome-books
 #eog                               # gthumb included instead
@@ -164,7 +162,6 @@ gnome-tweaks
 
 ## Themes
 adwaita-maia
-firefox-gnome-theme-maia
 manjaro-gdm-branding
 manjaro-gdm-theme
 >extra gdm-plymouth

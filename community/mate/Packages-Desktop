@@ -100,7 +100,6 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 manjaro-mate-panel-layout
-vino
 xdg-user-dirs-gtk
 xdg-utils
 xf86-input-elographics
@@ -139,8 +138,6 @@ timeshift 								#backup utility
 #>extra fakeroot
 #>extra flex
 #>extra gcc
-#>extra >multilib gcc-libs-multilib
-#>extra >multilib gcc-multilib
 #>extra libtool
 #>extra m4
 #>extra make

@@ -1,0 +1,152 @@
+## Network
+avahi
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+nss-mdns # NSS support for mDNS (optdepend for avahi)
+ntp
+mobile-broadband-provider-info
+modemmanager
+openresolv
+openssh
+samba
+usb_modeswitch
+
+## Btrfs
+grub-btrfs
+timeshift-autosnap-manjaro
+
+## Libraries for Sound/Audio/Video
+alsa-firmware
+alsa-utils
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libdvdcss
+>multilib manjaro-alsa
+manjaro-pulse
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+## Connect Packages
+android-tools
+android-udev
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
+
+## Fonts
+ttf-dejavu
+# cantarell-fonts        # Installed as gnome-themes-standard dependency
+noto-fonts               # default font
+#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+adobe-source-sans-pro-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-cn-fonts
+# >extra noto-fonts-emoji
+terminus-font
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
+
+## Package management
+>extra apparmor
+#>extra gnome-software-snap
+pamac-gtk
+>extra snapd
+>extra snapd-glib
+>extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
+
+## Printing
+>extra manjaro-printer
+
+## Display manager
+lightdm
+accountsservice  # Enhanced user accounts handling
+
+## Unity Group
+unity-meta
+libindicator-common
+libayatana-appindicator 
+
+## Themes
+>extra manjaro-wallpapers-18.0
+>extra wallpapers-2018
+>extra wallpapers-juhraya
+gnome-themes-standard
+grub-theme-manjaro
+xcursor-simpleandsoft
+xcursor-vanilla-dmz-aa
+
+## Applications
+bash-completion
+dmidecode # optional dependency inxi
+>extra gimp
+gparted
+gufw
+>extra hexchat
+htop
+inxi
+manjaro-hello
+manjaro-application-utility
+manjaro-settings-manager
+manjaro-settings-manager-notifier
+powertop
+screenfetch
+
+## Documentation
+#manjaro-documentation-en
+
+## Settings packages
+manjaro-browser-settings
+
+## Xorg Input Drivers
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-void
+
+## Xorg Server and Graphics
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-demos
+>multilib lib32-mesa-demos
+numlockx
+xdg-user-dirs
+xorg-server
+xorg-twm
+xorg-xinit
+xorg-xkill
+xorg-mkfontscale
+
+## Desktop Utils
+perl-file-mimeinfo
+xdg-utils
+#xdg-su
+>extra timeshift
+#>extra kernel-alive
+
+## Misc
+manjaro-hotfixes
+>basic squashfs-tools
+xiccd # enable color profile settings
+tlp

@@ -52,8 +52,6 @@ bison
 fakeroot
 flex
 gcc
->multilib gcc-libs-multilib
->multilib gcc-multilib
 libtool
 m4
 make
@@ -181,7 +179,7 @@ engrampa
 firefox
 # flashplugin
 galculator-gtk2
-gcolor2
+gcolor3
 gimp
 gparted
 gufw
